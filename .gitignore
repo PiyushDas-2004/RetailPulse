@@ -1,0 +1,16 @@
+# environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# raw data is never committed (re-download with `make data`)
+data/raw/
+data/interim/
+*.zip
+# large intermediate artefacts
+outputs/cache/
+*.pkl
+*.joblib
+.streamlit/secrets.toml
+.env

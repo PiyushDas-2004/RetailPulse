@@ -1,0 +1,53 @@
+# RetailPulse configuration. Every value is referenced by code; the WHY for each is in DECISIONS.md.
+seed: 42
+
+paths:
+  raw_dir: data/raw/m5
+  processed_dir: data/processed
+  reports_dir: reports
+  figures_dir: reports/figures
+  tables_dir: reports/tables
+  outputs_dir: outputs
+  cache_dir: outputs/cache
+
+data:
+  source_url: https://github.com/Nixtla/m5-forecasts/raw/main/datasets/m5.zip
+  git_fallback_repo: https://github.com/Nixtla/m5-forecasts
+  sha256: cc704ba15d6802f8262e6ec7d4c6041e4ad6366a94365e8c84f721e450eed774
+  n_full_weeks: 277            # d_1..d_1939 = 277 complete Walmart weeks (Sat-Fri); last 2 days dropped
+  # SKU (item x store) sample, stratified by Syntetos-Boylan class
+  sku_per_class: 30
+  sku_min_history_weeks: 200   # item must be listed (have a price) for >= 200 of 277 weeks
+
+problem:
+  target: units
+  freq: W-SAT                  # weeks labelled by their start date (Walmart weeks start Saturday)
+  season_length: 52
+  horizon: 13                  # one quarter = merchandise-planning cycle
+  n_cv_folds: 4                # rolling-origin (expanding window) folds before the holdout
+  cv_step: 13                  # non-overlapping 13-week test windows
+  n_tuning_origins: 2          # extra origins *before* CV fold 1, used only to tune LightGBM
+  levels: [80, 95]
+
+models:
+  moving_average_window: 4
+  dhr_fourier_K: [2, 4, 6, 8, 10]
+
+lightgbm:
+  lags: [1, 2, 3, 4]
+  rolling_windows: [4, 8, 13, 26, 52]
+  param_grid:
+    num_leaves: [15, 31, 63]
+    learning_rate: [0.03]
+    min_data_in_leaf: [50, 200]
+    feature_fraction: [0.8]
+    n_estimators: [300, 600]
+
+inventory:
+  service_levels: [0.90, 0.95, 0.98]
+  default_service_level: 0.95
+  lead_times_weeks: [1, 2, 3, 4]
+  default_lead_time_weeks: 2
+  review_period_weeks: 1
+  holding_cost_per_unit_week: 1.0   # cost proxy units (assumed)
+  shortage_cost_per_unit: 9.0        # assumed; ratio 9:1 implies newsvendor critical ratio 0.90

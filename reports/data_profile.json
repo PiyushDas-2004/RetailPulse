@@ -1,0 +1,154 @@
+{
+  "dataset": "M5 Forecasting - Accuracy (Walmart), sales_train_evaluation.csv",
+  "files": {
+    "sales_train_evaluation.csv": {
+      "rows": 30490,
+      "cols": 1947
+    },
+    "calendar.csv": {
+      "rows": 1969,
+      "cols": 13
+    },
+    "sell_prices.csv": {
+      "rows": 6841121,
+      "cols": 4
+    }
+  },
+  "dtypes": {
+    "sales_id_columns": {
+      "id": "object",
+      "item_id": "object",
+      "dept_id": "object",
+      "cat_id": "object",
+      "store_id": "object",
+      "state_id": "object"
+    },
+    "sales_day_columns": "int32",
+    "calendar": {
+      "date": "datetime64[ns]",
+      "wm_yr_wk": "int64",
+      "weekday": "object",
+      "wday": "int64",
+      "month": "int64",
+      "year": "int64",
+      "event_name_1": "object",
+      "event_type_1": "object",
+      "event_name_2": "object",
+      "event_type_2": "object",
+      "snap_CA": "int64",
+      "snap_TX": "int64",
+      "snap_WI": "int64"
+    },
+    "sell_prices": {
+      "store_id": "object",
+      "item_id": "object",
+      "wm_yr_wk": "int64",
+      "sell_price": "float64"
+    }
+  },
+  "date_range_daily": [
+    "2011-01-29",
+    "2016-05-22"
+  ],
+  "n_days": 1941,
+  "n_item_store_series": 30490,
+  "n_items": 3049,
+  "n_stores": 10,
+  "n_states": 3,
+  "n_categories": 3,
+  "n_departments": 7,
+  "missing_values": {
+    "sales_cells": 0,
+    "sales_id_cells": 0,
+    "sell_prices": {
+      "store_id": 0,
+      "item_id": 0,
+      "wm_yr_wk": 0,
+      "sell_price": 0
+    },
+    "calendar_event_name_1_non_null_days": 158
+  },
+  "duplicates": {
+    "sales_duplicate_ids": 0,
+    "sales_duplicate_rows_on_id_cols": 0,
+    "prices_duplicate_keys": 0,
+    "calendar_duplicate_dates": 0
+  },
+  "negative_values": {
+    "sales_cells": 0,
+    "prices": 0
+  },
+  "zero_inflation": {
+    "share_zero_cells_daily_item_store": 0.6799776584040612,
+    "share_zero_weeks_item_store_while_listed": 0.23904225518043867,
+    "share_zero_weeks_item_store_all": 0.3973527451149871
+  },
+  "calendar_gaps_days": 0,
+  "daily_total_units": {
+    "min": 11,
+    "min_date": "2012-12-25",
+    "max": 59921,
+    "max_date": "2016-05-15",
+    "days_below_10pct_of_median": [
+      "2011-12-25",
+      "2012-12-25",
+      "2013-12-25",
+      "2014-12-25",
+      "2015-12-25"
+    ]
+  },
+  "sell_price": {
+    "count": 6841121.0,
+    "mean": 4.410952389235624,
+    "std": 3.4088137047299703,
+    "min": 0.01,
+    "25%": 2.18,
+    "50%": 3.47,
+    "75%": 5.84,
+    "max": 107.32
+  },
+  "weekly": {
+    "n_full_weeks": 277,
+    "first_week_start": "2011-01-29",
+    "last_week_start": "2016-05-14",
+    "days_dropped_at_end": 2
+  },
+  "listing": {
+    "sales_in_unlisted_weeks_units": 0,
+    "item_store_listed_from_week0": 10932,
+    "item_store_with_internal_unlisted_weeks": 0,
+    "median_first_listed_week": 22.0,
+    "share_item_store_weeks_unlisted_after_launch": 0.0
+  },
+  "sku_sampling": {
+    "eligible_item_store_series": 20366,
+    "eligibility_rule": "listed >= 200 of 277 weeks and no unlisted gap after launch",
+    "sbc_counts_in_eligible": {
+      "smooth": 10360,
+      "intermittent": 6951,
+      "lumpy": 1781,
+      "erratic": 1274
+    }
+  },
+  "modelled_series": {
+    "n_series": 211,
+    "by_level": {
+      "sku_store": 120,
+      "store_dept": 70,
+      "store": 10,
+      "department": 7,
+      "category": 3,
+      "total": 1
+    },
+    "length_weeks": {
+      "count": 211.0,
+      "mean": 268.8530805687204,
+      "std": 18.615718588336698,
+      "min": 201.0,
+      "25%": 276.0,
+      "50%": 277.0,
+      "75%": 277.0,
+      "max": 277.0
+    }
+  }
+}

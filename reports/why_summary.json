@@ -1,0 +1,452 @@
+{
+ "by_class": {
+  "SKU-erratic": {
+   "n": 30,
+   "sarima_beats_snaive": 0.733,
+   "sarima_beats_lgbm": 0.333,
+   "sarima_beats_ets": 0.6,
+   "sarima_best_or_within5pct": 0.2,
+   "seasonal_strength": 0.19,
+   "share_zeros": 0.146,
+   "trend_strength": 0.155
+  },
+  "SKU-intermittent": {
+   "n": 30,
+   "sarima_beats_snaive": 0.9,
+   "sarima_beats_lgbm": 0.533,
+   "sarima_beats_ets": 0.467,
+   "sarima_best_or_within5pct": 0.233,
+   "seasonal_strength": 0.205,
+   "share_zeros": 0.374,
+   "trend_strength": 0.115
+  },
+  "SKU-lumpy": {
+   "n": 30,
+   "sarima_beats_snaive": 0.833,
+   "sarima_beats_lgbm": 0.267,
+   "sarima_beats_ets": 0.4,
+   "sarima_best_or_within5pct": 0.167,
+   "seasonal_strength": 0.168,
+   "share_zeros": 0.361,
+   "trend_strength": 0.052
+  },
+  "SKU-smooth": {
+   "n": 30,
+   "sarima_beats_snaive": 0.867,
+   "sarima_beats_lgbm": 0.367,
+   "sarima_beats_ets": 0.6,
+   "sarima_best_or_within5pct": 0.333,
+   "seasonal_strength": 0.239,
+   "share_zeros": 0.094,
+   "trend_strength": 0.244
+  },
+  "category": {
+   "n": 3,
+   "sarima_beats_snaive": 1.0,
+   "sarima_beats_lgbm": 0.667,
+   "sarima_beats_ets": 0.667,
+   "sarima_best_or_within5pct": 0.333,
+   "seasonal_strength": 0.634,
+   "share_zeros": 0.0,
+   "trend_strength": 0.796
+  },
+  "department": {
+   "n": 7,
+   "sarima_beats_snaive": 1.0,
+   "sarima_beats_lgbm": 0.857,
+   "sarima_beats_ets": 1.0,
+   "sarima_best_or_within5pct": 0.714,
+   "seasonal_strength": 0.573,
+   "share_zeros": 0.0,
+   "trend_strength": 0.838
+  },
+  "store": {
+   "n": 10,
+   "sarima_beats_snaive": 0.9,
+   "sarima_beats_lgbm": 0.6,
+   "sarima_beats_ets": 0.8,
+   "sarima_best_or_within5pct": 0.2,
+   "seasonal_strength": 0.607,
+   "share_zeros": 0.0,
+   "trend_strength": 0.893
+  },
+  "store_dept": {
+   "n": 70,
+   "sarima_beats_snaive": 0.943,
+   "sarima_beats_lgbm": 0.557,
+   "sarima_beats_ets": 0.671,
+   "sarima_best_or_within5pct": 0.371,
+   "seasonal_strength": 0.531,
+   "share_zeros": 0.0,
+   "trend_strength": 0.744
+  },
+  "total": {
+   "n": 1,
+   "sarima_beats_snaive": 1.0,
+   "sarima_beats_lgbm": 1.0,
+   "sarima_beats_ets": 1.0,
+   "sarima_best_or_within5pct": 1.0,
+   "seasonal_strength": 0.746,
+   "share_zeros": 0.0,
+   "trend_strength": 0.919
+  }
+ },
+ "winner_counts_cv": {
+  "SKU-erratic": {
+   "DHR-ARIMA": 4,
+   "ETS": 1,
+   "Ensemble": 1,
+   "LightGBM": 11,
+   "MovingAverage": 1,
+   "Naive": 2,
+   "Prophet": 5,
+   "SARIMA": 2,
+   "SES": 2,
+   "SeasonalNaive": 1
+  },
+  "SKU-intermittent": {
+   "DHR-ARIMA": 5,
+   "ETS": 1,
+   "Ensemble": 1,
+   "LightGBM": 4,
+   "MovingAverage": 3,
+   "Naive": 8,
+   "Prophet": 3,
+   "SARIMA": 3,
+   "SES": 1,
+   "SeasonalNaive": 1
+  },
+  "SKU-lumpy": {
+   "DHR-ARIMA": 2,
+   "ETS": 2,
+   "Ensemble": 0,
+   "LightGBM": 6,
+   "MovingAverage": 4,
+   "Naive": 7,
+   "Prophet": 4,
+   "SARIMA": 2,
+   "SES": 1,
+   "SeasonalNaive": 2
+  },
+  "SKU-smooth": {
+   "DHR-ARIMA": 2,
+   "ETS": 1,
+   "Ensemble": 2,
+   "LightGBM": 7,
+   "MovingAverage": 5,
+   "Naive": 2,
+   "Prophet": 4,
+   "SARIMA": 2,
+   "SES": 4,
+   "SeasonalNaive": 1
+  },
+  "category": {
+   "DHR-ARIMA": 1,
+   "ETS": 0,
+   "Ensemble": 0,
+   "LightGBM": 0,
+   "MovingAverage": 0,
+   "Naive": 0,
+   "Prophet": 0,
+   "SARIMA": 1,
+   "SES": 1,
+   "SeasonalNaive": 0
+  },
+  "department": {
+   "DHR-ARIMA": 3,
+   "ETS": 0,
+   "Ensemble": 0,
+   "LightGBM": 0,
+   "MovingAverage": 1,
+   "Naive": 0,
+   "Prophet": 0,
+   "SARIMA": 3,
+   "SES": 0,
+   "SeasonalNaive": 0
+  },
+  "store": {
+   "DHR-ARIMA": 5,
+   "ETS": 0,
+   "Ensemble": 1,
+   "LightGBM": 1,
+   "MovingAverage": 0,
+   "Naive": 0,
+   "Prophet": 2,
+   "SARIMA": 1,
+   "SES": 0,
+   "SeasonalNaive": 0
+  },
+  "store_dept": {
+   "DHR-ARIMA": 14,
+   "ETS": 2,
+   "Ensemble": 13,
+   "LightGBM": 10,
+   "MovingAverage": 3,
+   "Naive": 1,
+   "Prophet": 12,
+   "SARIMA": 12,
+   "SES": 1,
+   "SeasonalNaive": 2
+  },
+  "total": {
+   "DHR-ARIMA": 1,
+   "ETS": 0,
+   "Ensemble": 0,
+   "LightGBM": 0,
+   "MovingAverage": 0,
+   "Naive": 0,
+   "Prophet": 0,
+   "SARIMA": 0,
+   "SES": 0,
+   "SeasonalNaive": 0
+  }
+ },
+ "winner_stability_cv_to_holdout": 0.12796208530805686,
+ "sarima_vs_lgbm_spearman": [
+  {
+   "feature": "seasonal_strength",
+   "group": "all",
+   "spearman_rho": -0.178,
+   "p": 0.01,
+   "n": 211
+  },
+  {
+   "feature": "seasonal_strength",
+   "group": "Aggregate",
+   "spearman_rho": -0.169,
+   "p": 0.11,
+   "n": 91
+  },
+  {
+   "feature": "seasonal_strength",
+   "group": "SKU",
+   "spearman_rho": -0.043,
+   "p": 0.637,
+   "n": 120
+  },
+  {
+   "feature": "trend_strength",
+   "group": "all",
+   "spearman_rho": -0.167,
+   "p": 0.015,
+   "n": 211
+  },
+  {
+   "feature": "trend_strength",
+   "group": "Aggregate",
+   "spearman_rho": -0.051,
+   "p": 0.63,
+   "n": 91
+  },
+  {
+   "feature": "trend_strength",
+   "group": "SKU",
+   "spearman_rho": 0.091,
+   "p": 0.324,
+   "n": 120
+  },
+  {
+   "feature": "share_zeros",
+   "group": "all",
+   "spearman_rho": 0.16,
+   "p": 0.02,
+   "n": 211
+  },
+  {
+   "feature": "share_zeros",
+   "group": "Aggregate",
+   "spearman_rho": NaN,
+   "p": NaN,
+   "n": 91
+  },
+  {
+   "feature": "share_zeros",
+   "group": "SKU",
+   "spearman_rho": -0.141,
+   "p": 0.123,
+   "n": 120
+  },
+  {
+   "feature": "cv",
+   "group": "all",
+   "spearman_rho": 0.184,
+   "p": 0.007,
+   "n": 211
+  },
+  {
+   "feature": "cv",
+   "group": "Aggregate",
+   "spearman_rho": 0.007,
+   "p": 0.947,
+   "n": 91
+  },
+  {
+   "feature": "cv",
+   "group": "SKU",
+   "spearman_rho": -0.036,
+   "p": 0.697,
+   "n": 120
+  },
+  {
+   "feature": "adi",
+   "group": "all",
+   "spearman_rho": 0.16,
+   "p": 0.02,
+   "n": 211
+  },
+  {
+   "feature": "adi",
+   "group": "Aggregate",
+   "spearman_rho": NaN,
+   "p": NaN,
+   "n": 91
+  },
+  {
+   "feature": "adi",
+   "group": "SKU",
+   "spearman_rho": -0.141,
+   "p": 0.123,
+   "n": 120
+  },
+  {
+   "feature": "cv2",
+   "group": "all",
+   "spearman_rho": 0.211,
+   "p": 0.002,
+   "n": 211
+  },
+  {
+   "feature": "cv2",
+   "group": "Aggregate",
+   "spearman_rho": 0.007,
+   "p": 0.947,
+   "n": 91
+  },
+  {
+   "feature": "cv2",
+   "group": "SKU",
+   "spearman_rho": 0.083,
+   "p": 0.369,
+   "n": 120
+  },
+  {
+   "feature": "log_mean",
+   "group": "all",
+   "spearman_rho": -0.174,
+   "p": 0.011,
+   "n": 211
+  },
+  {
+   "feature": "log_mean",
+   "group": "Aggregate",
+   "spearman_rho": -0.179,
+   "p": 0.09,
+   "n": 91
+  },
+  {
+   "feature": "log_mean",
+   "group": "SKU",
+   "spearman_rho": 0.217,
+   "p": 0.017,
+   "n": 120
+  },
+  {
+   "feature": "n_weeks",
+   "group": "all",
+   "spearman_rho": -0.043,
+   "p": 0.532,
+   "n": 211
+  },
+  {
+   "feature": "n_weeks",
+   "group": "Aggregate",
+   "spearman_rho": NaN,
+   "p": NaN,
+   "n": 91
+  },
+  {
+   "feature": "n_weeks",
+   "group": "SKU",
+   "spearman_rho": 0.137,
+   "p": 0.137,
+   "n": 120
+  },
+  {
+   "feature": "abs_yoy",
+   "group": "all",
+   "spearman_rho": 0.009,
+   "p": 0.895,
+   "n": 211
+  },
+  {
+   "feature": "abs_yoy",
+   "group": "Aggregate",
+   "spearman_rho": 0.015,
+   "p": 0.889,
+   "n": 91
+  },
+  {
+   "feature": "abs_yoy",
+   "group": "SKU",
+   "spearman_rho": 0.047,
+   "p": 0.61,
+   "n": 120
+  }
+ ],
+ "sarima_orders": {
+  "share_with_D1": {
+   "Aggregate": 0.374,
+   "SKU": 0.017
+  },
+  "share_with_any_seasonal_term": {
+   "Aggregate": 0.943,
+   "SKU": 0.725
+  },
+  "share_d1": {
+   "Aggregate": 0.974,
+   "SKU": 0.693
+  },
+  "most_common_holdout": {
+   "ARIMA(0,1,1)(1,0,0)[52]": 10,
+   "ARIMA(0,1,1)": 10,
+   "ARIMA(0,1,1)(0,0,1)[52]": 9,
+   "ARIMA(1,1,2)(1,0,0)[52]": 7,
+   "ARIMA(1,1,1)(0,0,1)[52]": 6,
+   "ARIMA(1,0,1)(1,0,0)[52] with non-zero mean": 6,
+   "ARIMA(0,1,2)(1,0,1)[52]": 5,
+   "ARIMA(0,1,2)(0,0,1)[52]": 5
+  }
+ },
+ "sarima_seasonal_part_vs_win": [
+  {
+   "group": "Aggregate",
+   "seas": false,
+   "n": 6,
+   "beats_snaive": 1.0,
+   "median_rel": -1.006
+  },
+  {
+   "group": "Aggregate",
+   "seas": true,
+   "n": 85,
+   "beats_snaive": 0.941,
+   "median_rel": -0.471
+  },
+  {
+   "group": "SKU",
+   "seas": false,
+   "n": 30,
+   "beats_snaive": 0.9,
+   "median_rel": -0.248
+  },
+  {
+   "group": "SKU",
+   "seas": true,
+   "n": 90,
+   "beats_snaive": 0.811,
+   "median_rel": -0.239
+  }
+ ],
+ "decision_tree_cv_accuracy": 0.20409745293466225,
+ "decision_tree_majority_baseline": 0.1848341232227488
+}

@@ -23,7 +23,8 @@ def load():
     d = {
         "actuals": pd.read_csv(pb / "fact_actuals.csv", parse_dates=["ds"]),
         "future": pd.read_csv(ROOT / "outputs/forecasts.csv", parse_dates=["ds"]),
-        "backtest": pd.read_csv(pb / "fact_backtest_forecasts.csv", parse_dates=["ds"]),
+        "backtest": pd.read_csv(pb / "fact_backtest_forecasts.csv", parse_dates=["ds"])
+        if (pb / "fact_backtest_forecasts.csv").exists() else None,
         "series": pd.read_csv(pb / "dim_series.csv"),
         "lb_level": pd.read_csv(ROOT / "reports/tables/leaderboard_cv_by_level.csv"),
         "lb_class": pd.read_csv(ROOT / "reports/tables/leaderboard_cv_by_sku_class.csv"),
@@ -72,12 +73,16 @@ with tab1:
         fig.add_trace(go.Scatter(x=f.ds, y=f["forecast_units"] if "forecast_units" in f else f["mean"], name=m,
                                  line=dict(color=c, width=2)))
     fig.update_layout(height=430, hovermode="x unified", yaxis_title="units / week", margin=dict(l=10, r=10, t=10, b=10))
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
     f = d["future"][(d["future"].unique_id == uid) & (d["future"].model == rec_model)].sort_values("ds")
-    st.dataframe(f[["ds", "h", "mean", "lo80", "hi80", "lo95", "hi95"]].round(1), hide_index=True, use_container_width=True)
+    st.dataframe(f[["ds", "h", "mean", "lo80", "hi80", "lo95", "hi95"]].round(1), hide_index=True, width="stretch")
 
 with tab2:
     st.subheader("Backtest: forecasts made at each origin vs what actually happened")
+if d["backtest"] is None:
+    tab2.info("Run `make export` to create outputs/powerbi/fact_backtest_forecasts.csv (kept out of git, 12 MB).")
+else:
+  with tab2:
     bt = d["backtest"][d["backtest"].unique_id == uid]
     org = st.radio("Origin", sorted(bt.origin.unique(), key=lambda x: (x == "holdout", x)), horizontal=True, index=4)
     b = bt[bt.origin == org]
@@ -89,24 +94,24 @@ with tab2:
         fig.add_trace(go.Scatter(x=x.ds, y=x.forecast_units, name=m, line=dict(color=COLORS.get(m), width=1.6),
                                  visible=True if m in models + ["SeasonalNaive"] else "legendonly"))
     fig.update_layout(height=400, hovermode="x unified", margin=dict(l=10, r=10, t=10, b=10))
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
     sc = b.groupby("model").apply(lambda g: pd.Series({"WAPE": g.abs_error.sum() / g.actual_units.sum(),
                                                        "Bias": g.error.sum() / g.actual_units.sum()}), include_groups=False)
-    st.dataframe(sc.sort_values("WAPE").round(3), use_container_width=True)
+    st.dataframe(sc.sort_values("WAPE").round(3), width="stretch")
 
 with tab3:
     st.subheader("Leaderboards (lower MASE/WAPE is better; MASE < 1 beats in-sample seasonal naive)")
     c1, c2 = st.columns(2)
     c1.markdown("**CV folds (model selection)**")
-    c1.dataframe(d["lb_cv"].round(3), hide_index=True, use_container_width=True)
+    c1.dataframe(d["lb_cv"].round(3), hide_index=True, width="stretch")
     c2.markdown("**Holdout (final, untouched)**")
-    c2.dataframe(d["lb_ho"].round(3), hide_index=True, use_container_width=True)
+    c2.dataframe(d["lb_ho"].round(3), hide_index=True, width="stretch")
     st.markdown("**Mean CV MASE by hierarchy level**")
     piv = d["lb_level"].pivot(index="model", columns="level", values="mean_MASE")
-    st.dataframe(piv.round(3).style.highlight_min(axis=0, color="#cfe3fa"), use_container_width=True)
+    st.dataframe(piv.round(3).style.highlight_min(axis=0, color="#cfe3fa"), width="stretch")
     st.markdown("**Mean CV MASE by demand class**")
     piv2 = d["lb_class"].pivot(index="model", columns="sku_class", values="mean_MASE")
-    st.dataframe(piv2.round(3).style.highlight_min(axis=0, color="#cfe3fa"), use_container_width=True)
+    st.dataframe(piv2.round(3).style.highlight_min(axis=0, color="#cfe3fa"), width="stretch")
 
 with tab4:
     st.subheader("Replenishment recommendation (lead time and service level are assumptions)")
@@ -125,7 +130,7 @@ with tab4:
     st.markdown("**At-risk list** (simulated holdout + CV bias)")
     risk = d["recs"][d["recs"].risk != "ok"].sort_values("risk_score", ascending=False)
     st.dataframe(risk[["unique_id", "risk", "sbc_class", "forecast_model", "cv_bias", "sim_fill_rate", "sim_weeks_of_cover",
-                       "safety_stock", "reorder_point"]].round(3), hide_index=True, use_container_width=True)
+                       "safety_stock", "reorder_point"]].round(3), hide_index=True, width="stretch")
     st.markdown("**Simulated policy comparison** (SKU level; sum over 120 SKUs)")
     grp = st.radio("Group", ["SKU", "store_dept"], horizontal=True)
     sl = st.select_slider("Service level", sorted(d["sim"].service_level.unique()), value=0.95)
@@ -137,6 +142,6 @@ with tab4:
                                  line=dict(color=COLORS.get(pol, "#9a9994"))))
     fig.update_layout(height=360, xaxis_title="lead time (weeks)", yaxis_title="total cost proxy (holding + shortage)",
                       margin=dict(l=10, r=10, t=10, b=10))
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
     st.dataframe(s[["policy", "lead_time", "fill_rate", "stockout_rate", "avg_on_hand", "total_cost", "total_cost_vs_SeasonalNaive_pct"]].round(3),
-                 hide_index=True, use_container_width=True)
+                 hide_index=True, width="stretch")

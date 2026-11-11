@@ -22,7 +22,7 @@ def main() -> None:
     ch = pd.read_csv(ROOT / "reports/series_characteristics.csv")
 
     dim_series = meta.merge(ch.drop(columns=["level", "cat_id", "dept_id", "store_id", "n_weeks"]), on="unique_id")
-    dim_series.to_csv(p(f"{OUT}/dim_series.csv"), index=False)
+    dim_series.to_csv(p(f"{OUT}/dim_series.csv"), index=False, float_format="%.2f")
 
     fut = pd.read_csv(ROOT / "outputs/forecasts.csv", parse_dates=["ds"])
     dates = pd.DataFrame({"ds": pd.concat([cal.ds, fut.ds]).drop_duplicates().sort_values()})
@@ -30,24 +30,24 @@ def main() -> None:
     dates["year"], dates["month"] = dates.ds.dt.year, dates.ds.dt.month
     dates["iso_week"] = dates.ds.dt.isocalendar().week.astype(int)
     dates["is_future"] = dates.ds > df.ds.max()
-    dates.to_csv(p(f"{OUT}/dim_date.csv"), index=False)
+    dates.to_csv(p(f"{OUT}/dim_date.csv"), index=False, float_format="%.2f")
 
-    pd.DataFrame({"model": list(FAMILY), "family": list(FAMILY.values())}).to_csv(p(f"{OUT}/dim_model.csv"), index=False)
-    df.rename(columns={"y": "actual_units"}).to_csv(p(f"{OUT}/fact_actuals.csv"), index=False)
+    pd.DataFrame({"model": list(FAMILY), "family": list(FAMILY.values())}).to_csv(p(f"{OUT}/dim_model.csv"), index=False, float_format="%.2f")
+    df.rename(columns={"y": "actual_units"}).to_csv(p(f"{OUT}/fact_actuals.csv"), index=False, float_format="%.2f")
 
     allf = pd.read_parquet(ROOT / cfg["paths"]["cache_dir"] / "all_forecasts.parquet")
     allf = allf[["unique_id", "origin", "ds", "h", "model", "mean", "lo80", "hi80", "lo95", "hi95", "y"]].rename(
         columns={"mean": "forecast_units", "y": "actual_units"})
     allf["abs_error"] = (allf.forecast_units - allf.actual_units).abs()
     allf["error"] = allf.forecast_units - allf.actual_units
-    allf.to_csv(p(f"{OUT}/fact_backtest_forecasts.csv"), index=False)
+    allf.to_csv(p(f"{OUT}/fact_backtest_forecasts.csv"), index=False, float_format="%.2f")
 
-    fut.rename(columns={"mean": "forecast_units"}).to_csv(p(f"{OUT}/fact_future_forecasts.csv"), index=False)
+    fut.rename(columns={"mean": "forecast_units"}).to_csv(p(f"{OUT}/fact_future_forecasts.csv"), index=False, float_format="%.2f")
     m = pd.read_csv(ROOT / "reports/tables/metrics_by_series_origin.csv")
     m[["unique_id", "origin", "model", "n", "sum_y", "sum_ae", "sum_e", "MAE", "RMSE", "WAPE", "MASE", "Bias", "cov80", "cov95"]].to_csv(
         p(f"{OUT}/fact_metrics.csv"), index=False)
-    pd.read_csv(ROOT / "outputs/inventory_recommendations.csv").to_csv(p(f"{OUT}/fact_inventory_recommendations.csv"), index=False)
-    pd.read_csv(ROOT / "reports/tables/inventory_simulation_summary.csv").to_csv(p(f"{OUT}/fact_inventory_simulation.csv"), index=False)
+    pd.read_csv(ROOT / "outputs/inventory_recommendations.csv").to_csv(p(f"{OUT}/fact_inventory_recommendations.csv"), index=False, float_format="%.2f")
+    pd.read_csv(ROOT / "reports/tables/inventory_simulation_summary.csv").to_csv(p(f"{OUT}/fact_inventory_simulation.csv"), index=False, float_format="%.2f")
     for f in sorted((ROOT / OUT).glob("*.csv")):
         print(f.name, f.stat().st_size // 1024, "KB")
 

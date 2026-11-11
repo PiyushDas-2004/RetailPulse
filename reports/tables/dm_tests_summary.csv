@@ -1,0 +1,15 @@
+model_a,model_b,group,A significantly better,B significantly better,no significant difference
+Ensemble,DHR-ARIMA,Aggregate,12,3,76
+Ensemble,DHR-ARIMA,SKU,20,5,95
+Ensemble,SARIMA,Aggregate,13,5,73
+Ensemble,SARIMA,SKU,17,6,97
+LightGBM,SeasonalNaive,Aggregate,40,0,51
+LightGBM,SeasonalNaive,SKU,53,2,65
+SARIMA,DHR-ARIMA,Aggregate,9,2,80
+SARIMA,DHR-ARIMA,SKU,13,9,98
+SARIMA,ETS,Aggregate,19,1,71
+SARIMA,ETS,SKU,7,7,106
+SARIMA,LightGBM,Aggregate,11,5,75
+SARIMA,LightGBM,SKU,9,12,99
+SARIMA,SeasonalNaive,Aggregate,43,1,47
+SARIMA,SeasonalNaive,SKU,41,3,76

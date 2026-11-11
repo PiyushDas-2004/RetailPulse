@@ -1,0 +1,135 @@
+{
+ "ensemble_components": [
+  "SARIMA",
+  "LightGBM"
+ ],
+ "stat_rank_cv_mean_MASE": {
+  "SARIMA": 0.7011,
+  "DHR-ARIMA": 0.7077,
+  "ETS": 0.75,
+  "Prophet": 0.7737
+ },
+ "winner_counts": {
+  "category": {
+   "DHR-ARIMA": 1,
+   "ETS": 0,
+   "Ensemble": 0,
+   "LightGBM": 0,
+   "MovingAverage": 0,
+   "Naive": 0,
+   "Prophet": 0,
+   "SARIMA": 1,
+   "SES": 1,
+   "SeasonalNaive": 0
+  },
+  "department": {
+   "DHR-ARIMA": 3,
+   "ETS": 0,
+   "Ensemble": 0,
+   "LightGBM": 0,
+   "MovingAverage": 1,
+   "Naive": 0,
+   "Prophet": 0,
+   "SARIMA": 3,
+   "SES": 0,
+   "SeasonalNaive": 0
+  },
+  "sku_store": {
+   "DHR-ARIMA": 13,
+   "ETS": 5,
+   "Ensemble": 4,
+   "LightGBM": 28,
+   "MovingAverage": 13,
+   "Naive": 19,
+   "Prophet": 16,
+   "SARIMA": 9,
+   "SES": 8,
+   "SeasonalNaive": 5
+  },
+  "store": {
+   "DHR-ARIMA": 5,
+   "ETS": 0,
+   "Ensemble": 1,
+   "LightGBM": 1,
+   "MovingAverage": 0,
+   "Naive": 0,
+   "Prophet": 2,
+   "SARIMA": 1,
+   "SES": 0,
+   "SeasonalNaive": 0
+  },
+  "store_dept": {
+   "DHR-ARIMA": 14,
+   "ETS": 2,
+   "Ensemble": 13,
+   "LightGBM": 10,
+   "MovingAverage": 3,
+   "Naive": 1,
+   "Prophet": 12,
+   "SARIMA": 12,
+   "SES": 1,
+   "SeasonalNaive": 2
+  },
+  "total": {
+   "DHR-ARIMA": 1,
+   "ETS": 0,
+   "Ensemble": 0,
+   "LightGBM": 0,
+   "MovingAverage": 0,
+   "Naive": 0,
+   "Prophet": 0,
+   "SARIMA": 0,
+   "SES": 0,
+   "SeasonalNaive": 0
+  }
+ },
+ "dm_total_series": [
+  {
+   "model_a": "Ensemble",
+   "model_b": "DHR-ARIMA",
+   "dm_stat": 1.3637,
+   "p": 0.1774
+  },
+  {
+   "model_a": "Ensemble",
+   "model_b": "SARIMA",
+   "dm_stat": 1.276,
+   "p": 0.2066
+  },
+  {
+   "model_a": "LightGBM",
+   "model_b": "SeasonalNaive",
+   "dm_stat": -1.5738,
+   "p": 0.1205
+  },
+  {
+   "model_a": "SARIMA",
+   "model_b": "DHR-ARIMA",
+   "dm_stat": 1.6744,
+   "p": 0.0989
+  },
+  {
+   "model_a": "SARIMA",
+   "model_b": "ETS",
+   "dm_stat": -2.2153,
+   "p": 0.0303
+  },
+  {
+   "model_a": "SARIMA",
+   "model_b": "LightGBM",
+   "dm_stat": -1.9593,
+   "p": 0.0544
+  },
+  {
+   "model_a": "SARIMA",
+   "model_b": "SeasonalNaive",
+   "dm_stat": -2.0544,
+   "p": 0.044
+  }
+ ],
+ "top3_cv": [
+  "Ensemble",
+  "SARIMA",
+  "DHR-ARIMA"
+ ]
+}

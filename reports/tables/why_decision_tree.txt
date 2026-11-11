@@ -1,0 +1,18 @@
+5-fold CV accuracy predicting the CV-winning model: 0.204 (+/- 0.054); majority-class baseline: 0.185
+
+|--- log_mean <= 4.05
+|   |--- seasonal_strength <= 0.55
+|   |   |--- log_mean <= 0.57
+|   |   |   |--- weights: [6.00, 3.00, 3.00, 3.00, 8.00, 12.00, 8.00, 4.00, 2.00, 1.00] class: Naive
+|   |   |--- log_mean >  0.57
+|   |   |   |--- weights: [10.00, 2.00, 10.00, 33.00, 8.00, 7.00, 8.00, 10.00, 7.00, 5.00] class: LightGBM
+|   |--- seasonal_strength >  0.55
+|   |   |--- trend_strength <= 0.76
+|   |   |   |--- weights: [5.00, 2.00, 1.00, 1.00, 0.00, 0.00, 9.00, 1.00, 0.00, 1.00] class: Prophet
+|   |   |--- trend_strength >  0.76
+|   |   |   |--- weights: [2.00, 0.00, 3.00, 1.00, 0.00, 1.00, 3.00, 7.00, 0.00, 0.00] class: SARIMA
+|--- log_mean >  4.05
+|   |--- trend_strength <= 0.83
+|   |   |--- weights: [9.00, 0.00, 0.00, 0.00, 1.00, 0.00, 0.00, 1.00, 1.00, 0.00] class: DHR-ARIMA
+|   |--- trend_strength >  0.83
+|   |   |--- weights: [5.00, 0.00, 1.00, 1.00, 0.00, 0.00, 2.00, 3.00, 0.00, 0.00] class: DHR-ARIMA

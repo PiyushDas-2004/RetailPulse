@@ -1,0 +1,14 @@
+{
+ "best_model_by_group": {
+  "Aggregates (91)": "Ensemble",
+  "SKU (120)": "Ensemble"
+ },
+ "policies": [
+  "Naive",
+  "SeasonalNaive",
+  "Ensemble",
+  "SARIMA",
+  "LightGBM",
+  "<best> + demand-sigma"
+ ]
+}

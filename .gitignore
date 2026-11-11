@@ -14,3 +14,5 @@ outputs/cache/
 *.joblib
 .streamlit/secrets.toml
 .env
+# 12 MB back-test fact table: regenerate with `make export`
+outputs/powerbi/fact_backtest_forecasts.csv

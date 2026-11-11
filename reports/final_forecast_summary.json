@@ -1,0 +1,14 @@
+{
+ "best_model_by_level_cv": {
+  "category": "DHR-ARIMA",
+  "department": "SARIMA",
+  "sku_store": "Ensemble",
+  "store": "DHR-ARIMA",
+  "store_dept": "Ensemble",
+  "total": "DHR-ARIMA"
+ },
+ "forecast_window": [
+  "2016-05-21",
+  "2016-08-13"
+ ]
+}

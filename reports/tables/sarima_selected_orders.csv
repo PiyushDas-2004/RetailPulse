@@ -1,0 +1,1056 @@
+p,d,q,P,D,Q,seasonal_part,unique_id,origin,info,level,sbc_class,seasonal_strength
+3,1,1,1,1,1,True,TOTAL,cv1,"ARIMA(3,1,1)(1,1,1)[52]",total,smooth,0.7457238405026624
+3,1,0,1,1,1,True,CAT_FOODS,cv1,"ARIMA(3,1,0)(1,1,1)[52]",category,smooth,0.6917216079658105
+1,1,1,0,0,1,True,CAT_HOBBIES,cv1,"ARIMA(1,1,1)(0,0,1)[52]",category,smooth,0.2349809739108953
+2,1,1,1,1,0,True,CAT_HOUSEHOLD,cv1,"ARIMA(2,1,1)(1,1,0)[52]",category,smooth,0.6343727733489117
+3,1,1,1,1,1,True,DEPT_FOODS_1,cv1,"ARIMA(3,1,1)(1,1,1)[52]",department,smooth,0.5731568892977186
+3,1,2,0,1,1,True,DEPT_FOODS_2,cv1,"ARIMA(3,1,2)(0,1,1)[52]",department,smooth,0.826482744714485
+1,1,1,0,1,1,True,DEPT_FOODS_3,cv1,"ARIMA(1,1,1)(0,1,1)[52]",department,smooth,0.5658971289343804
+0,1,1,0,0,0,False,DEPT_HOBBIES_1,cv1,"ARIMA(0,1,1)",department,smooth,0.1868963929207445
+1,1,1,0,1,1,True,DEPT_HOBBIES_2,cv1,"ARIMA(1,1,1)(0,1,1)[52]",department,smooth,0.7963620936236836
+1,1,1,1,1,1,True,DEPT_HOUSEHOLD_1,cv1,"ARIMA(1,1,1)(1,1,1)[52]",department,smooth,0.5659074125490369
+5,0,1,1,1,1,True,DEPT_HOUSEHOLD_2,cv1,"ARIMA(5,0,1)(1,1,1)[52] with drift",department,smooth,0.8485744849878458
+5,1,0,0,0,1,True,STORE_CA_1,cv1,"ARIMA(5,1,0)(0,0,1)[52]",store,smooth,0.7621361174321719
+0,1,1,1,0,1,True,STORE_CA_2,cv1,"ARIMA(0,1,1)(1,0,1)[52]",store,smooth,0.1206846347627201
+3,1,0,0,1,1,True,STORE_CA_3,cv1,"ARIMA(3,1,0)(0,1,1)[52]",store,smooth,0.8337355403160065
+2,1,2,1,0,1,True,STORE_CA_4,cv1,"ARIMA(2,1,2)(1,0,1)[52]",store,smooth,0.5488691368391618
+1,1,2,0,1,1,True,STORE_TX_1,cv1,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.7183664618458153
+1,1,1,0,1,1,True,STORE_TX_2,cv1,"ARIMA(1,1,1)(0,1,1)[52]",store,smooth,0.6390588393639356
+1,1,2,0,1,1,True,STORE_TX_3,cv1,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.8220671355370699
+1,1,1,0,0,1,True,STORE_WI_1,cv1,"ARIMA(1,1,1)(0,0,1)[52] with drift",store,smooth,0.2352850496325461
+3,1,2,1,1,1,True,STORE_WI_2,cv1,"ARIMA(3,1,2)(1,1,1)[52]",store,smooth,0.5754344997905281
+2,1,2,1,1,0,True,STORE_WI_3,cv1,"ARIMA(2,1,2)(1,1,0)[52]",store,smooth,0.4866923459839704
+1,1,1,1,0,0,True,SD_CA_1_FOODS_1,cv1,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.5838930617296845
+2,1,2,1,1,1,True,SD_CA_1_FOODS_2,cv1,"ARIMA(2,1,2)(1,1,1)[52]",store_dept,smooth,0.7364032696223604
+2,1,2,1,0,0,True,SD_CA_1_FOODS_3,cv1,"ARIMA(2,1,2)(1,0,0)[52]",store_dept,smooth,0.4724151467878473
+5,1,1,0,0,0,False,SD_CA_1_HOBBIES_1,cv1,"ARIMA(5,1,1)",store_dept,smooth,0.1348830418606841
+1,1,1,1,0,0,True,SD_CA_1_HOBBIES_2,cv1,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.6415350908911718
+1,1,1,1,1,0,True,SD_CA_1_HOUSEHOLD_1,cv1,"ARIMA(1,1,1)(1,1,0)[52]",store_dept,smooth,0.6150928172282512
+4,0,2,1,1,1,True,SD_CA_1_HOUSEHOLD_2,cv1,"ARIMA(4,0,2)(1,1,1)[52] with drift",store_dept,smooth,0.8386861796965452
+2,1,1,1,0,0,True,SD_CA_2_FOODS_1,cv1,"ARIMA(2,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4110094855906149
+1,1,1,0,0,1,True,SD_CA_2_FOODS_2,cv1,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.0338384088228448
+0,1,1,1,0,1,True,SD_CA_2_FOODS_3,cv1,"ARIMA(0,1,1)(1,0,1)[52]",store_dept,smooth,0.3099941285584305
+0,1,2,1,0,0,True,SD_CA_2_HOBBIES_1,cv1,"ARIMA(0,1,2)(1,0,0)[52]",store_dept,smooth,0.1865374526480152
+1,1,1,1,0,0,True,SD_CA_2_HOBBIES_2,cv1,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.7848308242780416
+0,1,2,0,0,1,True,SD_CA_2_HOUSEHOLD_1,cv1,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.2507091857050236
+1,0,1,1,0,1,True,SD_CA_2_HOUSEHOLD_2,cv1,"ARIMA(1,0,1)(1,0,1)[52] with non-zero mean",store_dept,smooth,0.2951405009309222
+2,1,1,1,0,0,True,SD_CA_3_FOODS_1,cv1,"ARIMA(2,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4172685030413953
+3,1,0,1,1,0,True,SD_CA_3_FOODS_2,cv1,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.7418815264477833
+3,1,2,0,0,1,True,SD_CA_3_FOODS_3,cv1,"ARIMA(3,1,2)(0,0,1)[52]",store_dept,smooth,0.6010781153830844
+0,1,1,0,0,0,False,SD_CA_3_HOBBIES_1,cv1,"ARIMA(0,1,1)",store_dept,smooth,0.2139150294960272
+0,1,2,0,0,1,True,SD_CA_3_HOBBIES_2,cv1,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6516128410110977
+0,1,1,1,1,0,True,SD_CA_3_HOUSEHOLD_1,cv1,"ARIMA(0,1,1)(1,1,0)[52]",store_dept,smooth,0.7434013396543463
+0,1,1,0,0,1,True,SD_CA_3_HOUSEHOLD_2,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.7148278824120615
+1,1,1,1,0,0,True,SD_CA_4_FOODS_1,cv1,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.5569992966795839
+4,0,0,1,0,0,True,SD_CA_4_FOODS_2,cv1,"ARIMA(4,0,0)(1,0,0)[52] with non-zero mean",store_dept,smooth,0.6317129476750833
+2,1,3,1,0,1,True,SD_CA_4_FOODS_3,cv1,"ARIMA(2,1,3)(1,0,1)[52]",store_dept,smooth,0.5266293757468128
+0,1,1,0,0,1,True,SD_CA_4_HOBBIES_1,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.210512658387666
+0,1,4,0,0,1,True,SD_CA_4_HOBBIES_2,cv1,"ARIMA(0,1,4)(0,0,1)[52] with drift",store_dept,smooth,0.7498592400694645
+1,1,2,1,1,0,True,SD_CA_4_HOUSEHOLD_1,cv1,"ARIMA(1,1,2)(1,1,0)[52]",store_dept,smooth,0.6630459457428135
+0,1,1,0,0,1,True,SD_CA_4_HOUSEHOLD_2,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5334541874290218
+0,1,1,0,0,1,True,SD_TX_1_FOODS_1,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.4216979801121011
+3,1,1,1,1,1,True,SD_TX_1_FOODS_2,cv1,"ARIMA(3,1,1)(1,1,1)[52]",store_dept,smooth,0.7969765217173661
+0,1,1,0,1,1,True,SD_TX_1_FOODS_3,cv1,"ARIMA(0,1,1)(0,1,1)[52]",store_dept,smooth,0.572223455539624
+0,1,1,0,0,0,False,SD_TX_1_HOBBIES_1,cv1,"ARIMA(0,1,1)",store_dept,smooth,0.4358821413832611
+0,1,2,0,0,1,True,SD_TX_1_HOBBIES_2,cv1,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6355974259139399
+3,1,2,0,0,1,True,SD_TX_1_HOUSEHOLD_1,cv1,"ARIMA(3,1,2)(0,0,1)[52]",store_dept,smooth,0.4604031791801614
+0,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_2,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5501555810926928
+0,1,2,1,0,0,True,SD_TX_2_FOODS_1,cv1,"ARIMA(0,1,2)(1,0,0)[52]",store_dept,smooth,0.3557974061502851
+5,1,2,0,1,1,True,SD_TX_2_FOODS_2,cv1,"ARIMA(5,1,2)(0,1,1)[52]",store_dept,smooth,0.7560502253436914
+5,1,0,1,0,0,True,SD_TX_2_FOODS_3,cv1,"ARIMA(5,1,0)(1,0,0)[52]",store_dept,smooth,0.4740985321754031
+0,1,1,0,0,0,False,SD_TX_2_HOBBIES_1,cv1,"ARIMA(0,1,1)",store_dept,smooth,0.2366926613839999
+0,1,3,1,1,1,True,SD_TX_2_HOBBIES_2,cv1,"ARIMA(0,1,3)(1,1,1)[52]",store_dept,smooth,0.7241176032922654
+0,1,2,0,0,1,True,SD_TX_2_HOUSEHOLD_1,cv1,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.2371757856727998
+2,1,1,1,1,1,True,SD_TX_2_HOUSEHOLD_2,cv1,"ARIMA(2,1,1)(1,1,1)[52]",store_dept,smooth,0.7686587585101277
+0,1,2,0,1,1,True,SD_TX_3_FOODS_1,cv1,"ARIMA(0,1,2)(0,1,1)[52]",store_dept,smooth,0.6104351762931688
+4,1,1,1,1,0,True,SD_TX_3_FOODS_2,cv1,"ARIMA(4,1,1)(1,1,0)[52]",store_dept,smooth,0.8258512828516101
+1,1,1,0,1,1,True,SD_TX_3_FOODS_3,cv1,"ARIMA(1,1,1)(0,1,1)[52]",store_dept,smooth,0.6456253829719367
+1,1,1,1,0,0,True,SD_TX_3_HOBBIES_1,cv1,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4103958395536419
+0,1,2,0,0,1,True,SD_TX_3_HOBBIES_2,cv1,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6837363506516803
+0,1,1,0,0,1,True,SD_TX_3_HOUSEHOLD_1,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.4723341889405175
+0,1,1,0,1,1,True,SD_TX_3_HOUSEHOLD_2,cv1,"ARIMA(0,1,1)(0,1,1)[52]",store_dept,smooth,0.54584146823605
+1,1,1,1,0,0,True,SD_WI_1_FOODS_1,cv1,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4797729339613138
+5,1,1,0,0,1,True,SD_WI_1_FOODS_2,cv1,"ARIMA(5,1,1)(0,0,1)[52]",store_dept,smooth,0.2791411297191126
+1,1,1,0,0,1,True,SD_WI_1_FOODS_3,cv1,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.1434913570461443
+2,1,3,1,0,0,True,SD_WI_1_HOBBIES_1,cv1,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2224897799039942
+1,1,1,0,0,1,True,SD_WI_1_HOBBIES_2,cv1,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.5675948415204585
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_1,cv1,"ARIMA(1,1,1)(0,0,1)[52] with drift",store_dept,smooth,0.3993482838552818
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_2,cv1,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.3917122528204337
+3,1,0,0,0,1,True,SD_WI_2_FOODS_1,cv1,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.5204020679940976
+3,1,2,1,1,0,True,SD_WI_2_FOODS_2,cv1,"ARIMA(3,1,2)(1,1,0)[52]",store_dept,smooth,0.5956280360595564
+2,1,3,1,1,0,True,SD_WI_2_FOODS_3,cv1,"ARIMA(2,1,3)(1,1,0)[52]",store_dept,smooth,0.6701718447136187
+0,1,1,0,0,1,True,SD_WI_2_HOBBIES_1,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2665567638093762
+0,1,2,0,0,1,True,SD_WI_2_HOBBIES_2,cv1,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.7129833680872035
+0,1,4,0,0,1,True,SD_WI_2_HOUSEHOLD_1,cv1,"ARIMA(0,1,4)(0,0,1)[52]",store_dept,smooth,0.5606662116569663
+0,1,1,0,0,1,True,SD_WI_2_HOUSEHOLD_2,cv1,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5080219131790424
+3,1,0,0,0,1,True,SD_WI_3_FOODS_1,cv1,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.258747346301146
+2,1,2,1,1,0,True,SD_WI_3_FOODS_2,cv1,"ARIMA(2,1,2)(1,1,0)[52]",store_dept,smooth,0.8258146438996834
+5,1,0,0,0,1,True,SD_WI_3_FOODS_3,cv1,"ARIMA(5,1,0)(0,0,1)[52]",store_dept,smooth,0.3827128544728986
+2,1,3,1,0,0,True,SD_WI_3_HOBBIES_1,cv1,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2250020350364856
+2,0,1,1,0,1,True,SD_WI_3_HOBBIES_2,cv1,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",store_dept,smooth,0.5275963779504971
+1,1,1,1,1,1,True,SD_WI_3_HOUSEHOLD_1,cv1,"ARIMA(1,1,1)(1,1,1)[52]",store_dept,smooth,0.4212074203199437
+0,1,2,1,0,0,True,SD_WI_3_HOUSEHOLD_2,cv1,"ARIMA(0,1,2)(1,0,0)[52]",store_dept,smooth,0.6694175160984497
+1,0,1,0,0,0,False,SKU_FOODS_2_122_CA_1,cv1,"ARIMA(1,0,1) with non-zero mean",sku_store,smooth,0.4963481602316641
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_1_525_WI_1,cv1,"ARIMA(1,1,1)",sku_store,smooth,0.3461673267161937
+0,1,1,0,0,1,True,SKU_FOODS_2_202_CA_1,cv1,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,smooth,0.2526834197271117
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_1_200_TX_3,cv1,"ARIMA(0,1,1)",sku_store,smooth,0.1639245509679978
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_381_TX_1,cv1,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.4277438995993704
+2,1,1,0,0,0,False,SKU_HOUSEHOLD_1_241_TX_1,cv1,"ARIMA(2,1,1) with drift",sku_store,smooth,0.2539582198113893
+4,1,3,1,0,1,True,SKU_FOODS_3_128_TX_3,cv1,"ARIMA(4,1,3)(1,0,1)[52]",sku_store,smooth,0.3038249145626494
+5,1,1,1,0,0,True,SKU_FOODS_3_045_CA_1,cv1,"ARIMA(5,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.3876119433542889
+2,1,1,0,0,0,False,SKU_HOBBIES_1_133_CA_3,cv1,"ARIMA(2,1,1) with drift",sku_store,smooth,0.3487745166305719
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_452_WI_2,cv1,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,smooth,0.1539690433979751
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_443_WI_1,cv1,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.2387959531124588
+1,1,2,0,0,0,False,SKU_FOODS_1_081_CA_4,cv1,"ARIMA(1,1,2)",sku_store,smooth,0.2331167155810971
+1,1,2,1,0,0,True,SKU_HOBBIES_1_416_CA_4,cv1,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2262608821949687
+3,1,0,1,0,0,True,SKU_FOODS_3_434_TX_2,cv1,"ARIMA(3,1,0)(1,0,0)[52]",sku_store,smooth,0.1049711862040042
+1,1,1,0,0,0,False,SKU_FOODS_3_513_WI_1,cv1,"ARIMA(1,1,1) with drift",sku_store,smooth,0.3302929561091968
+0,1,2,1,0,0,True,SKU_HOUSEHOLD_2_075_CA_2,cv1,"ARIMA(0,1,2)(1,0,0)[52]",sku_store,smooth,0.2336929421176314
+2,0,1,1,0,1,True,SKU_FOODS_3_451_CA_4,cv1,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,smooth,0.4788025225780494
+0,1,3,0,0,0,False,SKU_HOUSEHOLD_2_427_TX_1,cv1,"ARIMA(0,1,3)",sku_store,smooth,0.3976918474540944
+0,1,2,1,0,1,True,SKU_FOODS_3_675_TX_1,cv1,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,smooth,0.0
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_1_030_WI_3,cv1,"ARIMA(1,1,1)",sku_store,smooth,0.4752231397613166
+1,1,1,0,0,1,True,SKU_FOODS_1_110_TX_3,cv1,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,smooth,0.174838205226229
+3,1,4,1,0,1,True,SKU_HOBBIES_1_209_WI_1,cv1,"ARIMA(3,1,4)(1,0,1)[52]",sku_store,smooth,0.454066172466973
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_2_176_CA_3,cv1,"ARIMA(1,0,1) with non-zero mean",sku_store,smooth,0.3701628740502274
+1,1,1,1,0,0,True,SKU_FOODS_3_295_CA_4,cv1,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,smooth,0.2115019773341044
+1,0,1,1,0,0,True,SKU_FOODS_3_302_CA_3,cv1,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.1928441868777138
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_366_CA_2,cv1,"ARIMA(0,1,1)",sku_store,smooth,0.2395880625491847
+2,1,3,1,0,1,True,SKU_FOODS_3_227_TX_2,cv1,"ARIMA(2,1,3)(1,0,1)[52]",sku_store,smooth,0.1424092263434075
+0,1,1,0,0,0,False,SKU_FOODS_3_339_WI_2,cv1,"ARIMA(0,1,1)",sku_store,smooth,0.2245259484691487
+2,1,3,1,0,0,True,SKU_FOODS_3_195_WI_3,cv1,"ARIMA(2,1,3)(1,0,0)[52]",sku_store,smooth,0.0025373783543508
+1,0,0,0,0,0,False,SKU_FOODS_3_076_CA_1,cv1,"ARIMA(1,0,0) with non-zero mean",sku_store,smooth,0.1732471469476708
+0,1,2,0,0,0,False,SKU_FOODS_2_342_WI_3,cv1,"ARIMA(0,1,2)",sku_store,erratic,0.2618693067817291
+1,1,1,1,0,0,True,SKU_FOODS_3_571_TX_1,cv1,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,erratic,0.0900401137307322
+0,1,1,1,0,1,True,SKU_FOODS_1_203_WI_1,cv1,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,erratic,0.1668325267008653
+1,0,1,0,0,0,False,SKU_FOODS_1_024_TX_1,cv1,"ARIMA(1,0,1) with non-zero mean",sku_store,erratic,0.1730082660855957
+1,1,1,1,0,0,True,SKU_FOODS_3_725_TX_3,cv1,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,erratic,0.2199811830125232
+2,0,0,1,0,0,True,SKU_HOUSEHOLD_2_329_WI_1,cv1,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.0482350320477205
+0,1,2,0,0,0,False,SKU_FOODS_2_358_TX_1,cv1,"ARIMA(0,1,2)",sku_store,erratic,0.179498509511492
+1,1,3,1,0,0,True,SKU_HOUSEHOLD_1_481_WI_3,cv1,"ARIMA(1,1,3)(1,0,0)[52]",sku_store,erratic,0.265239310021257
+3,1,1,0,0,0,False,SKU_HOUSEHOLD_1_504_CA_3,cv1,"ARIMA(3,1,1) with drift",sku_store,erratic,0.221783950993174
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_2_054_WI_3,cv1,"ARIMA(1,0,1) with non-zero mean",sku_store,erratic,0.176145084979042
+0,1,1,0,0,1,True,SKU_FOODS_3_271_TX_3,cv1,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,erratic,0.0
+0,1,1,0,0,0,False,SKU_FOODS_3_271_WI_2,cv1,"ARIMA(0,1,1)",sku_store,erratic,0.0713914584384046
+2,0,3,0,0,1,True,SKU_FOODS_1_069_CA_3,cv1,"ARIMA(2,0,3)(0,0,1)[52] with non-zero mean",sku_store,erratic,0.487638701702146
+0,0,1,0,1,1,True,SKU_FOODS_1_180_TX_3,cv1,"ARIMA(0,0,1)(0,1,1)[52] with drift",sku_store,erratic,0.718190399262036
+0,1,1,1,0,0,True,SKU_FOODS_2_284_WI_3,cv1,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.1718797119486104
+1,0,0,1,0,0,True,SKU_HOBBIES_1_248_TX_3,cv1,"ARIMA(1,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.3704579300992806
+0,0,1,0,0,0,False,SKU_FOODS_2_255_TX_1,cv1,"ARIMA(0,0,1) with non-zero mean",sku_store,erratic,0.8255530076942275
+1,1,1,0,0,0,False,SKU_FOODS_3_432_CA_2,cv1,"ARIMA(1,1,1)",sku_store,erratic,0.1130175562778871
+2,1,3,1,0,0,True,SKU_FOODS_2_103_TX_2,cv1,"ARIMA(2,1,3)(1,0,0)[52]",sku_store,erratic,0.2304762739600374
+0,0,0,1,0,0,True,SKU_HOBBIES_1_255_CA_4,cv1,"ARIMA(0,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.3862651463110503
+2,1,1,1,0,0,True,SKU_FOODS_3_594_TX_3,cv1,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,erratic,0.2178818725872853
+1,1,1,1,0,0,True,SKU_FOODS_3_468_CA_3,cv1,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.1320669360628287
+1,0,0,1,0,0,True,SKU_FOODS_2_255_CA_1,cv1,"ARIMA(1,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.7468756596819749
+1,1,2,1,0,1,True,SKU_FOODS_2_029_CA_3,cv1,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,erratic,0.3422383194955598
+0,1,1,1,0,0,True,SKU_FOODS_3_185_CA_3,cv1,"ARIMA(0,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.0830147296401264
+1,0,0,0,0,0,False,SKU_FOODS_3_809_CA_2,cv1,"ARIMA(1,0,0) with non-zero mean",sku_store,erratic,0.2010433420182665
+1,1,1,0,0,0,False,SKU_FOODS_3_086_TX_3,cv1,"ARIMA(1,1,1) with drift",sku_store,erratic,0.0
+1,1,1,0,0,0,False,SKU_FOODS_3_614_WI_2,cv1,"ARIMA(1,1,1)",sku_store,erratic,0.1039317895126006
+1,0,2,1,0,0,True,SKU_FOODS_3_319_WI_2,cv1,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.4615332846967944
+2,1,1,0,0,1,True,SKU_FOODS_3_332_WI_2,cv1,"ARIMA(2,1,1)(0,0,1)[52]",sku_store,erratic,0.1455847526039598
+3,1,1,0,0,0,False,SKU_HOUSEHOLD_2_198_CA_4,cv1,"ARIMA(3,1,1) with drift",sku_store,intermittent,0.2027028926043762
+2,0,1,0,0,0,False,SKU_HOUSEHOLD_2_097_WI_1,cv1,"ARIMA(2,0,1) with non-zero mean",sku_store,intermittent,0.0
+1,0,2,1,0,0,True,SKU_HOUSEHOLD_2_207_TX_3,cv1,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1962724346285839
+2,1,1,1,0,1,True,SKU_HOUSEHOLD_2_138_CA_1,cv1,"ARIMA(2,1,1)(1,0,1)[52]",sku_store,intermittent,0.2316848798171935
+2,1,1,1,0,0,True,SKU_HOBBIES_1_192_TX_2,cv1,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.04730971184413
+3,0,1,1,0,0,True,SKU_HOUSEHOLD_2_087_CA_3,cv1,"ARIMA(3,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.0
+0,1,2,1,0,1,True,SKU_HOUSEHOLD_2_141_TX_2,cv1,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,intermittent,0.1359713555712431
+0,1,1,0,0,1,True,SKU_HOBBIES_1_020_TX_3,cv1,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,intermittent,0.0517510380802642
+2,1,2,0,0,0,False,SKU_HOBBIES_1_018_CA_3,cv1,"ARIMA(2,1,2)",sku_store,intermittent,0.3400476445536045
+0,1,1,0,0,0,False,SKU_HOBBIES_2_137_WI_1,cv1,"ARIMA(0,1,1)",sku_store,intermittent,0.1269599497126818
+5,1,1,1,0,1,True,SKU_FOODS_3_543_CA_4,cv1,"ARIMA(5,1,1)(1,0,1)[52]",sku_store,intermittent,0.2095533275654842
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_1_400_TX_3,cv1,"ARIMA(0,1,1)",sku_store,intermittent,0.120967116365246
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_345_CA_4,cv1,"ARIMA(0,1,1) with drift",sku_store,intermittent,0.2766296017200095
+3,1,3,1,0,0,True,SKU_FOODS_1_197_WI_3,cv1,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,intermittent,0.2068310525300516
+3,0,0,1,0,0,True,SKU_HOUSEHOLD_2_052_CA_4,cv1,"ARIMA(3,0,0)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1482595039574155
+3,0,0,0,0,0,False,SKU_HOBBIES_1_095_WI_2,cv1,"ARIMA(3,0,0) with non-zero mean",sku_store,intermittent,0.4362624034246813
+0,1,1,0,0,0,False,SKU_FOODS_3_123_TX_2,cv1,"ARIMA(0,1,1)",sku_store,intermittent,0.0736921279129807
+2,1,1,1,0,0,True,SKU_FOODS_2_062_TX_1,cv1,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.1567433301160948
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_243_CA_3,cv1,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,intermittent,0.1366376444243829
+0,1,1,1,0,1,True,SKU_HOUSEHOLD_2_019_CA_1,cv1,"ARIMA(0,1,1)(1,0,1)[52] with drift",sku_store,intermittent,0.2125148483065195
+1,1,1,1,0,0,True,SKU_FOODS_3_611_WI_1,cv1,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,intermittent,0.2219743655297196
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_191_TX_1,cv1,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.491877489303959
+3,1,0,1,0,1,True,SKU_FOODS_2_126_TX_3,cv1,"ARIMA(3,1,0)(1,0,1)[52]",sku_store,intermittent,0.4117095999934945
+3,1,2,1,0,1,True,SKU_HOBBIES_1_023_TX_2,cv1,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,intermittent,0.3499147297571039
+4,1,1,1,0,0,True,SKU_HOUSEHOLD_1_033_WI_3,cv1,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,intermittent,0.5327169345187932
+3,0,3,1,1,0,True,SKU_HOUSEHOLD_2_416_CA_3,cv1,"ARIMA(3,0,3)(1,1,0)[52]",sku_store,intermittent,0.6442299085453949
+1,0,2,1,0,0,True,SKU_FOODS_2_056_TX_2,cv1,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1298358141589217
+2,1,1,1,0,0,True,SKU_FOODS_3_666_WI_3,cv1,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.1914693888401488
+1,1,2,1,0,0,True,SKU_FOODS_2_032_TX_3,cv1,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,intermittent,0.2145305404867352
+3,1,2,1,0,1,True,SKU_FOODS_3_757_CA_1,cv1,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,intermittent,0.3806618943663502
+0,0,1,1,0,0,True,SKU_HOBBIES_1_220_CA_3,cv1,"ARIMA(0,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1570966425948378
+1,1,2,1,0,0,True,SKU_HOBBIES_2_078_WI_3,cv1,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1726102122343017
+0,0,0,1,0,1,True,SKU_HOBBIES_2_112_TX_2,cv1,"ARIMA(0,0,0)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.0
+3,1,2,1,0,1,True,SKU_HOUSEHOLD_2_013_WI_3,cv1,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,lumpy,0.0508045058320826
+0,1,1,0,0,0,False,SKU_HOBBIES_2_019_CA_2,cv1,"ARIMA(0,1,1)",sku_store,lumpy,0.2553592010101302
+1,1,1,0,0,1,True,SKU_HOBBIES_2_113_WI_1,cv1,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,lumpy,0.2406220939846941
+0,0,0,0,0,0,False,SKU_HOBBIES_2_009_WI_1,cv1,"ARIMA(0,0,0) with non-zero mean",sku_store,lumpy,0.0237657933916003
+2,0,2,1,0,0,True,SKU_HOBBIES_2_102_WI_1,cv1,"ARIMA(2,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1407435204498658
+4,1,0,1,0,0,True,SKU_FOODS_3_567_TX_1,cv1,"ARIMA(4,1,0)(1,0,0)[52]",sku_store,lumpy,0.0360094682757439
+0,0,1,0,0,0,False,SKU_HOUSEHOLD_2_504_WI_1,cv1,"ARIMA(0,0,1) with non-zero mean",sku_store,lumpy,0.1640471678610787
+1,0,1,0,0,0,False,SKU_FOODS_1_198_TX_1,cv1,"ARIMA(1,0,1) with non-zero mean",sku_store,lumpy,0.1610054611441173
+1,1,5,1,0,0,True,SKU_FOODS_2_358_TX_3,cv1,"ARIMA(1,1,5)(1,0,0)[52] with drift",sku_store,lumpy,0.3188918494673094
+4,1,4,1,0,1,True,SKU_HOBBIES_2_118_CA_2,cv1,"ARIMA(4,1,4)(1,0,1)[52]",sku_store,lumpy,0.0712311551902616
+4,1,0,1,0,0,True,SKU_FOODS_3_286_CA_2,cv1,"ARIMA(4,1,0)(1,0,0)[52]",sku_store,lumpy,0.0
+1,1,2,1,0,0,True,SKU_HOUSEHOLD_2_479_TX_3,cv1,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.2830457199905386
+1,0,1,0,0,1,True,SKU_HOBBIES_2_148_TX_3,cv1,"ARIMA(1,0,1)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4875220950328959
+0,0,0,0,0,0,False,SKU_FOODS_1_205_WI_3,cv1,"ARIMA(0,0,0) with non-zero mean",sku_store,lumpy,0.2268370824378193
+0,1,2,1,0,1,True,SKU_FOODS_2_163_WI_3,cv1,"ARIMA(0,1,2)(1,0,1)[52] with drift",sku_store,lumpy,0.4446575909709679
+0,0,2,1,0,1,True,SKU_FOODS_1_143_TX_1,cv1,"ARIMA(0,0,2)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.0428188296910502
+3,1,1,1,0,0,True,SKU_FOODS_2_284_TX_1,cv1,"ARIMA(3,1,1)(1,0,0)[52]",sku_store,lumpy,0.0
+1,0,1,1,0,0,True,SKU_FOODS_1_005_WI_2,cv1,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.4447699100749968
+2,0,0,1,0,0,True,SKU_FOODS_2_336_CA_3,cv1,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.2825819180625336
+4,1,1,1,0,0,True,SKU_FOODS_1_142_WI_1,cv1,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,lumpy,0.2982116397909289
+2,0,3,0,0,0,False,SKU_FOODS_3_461_WI_1,cv1,"ARIMA(2,0,3) with non-zero mean",sku_store,lumpy,0.4773641875917376
+3,1,3,1,0,0,True,SKU_FOODS_3_763_CA_1,cv1,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,lumpy,0.030429820944491
+0,1,2,1,0,0,True,SKU_FOODS_1_032_CA_2,cv1,"ARIMA(0,1,2)(1,0,0)[52]",sku_store,lumpy,0.1433989651772154
+0,1,3,0,0,0,False,SKU_FOODS_3_566_TX_1,cv1,"ARIMA(0,1,3)",sku_store,lumpy,0.0651900932044329
+2,0,2,0,0,0,False,SKU_FOODS_2_029_WI_2,cv1,"ARIMA(2,0,2) with non-zero mean",sku_store,lumpy,0.4128814424136623
+1,1,3,1,0,1,True,SKU_FOODS_2_229_CA_3,cv1,"ARIMA(1,1,3)(1,0,1)[52]",sku_store,lumpy,0.3679651286474682
+1,1,2,1,0,0,True,SKU_FOODS_3_569_TX_1,cv1,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.2346206707870767
+3,1,1,1,1,0,True,TOTAL,cv2,"ARIMA(3,1,1)(1,1,0)[52]",total,smooth,0.7457238405026624
+2,1,3,0,1,1,True,CAT_FOODS,cv2,"ARIMA(2,1,3)(0,1,1)[52]",category,smooth,0.6917216079658105
+1,1,1,0,0,1,True,CAT_HOBBIES,cv2,"ARIMA(1,1,1)(0,0,1)[52]",category,smooth,0.2349809739108953
+3,1,1,1,1,0,True,CAT_HOUSEHOLD,cv2,"ARIMA(3,1,1)(1,1,0)[52]",category,smooth,0.6343727733489117
+3,1,1,1,1,1,True,DEPT_FOODS_1,cv2,"ARIMA(3,1,1)(1,1,1)[52]",department,smooth,0.5731568892977186
+3,1,2,0,1,1,True,DEPT_FOODS_2,cv2,"ARIMA(3,1,2)(0,1,1)[52]",department,smooth,0.826482744714485
+1,1,1,0,1,1,True,DEPT_FOODS_3,cv2,"ARIMA(1,1,1)(0,1,1)[52]",department,smooth,0.5658971289343804
+0,1,1,0,0,0,False,DEPT_HOBBIES_1,cv2,"ARIMA(0,1,1)",department,smooth,0.1868963929207445
+1,1,1,0,1,1,True,DEPT_HOBBIES_2,cv2,"ARIMA(1,1,1)(0,1,1)[52]",department,smooth,0.7963620936236836
+2,1,3,1,1,0,True,DEPT_HOUSEHOLD_1,cv2,"ARIMA(2,1,3)(1,1,0)[52]",department,smooth,0.5659074125490369
+4,1,1,1,1,1,True,DEPT_HOUSEHOLD_2,cv2,"ARIMA(4,1,1)(1,1,1)[52]",department,smooth,0.8485744849878458
+5,1,0,0,0,1,True,STORE_CA_1,cv2,"ARIMA(5,1,0)(0,0,1)[52]",store,smooth,0.7621361174321719
+3,1,1,1,0,0,True,STORE_CA_2,cv2,"ARIMA(3,1,1)(1,0,0)[52]",store,smooth,0.1206846347627201
+3,1,0,0,1,1,True,STORE_CA_3,cv2,"ARIMA(3,1,0)(0,1,1)[52]",store,smooth,0.8337355403160065
+3,1,0,1,0,0,True,STORE_CA_4,cv2,"ARIMA(3,1,0)(1,0,0)[52]",store,smooth,0.5488691368391618
+1,1,2,0,1,1,True,STORE_TX_1,cv2,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.7183664618458153
+1,1,1,0,1,1,True,STORE_TX_2,cv2,"ARIMA(1,1,1)(0,1,1)[52]",store,smooth,0.6390588393639356
+1,1,2,0,1,1,True,STORE_TX_3,cv2,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.8220671355370699
+1,1,1,0,0,1,True,STORE_WI_1,cv2,"ARIMA(1,1,1)(0,0,1)[52]",store,smooth,0.2352850496325461
+3,1,2,1,1,1,True,STORE_WI_2,cv2,"ARIMA(3,1,2)(1,1,1)[52]",store,smooth,0.5754344997905281
+2,1,2,1,1,0,True,STORE_WI_3,cv2,"ARIMA(2,1,2)(1,1,0)[52]",store,smooth,0.4866923459839704
+0,1,3,0,0,1,True,SD_CA_1_FOODS_1,cv2,"ARIMA(0,1,3)(0,0,1)[52]",store_dept,smooth,0.5838930617296845
+2,1,2,1,1,1,True,SD_CA_1_FOODS_2,cv2,"ARIMA(2,1,2)(1,1,1)[52]",store_dept,smooth,0.7364032696223604
+3,1,2,1,0,1,True,SD_CA_1_FOODS_3,cv2,"ARIMA(3,1,2)(1,0,1)[52]",store_dept,smooth,0.4724151467878473
+5,1,1,0,0,0,False,SD_CA_1_HOBBIES_1,cv2,"ARIMA(5,1,1)",store_dept,smooth,0.1348830418606841
+1,1,1,0,0,1,True,SD_CA_1_HOBBIES_2,cv2,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.6415350908911718
+2,1,1,1,1,0,True,SD_CA_1_HOUSEHOLD_1,cv2,"ARIMA(2,1,1)(1,1,0)[52]",store_dept,smooth,0.6150928172282512
+3,1,0,0,1,1,True,SD_CA_1_HOUSEHOLD_2,cv2,"ARIMA(3,1,0)(0,1,1)[52]",store_dept,smooth,0.8386861796965452
+2,1,1,1,0,0,True,SD_CA_2_FOODS_1,cv2,"ARIMA(2,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4110094855906149
+2,1,2,1,0,1,True,SD_CA_2_FOODS_2,cv2,"ARIMA(2,1,2)(1,0,1)[52] with drift",store_dept,smooth,0.0338384088228448
+0,1,1,1,0,1,True,SD_CA_2_FOODS_3,cv2,"ARIMA(0,1,1)(1,0,1)[52]",store_dept,smooth,0.3099941285584305
+1,1,1,1,0,0,True,SD_CA_2_HOBBIES_1,cv2,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.1865374526480152
+1,1,1,1,0,0,True,SD_CA_2_HOBBIES_2,cv2,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.7848308242780416
+0,1,1,0,0,1,True,SD_CA_2_HOUSEHOLD_1,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2507091857050236
+0,1,1,1,0,1,True,SD_CA_2_HOUSEHOLD_2,cv2,"ARIMA(0,1,1)(1,0,1)[52]",store_dept,smooth,0.2951405009309222
+0,1,2,0,0,1,True,SD_CA_3_FOODS_1,cv2,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.4172685030413953
+3,1,0,1,1,0,True,SD_CA_3_FOODS_2,cv2,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.7418815264477833
+3,1,2,0,0,1,True,SD_CA_3_FOODS_3,cv2,"ARIMA(3,1,2)(0,0,1)[52]",store_dept,smooth,0.6010781153830844
+0,1,1,0,0,0,False,SD_CA_3_HOBBIES_1,cv2,"ARIMA(0,1,1)",store_dept,smooth,0.2139150294960272
+0,1,2,0,0,1,True,SD_CA_3_HOBBIES_2,cv2,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6516128410110977
+3,1,2,1,1,0,True,SD_CA_3_HOUSEHOLD_1,cv2,"ARIMA(3,1,2)(1,1,0)[52]",store_dept,smooth,0.7434013396543463
+0,1,1,0,0,1,True,SD_CA_3_HOUSEHOLD_2,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.7148278824120615
+1,1,1,1,0,0,True,SD_CA_4_FOODS_1,cv2,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.5569992966795839
+0,1,1,1,0,0,True,SD_CA_4_FOODS_2,cv2,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.6317129476750833
+2,1,3,1,0,1,True,SD_CA_4_FOODS_3,cv2,"ARIMA(2,1,3)(1,0,1)[52]",store_dept,smooth,0.5266293757468128
+0,1,1,0,0,1,True,SD_CA_4_HOBBIES_1,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.210512658387666
+1,1,4,0,0,1,True,SD_CA_4_HOBBIES_2,cv2,"ARIMA(1,1,4)(0,0,1)[52]",store_dept,smooth,0.7498592400694645
+0,1,1,1,1,1,True,SD_CA_4_HOUSEHOLD_1,cv2,"ARIMA(0,1,1)(1,1,1)[52]",store_dept,smooth,0.6630459457428135
+0,1,1,0,0,1,True,SD_CA_4_HOUSEHOLD_2,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5334541874290218
+0,1,2,0,0,1,True,SD_TX_1_FOODS_1,cv2,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.4216979801121011
+5,1,0,1,1,1,True,SD_TX_1_FOODS_2,cv2,"ARIMA(5,1,0)(1,1,1)[52]",store_dept,smooth,0.7969765217173661
+3,1,0,0,0,1,True,SD_TX_1_FOODS_3,cv2,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.572223455539624
+0,1,1,0,0,0,False,SD_TX_1_HOBBIES_1,cv2,"ARIMA(0,1,1)",store_dept,smooth,0.4358821413832611
+2,1,3,1,0,0,True,SD_TX_1_HOBBIES_2,cv2,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.6355974259139399
+1,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_1,cv2,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.4604031791801614
+0,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_2,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5501555810926928
+0,1,2,1,0,0,True,SD_TX_2_FOODS_1,cv2,"ARIMA(0,1,2)(1,0,0)[52]",store_dept,smooth,0.3557974061502851
+3,1,0,0,1,1,True,SD_TX_2_FOODS_2,cv2,"ARIMA(3,1,0)(0,1,1)[52]",store_dept,smooth,0.7560502253436914
+5,1,2,1,0,1,True,SD_TX_2_FOODS_3,cv2,"ARIMA(5,1,2)(1,0,1)[52]",store_dept,smooth,0.4740985321754031
+0,1,1,0,0,0,False,SD_TX_2_HOBBIES_1,cv2,"ARIMA(0,1,1)",store_dept,smooth,0.2366926613839999
+0,1,3,1,1,0,True,SD_TX_2_HOBBIES_2,cv2,"ARIMA(0,1,3)(1,1,0)[52]",store_dept,smooth,0.7241176032922654
+2,1,1,0,0,1,True,SD_TX_2_HOUSEHOLD_1,cv2,"ARIMA(2,1,1)(0,0,1)[52]",store_dept,smooth,0.2371757856727998
+1,0,1,0,1,1,True,SD_TX_2_HOUSEHOLD_2,cv2,"ARIMA(1,0,1)(0,1,1)[52] with drift",store_dept,smooth,0.7686587585101277
+0,1,2,1,1,1,True,SD_TX_3_FOODS_1,cv2,"ARIMA(0,1,2)(1,1,1)[52]",store_dept,smooth,0.6104351762931688
+2,1,3,1,1,0,True,SD_TX_3_FOODS_2,cv2,"ARIMA(2,1,3)(1,1,0)[52]",store_dept,smooth,0.8258512828516101
+1,1,1,0,1,1,True,SD_TX_3_FOODS_3,cv2,"ARIMA(1,1,1)(0,1,1)[52]",store_dept,smooth,0.6456253829719367
+1,1,1,0,0,0,False,SD_TX_3_HOBBIES_1,cv2,"ARIMA(1,1,1) with drift",store_dept,smooth,0.4103958395536419
+0,1,2,0,0,1,True,SD_TX_3_HOBBIES_2,cv2,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6837363506516803
+0,1,1,0,0,1,True,SD_TX_3_HOUSEHOLD_1,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.4723341889405175
+0,1,1,0,1,1,True,SD_TX_3_HOUSEHOLD_2,cv2,"ARIMA(0,1,1)(0,1,1)[52]",store_dept,smooth,0.54584146823605
+1,1,1,1,0,0,True,SD_WI_1_FOODS_1,cv2,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4797729339613138
+5,1,1,0,0,1,True,SD_WI_1_FOODS_2,cv2,"ARIMA(5,1,1)(0,0,1)[52]",store_dept,smooth,0.2791411297191126
+1,1,1,0,0,1,True,SD_WI_1_FOODS_3,cv2,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.1434913570461443
+2,1,3,1,0,0,True,SD_WI_1_HOBBIES_1,cv2,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2224897799039942
+1,1,2,0,0,1,True,SD_WI_1_HOBBIES_2,cv2,"ARIMA(1,1,2)(0,0,1)[52]",store_dept,smooth,0.5675948415204585
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_1,cv2,"ARIMA(1,1,1)(0,0,1)[52] with drift",store_dept,smooth,0.3993482838552818
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_2,cv2,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.3917122528204337
+3,1,0,0,0,1,True,SD_WI_2_FOODS_1,cv2,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.5204020679940976
+3,1,2,1,1,0,True,SD_WI_2_FOODS_2,cv2,"ARIMA(3,1,2)(1,1,0)[52]",store_dept,smooth,0.5956280360595564
+4,1,2,1,1,0,True,SD_WI_2_FOODS_3,cv2,"ARIMA(4,1,2)(1,1,0)[52]",store_dept,smooth,0.6701718447136187
+0,1,1,0,0,1,True,SD_WI_2_HOBBIES_1,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2665567638093762
+2,1,3,0,0,1,True,SD_WI_2_HOBBIES_2,cv2,"ARIMA(2,1,3)(0,0,1)[52]",store_dept,smooth,0.7129833680872035
+0,1,1,0,0,1,True,SD_WI_2_HOUSEHOLD_1,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5606662116569663
+0,1,1,0,0,1,True,SD_WI_2_HOUSEHOLD_2,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5080219131790424
+3,1,0,0,0,1,True,SD_WI_3_FOODS_1,cv2,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.258747346301146
+2,1,2,1,1,0,True,SD_WI_3_FOODS_2,cv2,"ARIMA(2,1,2)(1,1,0)[52]",store_dept,smooth,0.8258146438996834
+5,1,0,0,0,1,True,SD_WI_3_FOODS_3,cv2,"ARIMA(5,1,0)(0,0,1)[52]",store_dept,smooth,0.3827128544728986
+2,1,3,1,0,0,True,SD_WI_3_HOBBIES_1,cv2,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2250020350364856
+2,1,1,1,0,1,True,SD_WI_3_HOBBIES_2,cv2,"ARIMA(2,1,1)(1,0,1)[52]",store_dept,smooth,0.5275963779504971
+0,1,1,0,0,1,True,SD_WI_3_HOUSEHOLD_1,cv2,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.4212074203199437
+0,1,1,1,1,0,True,SD_WI_3_HOUSEHOLD_2,cv2,"ARIMA(0,1,1)(1,1,0)[52]",store_dept,smooth,0.6694175160984497
+0,0,0,0,0,1,True,SKU_FOODS_2_122_CA_1,cv2,"ARIMA(0,0,0)(0,0,1)[52] with non-zero mean",sku_store,smooth,0.4963481602316641
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_1_525_WI_1,cv2,"ARIMA(1,1,1)",sku_store,smooth,0.3461673267161937
+0,1,1,0,0,1,True,SKU_FOODS_2_202_CA_1,cv2,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,smooth,0.2526834197271117
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_200_TX_3,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,smooth,0.1639245509679978
+2,0,2,1,0,0,True,SKU_HOUSEHOLD_1_381_TX_1,cv2,"ARIMA(2,0,2)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.4277438995993704
+1,0,0,0,0,0,False,SKU_HOUSEHOLD_1_241_TX_1,cv2,"ARIMA(1,0,0) with non-zero mean",sku_store,smooth,0.2539582198113893
+4,1,4,1,0,1,True,SKU_FOODS_3_128_TX_3,cv2,"ARIMA(4,1,4)(1,0,1)[52]",sku_store,smooth,0.3038249145626494
+5,1,1,1,0,0,True,SKU_FOODS_3_045_CA_1,cv2,"ARIMA(5,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.3876119433542889
+2,1,3,0,0,0,False,SKU_HOBBIES_1_133_CA_3,cv2,"ARIMA(2,1,3)",sku_store,smooth,0.3487745166305719
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_452_WI_2,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,smooth,0.1539690433979751
+2,0,2,0,0,0,False,SKU_HOUSEHOLD_1_443_WI_1,cv2,"ARIMA(2,0,2) with non-zero mean",sku_store,smooth,0.2387959531124588
+1,1,2,0,0,0,False,SKU_FOODS_1_081_CA_4,cv2,"ARIMA(1,1,2)",sku_store,smooth,0.2331167155810971
+1,1,2,1,0,0,True,SKU_HOBBIES_1_416_CA_4,cv2,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2262608821949687
+1,1,1,1,0,1,True,SKU_FOODS_3_434_TX_2,cv2,"ARIMA(1,1,1)(1,0,1)[52]",sku_store,smooth,0.1049711862040042
+1,1,1,0,0,0,False,SKU_FOODS_3_513_WI_1,cv2,"ARIMA(1,1,1) with drift",sku_store,smooth,0.3302929561091968
+1,1,2,1,0,0,True,SKU_HOUSEHOLD_2_075_CA_2,cv2,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2336929421176314
+2,0,1,1,0,1,True,SKU_FOODS_3_451_CA_4,cv2,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,smooth,0.4788025225780494
+0,1,3,0,0,0,False,SKU_HOUSEHOLD_2_427_TX_1,cv2,"ARIMA(0,1,3)",sku_store,smooth,0.3976918474540944
+0,1,2,1,0,1,True,SKU_FOODS_3_675_TX_1,cv2,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,smooth,0.0
+2,1,2,0,0,0,False,SKU_HOUSEHOLD_1_030_WI_3,cv2,"ARIMA(2,1,2) with drift",sku_store,smooth,0.4752231397613166
+1,1,1,0,0,1,True,SKU_FOODS_1_110_TX_3,cv2,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,smooth,0.174838205226229
+3,1,4,1,0,1,True,SKU_HOBBIES_1_209_WI_1,cv2,"ARIMA(3,1,4)(1,0,1)[52]",sku_store,smooth,0.454066172466973
+1,0,1,1,0,1,True,SKU_HOUSEHOLD_2_176_CA_3,cv2,"ARIMA(1,0,1)(1,0,1)[52] with non-zero mean",sku_store,smooth,0.3701628740502274
+1,1,1,1,0,0,True,SKU_FOODS_3_295_CA_4,cv2,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,smooth,0.2115019773341044
+3,0,0,1,0,1,True,SKU_FOODS_3_302_CA_3,cv2,"ARIMA(3,0,0)(1,0,1)[52] with non-zero mean",sku_store,smooth,0.1928441868777138
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_366_CA_2,cv2,"ARIMA(0,1,1)",sku_store,smooth,0.2395880625491847
+2,1,3,1,0,1,True,SKU_FOODS_3_227_TX_2,cv2,"ARIMA(2,1,3)(1,0,1)[52]",sku_store,smooth,0.1424092263434075
+0,1,1,0,0,0,False,SKU_FOODS_3_339_WI_2,cv2,"ARIMA(0,1,1)",sku_store,smooth,0.2245259484691487
+3,1,3,1,0,0,True,SKU_FOODS_3_195_WI_3,cv2,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,smooth,0.0025373783543508
+1,1,1,0,0,0,False,SKU_FOODS_3_076_CA_1,cv2,"ARIMA(1,1,1)",sku_store,smooth,0.1732471469476708
+1,0,1,0,0,0,False,SKU_FOODS_2_342_WI_3,cv2,"ARIMA(1,0,1) with non-zero mean",sku_store,erratic,0.2618693067817291
+1,1,1,1,0,0,True,SKU_FOODS_3_571_TX_1,cv2,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.0900401137307322
+0,1,1,1,0,1,True,SKU_FOODS_1_203_WI_1,cv2,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,erratic,0.1668325267008653
+1,0,1,0,0,0,False,SKU_FOODS_1_024_TX_1,cv2,"ARIMA(1,0,1) with non-zero mean",sku_store,erratic,0.1730082660855957
+2,0,0,1,0,0,True,SKU_FOODS_3_725_TX_3,cv2,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.2199811830125232
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_329_WI_1,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.0482350320477205
+0,1,2,0,0,0,False,SKU_FOODS_2_358_TX_1,cv2,"ARIMA(0,1,2)",sku_store,erratic,0.179498509511492
+1,1,2,1,0,1,True,SKU_HOUSEHOLD_1_481_WI_3,cv2,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,erratic,0.265239310021257
+1,1,1,1,0,0,True,SKU_HOUSEHOLD_1_504_CA_3,cv2,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.221783950993174
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_2_054_WI_3,cv2,"ARIMA(1,0,1) with non-zero mean",sku_store,erratic,0.176145084979042
+0,1,1,0,0,0,False,SKU_FOODS_3_271_TX_3,cv2,"ARIMA(0,1,1)",sku_store,erratic,0.0
+0,1,1,0,0,0,False,SKU_FOODS_3_271_WI_2,cv2,"ARIMA(0,1,1)",sku_store,erratic,0.0713914584384046
+2,0,0,0,0,1,True,SKU_FOODS_1_069_CA_3,cv2,"ARIMA(2,0,0)(0,0,1)[52] with non-zero mean",sku_store,erratic,0.487638701702146
+0,0,1,0,1,1,True,SKU_FOODS_1_180_TX_3,cv2,"ARIMA(0,0,1)(0,1,1)[52] with drift",sku_store,erratic,0.718190399262036
+0,1,1,1,0,0,True,SKU_FOODS_2_284_WI_3,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.1718797119486104
+1,0,2,1,0,0,True,SKU_HOBBIES_1_248_TX_3,cv2,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.3704579300992806
+0,0,1,0,0,0,False,SKU_FOODS_2_255_TX_1,cv2,"ARIMA(0,0,1) with non-zero mean",sku_store,erratic,0.8255530076942275
+1,1,1,0,0,0,False,SKU_FOODS_3_432_CA_2,cv2,"ARIMA(1,1,1)",sku_store,erratic,0.1130175562778871
+2,1,4,1,0,0,True,SKU_FOODS_2_103_TX_2,cv2,"ARIMA(2,1,4)(1,0,0)[52]",sku_store,erratic,0.2304762739600374
+2,0,1,1,0,1,True,SKU_HOBBIES_1_255_CA_4,cv2,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,erratic,0.3862651463110503
+2,1,1,1,0,0,True,SKU_FOODS_3_594_TX_3,cv2,"ARIMA(2,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.2178818725872853
+1,1,1,1,0,0,True,SKU_FOODS_3_468_CA_3,cv2,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.1320669360628287
+1,0,0,1,0,0,True,SKU_FOODS_2_255_CA_1,cv2,"ARIMA(1,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.7468756596819749
+1,1,2,1,0,1,True,SKU_FOODS_2_029_CA_3,cv2,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,erratic,0.3422383194955598
+2,1,2,1,0,1,True,SKU_FOODS_3_185_CA_3,cv2,"ARIMA(2,1,2)(1,0,1)[52]",sku_store,erratic,0.0830147296401264
+1,1,1,0,0,0,False,SKU_FOODS_3_809_CA_2,cv2,"ARIMA(1,1,1)",sku_store,erratic,0.2010433420182665
+3,1,1,0,0,0,False,SKU_FOODS_3_086_TX_3,cv2,"ARIMA(3,1,1)",sku_store,erratic,0.0
+1,1,1,0,0,0,False,SKU_FOODS_3_614_WI_2,cv2,"ARIMA(1,1,1)",sku_store,erratic,0.1039317895126006
+1,0,2,1,0,0,True,SKU_FOODS_3_319_WI_2,cv2,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.4615332846967944
+2,1,1,0,0,1,True,SKU_FOODS_3_332_WI_2,cv2,"ARIMA(2,1,1)(0,0,1)[52]",sku_store,erratic,0.1455847526039598
+3,1,1,0,0,0,False,SKU_HOUSEHOLD_2_198_CA_4,cv2,"ARIMA(3,1,1) with drift",sku_store,intermittent,0.2027028926043762
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_2_097_WI_1,cv2,"ARIMA(1,1,1)",sku_store,intermittent,0.0
+1,0,2,1,0,0,True,SKU_HOUSEHOLD_2_207_TX_3,cv2,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1962724346285839
+2,1,1,0,0,0,False,SKU_HOUSEHOLD_2_138_CA_1,cv2,"ARIMA(2,1,1)",sku_store,intermittent,0.2316848798171935
+2,1,1,1,0,0,True,SKU_HOBBIES_1_192_TX_2,cv2,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.04730971184413
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_2_087_CA_3,cv2,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.0
+0,1,2,1,0,1,True,SKU_HOUSEHOLD_2_141_TX_2,cv2,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,intermittent,0.1359713555712431
+0,1,1,0,0,0,False,SKU_HOBBIES_1_020_TX_3,cv2,"ARIMA(0,1,1)",sku_store,intermittent,0.0517510380802642
+2,1,2,0,0,1,True,SKU_HOBBIES_1_018_CA_3,cv2,"ARIMA(2,1,2)(0,0,1)[52]",sku_store,intermittent,0.3400476445536045
+0,1,1,0,0,0,False,SKU_HOBBIES_2_137_WI_1,cv2,"ARIMA(0,1,1)",sku_store,intermittent,0.1269599497126818
+5,1,2,1,0,1,True,SKU_FOODS_3_543_CA_4,cv2,"ARIMA(5,1,2)(1,0,1)[52]",sku_store,intermittent,0.2095533275654842
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_1_400_TX_3,cv2,"ARIMA(1,0,1) with zero mean",sku_store,intermittent,0.120967116365246
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_345_CA_4,cv2,"ARIMA(0,1,1) with drift",sku_store,intermittent,0.2766296017200095
+5,1,1,1,0,0,True,SKU_FOODS_1_197_WI_3,cv2,"ARIMA(5,1,1)(1,0,0)[52]",sku_store,intermittent,0.2068310525300516
+3,0,0,1,0,0,True,SKU_HOUSEHOLD_2_052_CA_4,cv2,"ARIMA(3,0,0)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1482595039574155
+4,0,2,1,0,0,True,SKU_HOBBIES_1_095_WI_2,cv2,"ARIMA(4,0,2)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.4362624034246813
+1,0,1,0,0,0,False,SKU_FOODS_3_123_TX_2,cv2,"ARIMA(1,0,1) with non-zero mean",sku_store,intermittent,0.0736921279129807
+2,1,1,1,0,0,True,SKU_FOODS_2_062_TX_1,cv2,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.1567433301160948
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_243_CA_3,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,intermittent,0.1366376444243829
+0,1,1,1,0,1,True,SKU_HOUSEHOLD_2_019_CA_1,cv2,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,intermittent,0.2125148483065195
+0,1,1,1,0,0,True,SKU_FOODS_3_611_WI_1,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,intermittent,0.2219743655297196
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_191_TX_1,cv2,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.491877489303959
+3,1,0,1,0,1,True,SKU_FOODS_2_126_TX_3,cv2,"ARIMA(3,1,0)(1,0,1)[52]",sku_store,intermittent,0.4117095999934945
+3,1,2,1,0,1,True,SKU_HOBBIES_1_023_TX_2,cv2,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,intermittent,0.3499147297571039
+4,1,1,1,0,0,True,SKU_HOUSEHOLD_1_033_WI_3,cv2,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,intermittent,0.5327169345187932
+3,0,3,1,1,0,True,SKU_HOUSEHOLD_2_416_CA_3,cv2,"ARIMA(3,0,3)(1,1,0)[52]",sku_store,intermittent,0.6442299085453949
+1,0,2,1,0,0,True,SKU_FOODS_2_056_TX_2,cv2,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1298358141589217
+1,1,4,1,0,1,True,SKU_FOODS_3_666_WI_3,cv2,"ARIMA(1,1,4)(1,0,1)[52]",sku_store,intermittent,0.1914693888401488
+1,1,2,1,0,0,True,SKU_FOODS_2_032_TX_3,cv2,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,intermittent,0.2145305404867352
+2,0,0,1,0,1,True,SKU_FOODS_3_757_CA_1,cv2,"ARIMA(2,0,0)(1,0,1)[52] with non-zero mean",sku_store,intermittent,0.3806618943663502
+0,0,0,1,0,1,True,SKU_HOBBIES_1_220_CA_3,cv2,"ARIMA(0,0,0)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.1570966425948378
+1,1,2,1,0,0,True,SKU_HOBBIES_2_078_WI_3,cv2,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1726102122343017
+2,1,2,1,0,1,True,SKU_HOBBIES_2_112_TX_2,cv2,"ARIMA(2,1,2)(1,0,1)[52]",sku_store,lumpy,0.0
+2,1,1,1,0,0,True,SKU_HOUSEHOLD_2_013_WI_3,cv2,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,lumpy,0.0508045058320826
+0,1,1,1,0,0,True,SKU_HOBBIES_2_019_CA_2,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,lumpy,0.2553592010101302
+1,1,1,0,0,1,True,SKU_HOBBIES_2_113_WI_1,cv2,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,lumpy,0.2406220939846941
+0,0,0,0,0,0,False,SKU_HOBBIES_2_009_WI_1,cv2,"ARIMA(0,0,0) with non-zero mean",sku_store,lumpy,0.0237657933916003
+2,0,2,1,0,0,True,SKU_HOBBIES_2_102_WI_1,cv2,"ARIMA(2,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1407435204498658
+0,1,1,1,0,0,True,SKU_FOODS_3_567_TX_1,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,lumpy,0.0360094682757439
+0,0,1,0,0,0,False,SKU_HOUSEHOLD_2_504_WI_1,cv2,"ARIMA(0,0,1) with non-zero mean",sku_store,lumpy,0.1640471678610787
+1,0,1,0,0,0,False,SKU_FOODS_1_198_TX_1,cv2,"ARIMA(1,0,1) with non-zero mean",sku_store,lumpy,0.1610054611441173
+0,1,4,1,0,1,True,SKU_FOODS_2_358_TX_3,cv2,"ARIMA(0,1,4)(1,0,1)[52]",sku_store,lumpy,0.3188918494673094
+4,1,4,1,0,1,True,SKU_HOBBIES_2_118_CA_2,cv2,"ARIMA(4,1,4)(1,0,1)[52]",sku_store,lumpy,0.0712311551902616
+0,1,1,1,0,0,True,SKU_FOODS_3_286_CA_2,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,lumpy,0.0
+1,1,2,1,0,1,True,SKU_HOUSEHOLD_2_479_TX_3,cv2,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,lumpy,0.2830457199905386
+1,0,1,0,0,1,True,SKU_HOBBIES_2_148_TX_3,cv2,"ARIMA(1,0,1)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4875220950328959
+0,1,1,1,0,0,True,SKU_FOODS_1_205_WI_3,cv2,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,lumpy,0.2268370824378193
+0,1,2,1,0,1,True,SKU_FOODS_2_163_WI_3,cv2,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,lumpy,0.4446575909709679
+0,0,2,1,0,0,True,SKU_FOODS_1_143_TX_1,cv2,"ARIMA(0,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.0428188296910502
+3,1,1,1,0,0,True,SKU_FOODS_2_284_TX_1,cv2,"ARIMA(3,1,1)(1,0,0)[52] with drift",sku_store,lumpy,0.0
+1,0,1,1,0,0,True,SKU_FOODS_1_005_WI_2,cv2,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.4447699100749968
+0,0,2,1,0,0,True,SKU_FOODS_2_336_CA_3,cv2,"ARIMA(0,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.2825819180625336
+1,1,1,1,0,0,True,SKU_FOODS_1_142_WI_1,cv2,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,lumpy,0.2982116397909289
+2,0,2,0,0,1,True,SKU_FOODS_3_461_WI_1,cv2,"ARIMA(2,0,2)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4773641875917376
+3,1,3,1,0,0,True,SKU_FOODS_3_763_CA_1,cv2,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,lumpy,0.030429820944491
+1,1,2,1,0,0,True,SKU_FOODS_1_032_CA_2,cv2,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1433989651772154
+2,1,1,0,0,0,False,SKU_FOODS_3_566_TX_1,cv2,"ARIMA(2,1,1)",sku_store,lumpy,0.0651900932044329
+2,0,1,1,0,1,True,SKU_FOODS_2_029_WI_2,cv2,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.4128814424136623
+1,1,3,1,0,1,True,SKU_FOODS_2_229_CA_3,cv2,"ARIMA(1,1,3)(1,0,1)[52]",sku_store,lumpy,0.3679651286474682
+1,1,3,1,0,0,True,SKU_FOODS_3_569_TX_1,cv2,"ARIMA(1,1,3)(1,0,0)[52]",sku_store,lumpy,0.2346206707870767
+3,1,1,1,1,0,True,TOTAL,cv3,"ARIMA(3,1,1)(1,1,0)[52]",total,smooth,0.7457238405026624
+3,1,0,1,1,0,True,CAT_FOODS,cv3,"ARIMA(3,1,0)(1,1,0)[52]",category,smooth,0.6917216079658105
+1,1,1,0,0,1,True,CAT_HOBBIES,cv3,"ARIMA(1,1,1)(0,0,1)[52]",category,smooth,0.2349809739108953
+2,1,2,1,1,0,True,CAT_HOUSEHOLD,cv3,"ARIMA(2,1,2)(1,1,0)[52]",category,smooth,0.6343727733489117
+0,1,2,0,0,1,True,DEPT_FOODS_1,cv3,"ARIMA(0,1,2)(0,0,1)[52]",department,smooth,0.5731568892977186
+2,1,3,1,1,0,True,DEPT_FOODS_2,cv3,"ARIMA(2,1,3)(1,1,0)[52]",department,smooth,0.826482744714485
+1,1,1,0,1,1,True,DEPT_FOODS_3,cv3,"ARIMA(1,1,1)(0,1,1)[52]",department,smooth,0.5658971289343804
+0,1,1,0,0,0,False,DEPT_HOBBIES_1,cv3,"ARIMA(0,1,1)",department,smooth,0.1868963929207445
+2,1,0,1,1,1,True,DEPT_HOBBIES_2,cv3,"ARIMA(2,1,0)(1,1,1)[52]",department,smooth,0.7963620936236836
+2,1,3,1,1,0,True,DEPT_HOUSEHOLD_1,cv3,"ARIMA(2,1,3)(1,1,0)[52]",department,smooth,0.5659074125490369
+2,1,3,0,1,1,True,DEPT_HOUSEHOLD_2,cv3,"ARIMA(2,1,3)(0,1,1)[52]",department,smooth,0.8485744849878458
+3,1,0,1,1,0,True,STORE_CA_1,cv3,"ARIMA(3,1,0)(1,1,0)[52]",store,smooth,0.7621361174321719
+1,1,2,1,0,0,True,STORE_CA_2,cv3,"ARIMA(1,1,2)(1,0,0)[52]",store,smooth,0.1206846347627201
+3,1,0,0,1,1,True,STORE_CA_3,cv3,"ARIMA(3,1,0)(0,1,1)[52]",store,smooth,0.8337355403160065
+3,1,0,1,0,0,True,STORE_CA_4,cv3,"ARIMA(3,1,0)(1,0,0)[52]",store,smooth,0.5488691368391618
+1,1,2,0,1,1,True,STORE_TX_1,cv3,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.7183664618458153
+1,1,1,1,1,0,True,STORE_TX_2,cv3,"ARIMA(1,1,1)(1,1,0)[52]",store,smooth,0.6390588393639356
+1,1,2,0,1,1,True,STORE_TX_3,cv3,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.8220671355370699
+1,1,1,0,0,1,True,STORE_WI_1,cv3,"ARIMA(1,1,1)(0,0,1)[52]",store,smooth,0.2352850496325461
+3,1,2,1,1,1,True,STORE_WI_2,cv3,"ARIMA(3,1,2)(1,1,1)[52]",store,smooth,0.5754344997905281
+2,1,2,1,1,1,True,STORE_WI_3,cv3,"ARIMA(2,1,2)(1,1,1)[52]",store,smooth,0.4866923459839704
+0,1,3,0,0,1,True,SD_CA_1_FOODS_1,cv3,"ARIMA(0,1,3)(0,0,1)[52]",store_dept,smooth,0.5838930617296845
+2,1,2,1,1,1,True,SD_CA_1_FOODS_2,cv3,"ARIMA(2,1,2)(1,1,1)[52]",store_dept,smooth,0.7364032696223604
+3,1,2,1,0,1,True,SD_CA_1_FOODS_3,cv3,"ARIMA(3,1,2)(1,0,1)[52]",store_dept,smooth,0.4724151467878473
+5,1,1,0,0,0,False,SD_CA_1_HOBBIES_1,cv3,"ARIMA(5,1,1)",store_dept,smooth,0.1348830418606841
+1,1,1,0,0,1,True,SD_CA_1_HOBBIES_2,cv3,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.6415350908911718
+2,1,2,1,1,0,True,SD_CA_1_HOUSEHOLD_1,cv3,"ARIMA(2,1,2)(1,1,0)[52]",store_dept,smooth,0.6150928172282512
+3,1,0,0,1,1,True,SD_CA_1_HOUSEHOLD_2,cv3,"ARIMA(3,1,0)(0,1,1)[52]",store_dept,smooth,0.8386861796965452
+2,1,1,1,0,0,True,SD_CA_2_FOODS_1,cv3,"ARIMA(2,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4110094855906149
+0,1,5,0,0,1,True,SD_CA_2_FOODS_2,cv3,"ARIMA(0,1,5)(0,0,1)[52]",store_dept,smooth,0.0338384088228448
+0,1,1,1,0,1,True,SD_CA_2_FOODS_3,cv3,"ARIMA(0,1,1)(1,0,1)[52]",store_dept,smooth,0.3099941285584305
+1,0,2,1,0,0,True,SD_CA_2_HOBBIES_1,cv3,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",store_dept,smooth,0.1865374526480152
+1,1,1,1,0,0,True,SD_CA_2_HOBBIES_2,cv3,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.7848308242780416
+0,1,1,0,0,1,True,SD_CA_2_HOUSEHOLD_1,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2507091857050236
+0,1,2,1,0,1,True,SD_CA_2_HOUSEHOLD_2,cv3,"ARIMA(0,1,2)(1,0,1)[52]",store_dept,smooth,0.2951405009309222
+3,1,1,0,0,1,True,SD_CA_3_FOODS_1,cv3,"ARIMA(3,1,1)(0,0,1)[52]",store_dept,smooth,0.4172685030413953
+3,1,0,1,1,0,True,SD_CA_3_FOODS_2,cv3,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.7418815264477833
+0,1,2,0,0,1,True,SD_CA_3_FOODS_3,cv3,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6010781153830844
+0,1,1,0,0,0,False,SD_CA_3_HOBBIES_1,cv3,"ARIMA(0,1,1)",store_dept,smooth,0.2139150294960272
+2,1,1,0,0,1,True,SD_CA_3_HOBBIES_2,cv3,"ARIMA(2,1,1)(0,0,1)[52] with drift",store_dept,smooth,0.6516128410110977
+0,1,1,1,1,0,True,SD_CA_3_HOUSEHOLD_1,cv3,"ARIMA(0,1,1)(1,1,0)[52]",store_dept,smooth,0.7434013396543463
+1,1,5,1,0,0,True,SD_CA_3_HOUSEHOLD_2,cv3,"ARIMA(1,1,5)(1,0,0)[52]",store_dept,smooth,0.7148278824120615
+1,1,1,1,0,0,True,SD_CA_4_FOODS_1,cv3,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.5569992966795839
+0,1,1,1,0,0,True,SD_CA_4_FOODS_2,cv3,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.6317129476750833
+2,1,3,1,0,1,True,SD_CA_4_FOODS_3,cv3,"ARIMA(2,1,3)(1,0,1)[52]",store_dept,smooth,0.5266293757468128
+0,1,1,0,0,1,True,SD_CA_4_HOBBIES_1,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.210512658387666
+0,1,3,0,0,1,True,SD_CA_4_HOBBIES_2,cv3,"ARIMA(0,1,3)(0,0,1)[52] with drift",store_dept,smooth,0.7498592400694645
+0,1,2,1,1,1,True,SD_CA_4_HOUSEHOLD_1,cv3,"ARIMA(0,1,2)(1,1,1)[52]",store_dept,smooth,0.6630459457428135
+0,1,1,0,0,1,True,SD_CA_4_HOUSEHOLD_2,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5334541874290218
+0,1,2,0,0,1,True,SD_TX_1_FOODS_1,cv3,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.4216979801121011
+5,1,0,1,1,1,True,SD_TX_1_FOODS_2,cv3,"ARIMA(5,1,0)(1,1,1)[52]",store_dept,smooth,0.7969765217173661
+3,1,0,0,0,1,True,SD_TX_1_FOODS_3,cv3,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.572223455539624
+0,1,1,0,0,0,False,SD_TX_1_HOBBIES_1,cv3,"ARIMA(0,1,1)",store_dept,smooth,0.4358821413832611
+2,1,1,0,0,1,True,SD_TX_1_HOBBIES_2,cv3,"ARIMA(2,1,1)(0,0,1)[52]",store_dept,smooth,0.6355974259139399
+1,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_1,cv3,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.4604031791801614
+0,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_2,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5501555810926928
+0,1,3,1,0,0,True,SD_TX_2_FOODS_1,cv3,"ARIMA(0,1,3)(1,0,0)[52]",store_dept,smooth,0.3557974061502851
+3,1,0,1,1,0,True,SD_TX_2_FOODS_2,cv3,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.7560502253436914
+5,1,2,1,0,1,True,SD_TX_2_FOODS_3,cv3,"ARIMA(5,1,2)(1,0,1)[52]",store_dept,smooth,0.4740985321754031
+0,1,1,0,0,0,False,SD_TX_2_HOBBIES_1,cv3,"ARIMA(0,1,1)",store_dept,smooth,0.2366926613839999
+0,1,3,1,1,0,True,SD_TX_2_HOBBIES_2,cv3,"ARIMA(0,1,3)(1,1,0)[52]",store_dept,smooth,0.7241176032922654
+2,1,1,0,0,1,True,SD_TX_2_HOUSEHOLD_1,cv3,"ARIMA(2,1,1)(0,0,1)[52]",store_dept,smooth,0.2371757856727998
+1,0,1,0,1,1,True,SD_TX_2_HOUSEHOLD_2,cv3,"ARIMA(1,0,1)(0,1,1)[52] with drift",store_dept,smooth,0.7686587585101277
+0,1,2,1,1,1,True,SD_TX_3_FOODS_1,cv3,"ARIMA(0,1,2)(1,1,1)[52]",store_dept,smooth,0.6104351762931688
+3,1,2,1,1,0,True,SD_TX_3_FOODS_2,cv3,"ARIMA(3,1,2)(1,1,0)[52]",store_dept,smooth,0.8258512828516101
+1,1,2,0,1,1,True,SD_TX_3_FOODS_3,cv3,"ARIMA(1,1,2)(0,1,1)[52]",store_dept,smooth,0.6456253829719367
+1,1,1,0,0,0,False,SD_TX_3_HOBBIES_1,cv3,"ARIMA(1,1,1)",store_dept,smooth,0.4103958395536419
+0,1,2,0,0,1,True,SD_TX_3_HOBBIES_2,cv3,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6837363506516803
+0,1,1,0,0,1,True,SD_TX_3_HOUSEHOLD_1,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.4723341889405175
+0,1,1,0,0,1,True,SD_TX_3_HOUSEHOLD_2,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.54584146823605
+1,1,1,1,0,0,True,SD_WI_1_FOODS_1,cv3,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.4797729339613138
+5,1,1,0,0,1,True,SD_WI_1_FOODS_2,cv3,"ARIMA(5,1,1)(0,0,1)[52]",store_dept,smooth,0.2791411297191126
+1,1,2,0,0,1,True,SD_WI_1_FOODS_3,cv3,"ARIMA(1,1,2)(0,0,1)[52] with drift",store_dept,smooth,0.1434913570461443
+2,1,3,1,0,0,True,SD_WI_1_HOBBIES_1,cv3,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2224897799039942
+1,1,2,0,0,1,True,SD_WI_1_HOBBIES_2,cv3,"ARIMA(1,1,2)(0,0,1)[52] with drift",store_dept,smooth,0.5675948415204585
+1,1,3,0,0,1,True,SD_WI_1_HOUSEHOLD_1,cv3,"ARIMA(1,1,3)(0,0,1)[52] with drift",store_dept,smooth,0.3993482838552818
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_2,cv3,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.3917122528204337
+3,1,0,0,0,1,True,SD_WI_2_FOODS_1,cv3,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.5204020679940976
+3,1,2,1,1,0,True,SD_WI_2_FOODS_2,cv3,"ARIMA(3,1,2)(1,1,0)[52]",store_dept,smooth,0.5956280360595564
+4,1,2,1,1,0,True,SD_WI_2_FOODS_3,cv3,"ARIMA(4,1,2)(1,1,0)[52]",store_dept,smooth,0.6701718447136187
+0,1,1,0,0,1,True,SD_WI_2_HOBBIES_1,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2665567638093762
+2,1,3,0,0,1,True,SD_WI_2_HOBBIES_2,cv3,"ARIMA(2,1,3)(0,0,1)[52]",store_dept,smooth,0.7129833680872035
+0,1,1,0,0,1,True,SD_WI_2_HOUSEHOLD_1,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5606662116569663
+0,1,1,0,0,1,True,SD_WI_2_HOUSEHOLD_2,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5080219131790424
+3,1,0,0,0,1,True,SD_WI_3_FOODS_1,cv3,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.258747346301146
+2,1,3,1,1,0,True,SD_WI_3_FOODS_2,cv3,"ARIMA(2,1,3)(1,1,0)[52]",store_dept,smooth,0.8258146438996834
+5,1,0,1,0,0,True,SD_WI_3_FOODS_3,cv3,"ARIMA(5,1,0)(1,0,0)[52]",store_dept,smooth,0.3827128544728986
+2,1,3,1,0,0,True,SD_WI_3_HOBBIES_1,cv3,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2250020350364856
+2,1,2,1,0,0,True,SD_WI_3_HOBBIES_2,cv3,"ARIMA(2,1,2)(1,0,0)[52] with drift",store_dept,smooth,0.5275963779504971
+0,1,1,0,0,1,True,SD_WI_3_HOUSEHOLD_1,cv3,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.4212074203199437
+1,1,3,1,1,1,True,SD_WI_3_HOUSEHOLD_2,cv3,"ARIMA(1,1,3)(1,1,1)[52]",store_dept,smooth,0.6694175160984497
+0,0,0,0,0,1,True,SKU_FOODS_2_122_CA_1,cv3,"ARIMA(0,0,0)(0,0,1)[52] with non-zero mean",sku_store,smooth,0.4963481602316641
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_1_525_WI_1,cv3,"ARIMA(1,1,1)",sku_store,smooth,0.3461673267161937
+0,1,1,0,0,1,True,SKU_FOODS_2_202_CA_1,cv3,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,smooth,0.2526834197271117
+1,1,4,1,0,1,True,SKU_HOUSEHOLD_1_200_TX_3,cv3,"ARIMA(1,1,4)(1,0,1)[52]",sku_store,smooth,0.1639245509679978
+2,0,2,1,0,1,True,SKU_HOUSEHOLD_1_381_TX_1,cv3,"ARIMA(2,0,2)(1,0,1)[52] with non-zero mean",sku_store,smooth,0.4277438995993704
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_241_TX_1,cv3,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.2539582198113893
+4,1,4,1,0,1,True,SKU_FOODS_3_128_TX_3,cv3,"ARIMA(4,1,4)(1,0,1)[52]",sku_store,smooth,0.3038249145626494
+5,1,1,1,0,0,True,SKU_FOODS_3_045_CA_1,cv3,"ARIMA(5,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.3876119433542889
+2,1,1,0,0,0,False,SKU_HOBBIES_1_133_CA_3,cv3,"ARIMA(2,1,1)",sku_store,smooth,0.3487745166305719
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_452_WI_2,cv3,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,smooth,0.1539690433979751
+2,0,2,0,0,0,False,SKU_HOUSEHOLD_1_443_WI_1,cv3,"ARIMA(2,0,2) with non-zero mean",sku_store,smooth,0.2387959531124588
+1,1,2,0,0,0,False,SKU_FOODS_1_081_CA_4,cv3,"ARIMA(1,1,2)",sku_store,smooth,0.2331167155810971
+1,1,2,1,0,0,True,SKU_HOBBIES_1_416_CA_4,cv3,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2262608821949687
+1,1,1,0,0,0,False,SKU_FOODS_3_434_TX_2,cv3,"ARIMA(1,1,1)",sku_store,smooth,0.1049711862040042
+1,1,1,0,0,0,False,SKU_FOODS_3_513_WI_1,cv3,"ARIMA(1,1,1) with drift",sku_store,smooth,0.3302929561091968
+1,1,2,1,0,0,True,SKU_HOUSEHOLD_2_075_CA_2,cv3,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2336929421176314
+2,0,1,1,0,1,True,SKU_FOODS_3_451_CA_4,cv3,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,smooth,0.4788025225780494
+0,1,3,0,0,0,False,SKU_HOUSEHOLD_2_427_TX_1,cv3,"ARIMA(0,1,3)",sku_store,smooth,0.3976918474540944
+0,1,2,1,0,1,True,SKU_FOODS_3_675_TX_1,cv3,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,smooth,0.0
+5,1,0,1,0,0,True,SKU_HOUSEHOLD_1_030_WI_3,cv3,"ARIMA(5,1,0)(1,0,0)[52]",sku_store,smooth,0.4752231397613166
+1,1,1,0,0,1,True,SKU_FOODS_1_110_TX_3,cv3,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,smooth,0.174838205226229
+3,1,4,1,0,1,True,SKU_HOBBIES_1_209_WI_1,cv3,"ARIMA(3,1,4)(1,0,1)[52]",sku_store,smooth,0.454066172466973
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_2_176_CA_3,cv3,"ARIMA(1,0,1) with non-zero mean",sku_store,smooth,0.3701628740502274
+1,1,1,1,0,0,True,SKU_FOODS_3_295_CA_4,cv3,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.2115019773341044
+3,1,1,1,0,1,True,SKU_FOODS_3_302_CA_3,cv3,"ARIMA(3,1,1)(1,0,1)[52]",sku_store,smooth,0.1928441868777138
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_366_CA_2,cv3,"ARIMA(0,1,1)",sku_store,smooth,0.2395880625491847
+2,1,3,1,0,1,True,SKU_FOODS_3_227_TX_2,cv3,"ARIMA(2,1,3)(1,0,1)[52] with drift",sku_store,smooth,0.1424092263434075
+0,1,1,0,0,0,False,SKU_FOODS_3_339_WI_2,cv3,"ARIMA(0,1,1)",sku_store,smooth,0.2245259484691487
+4,1,1,1,0,0,True,SKU_FOODS_3_195_WI_3,cv3,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,smooth,0.0025373783543508
+1,0,0,0,0,0,False,SKU_FOODS_3_076_CA_1,cv3,"ARIMA(1,0,0) with non-zero mean",sku_store,smooth,0.1732471469476708
+2,1,1,0,0,0,False,SKU_FOODS_2_342_WI_3,cv3,"ARIMA(2,1,1) with drift",sku_store,erratic,0.2618693067817291
+1,1,1,1,0,0,True,SKU_FOODS_3_571_TX_1,cv3,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.0900401137307322
+0,1,1,1,0,1,True,SKU_FOODS_1_203_WI_1,cv3,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,erratic,0.1668325267008653
+1,0,1,0,0,0,False,SKU_FOODS_1_024_TX_1,cv3,"ARIMA(1,0,1) with non-zero mean",sku_store,erratic,0.1730082660855957
+2,0,0,1,0,0,True,SKU_FOODS_3_725_TX_3,cv3,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.2199811830125232
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_329_WI_1,cv3,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.0482350320477205
+1,1,2,1,0,0,True,SKU_FOODS_2_358_TX_1,cv3,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,erratic,0.179498509511492
+1,1,2,1,0,1,True,SKU_HOUSEHOLD_1_481_WI_3,cv3,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,erratic,0.265239310021257
+1,1,1,1,0,0,True,SKU_HOUSEHOLD_1_504_CA_3,cv3,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.221783950993174
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_054_WI_3,cv3,"ARIMA(0,1,1)",sku_store,erratic,0.176145084979042
+0,1,1,0,0,0,False,SKU_FOODS_3_271_TX_3,cv3,"ARIMA(0,1,1)",sku_store,erratic,0.0
+0,1,1,0,0,0,False,SKU_FOODS_3_271_WI_2,cv3,"ARIMA(0,1,1)",sku_store,erratic,0.0713914584384046
+1,0,2,0,0,1,True,SKU_FOODS_1_069_CA_3,cv3,"ARIMA(1,0,2)(0,0,1)[52] with non-zero mean",sku_store,erratic,0.487638701702146
+1,0,1,1,1,0,True,SKU_FOODS_1_180_TX_3,cv3,"ARIMA(1,0,1)(1,1,0)[52] with drift",sku_store,erratic,0.718190399262036
+0,1,1,1,0,0,True,SKU_FOODS_2_284_WI_3,cv3,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.1718797119486104
+1,0,2,1,0,0,True,SKU_HOBBIES_1_248_TX_3,cv3,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.3704579300992806
+0,0,1,0,0,0,False,SKU_FOODS_2_255_TX_1,cv3,"ARIMA(0,0,1) with non-zero mean",sku_store,erratic,0.8255530076942275
+1,1,1,0,0,0,False,SKU_FOODS_3_432_CA_2,cv3,"ARIMA(1,1,1)",sku_store,erratic,0.1130175562778871
+2,1,4,1,0,1,True,SKU_FOODS_2_103_TX_2,cv3,"ARIMA(2,1,4)(1,0,1)[52]",sku_store,erratic,0.2304762739600374
+2,0,0,1,0,1,True,SKU_HOBBIES_1_255_CA_4,cv3,"ARIMA(2,0,0)(1,0,1)[52] with non-zero mean",sku_store,erratic,0.3862651463110503
+2,1,1,1,0,0,True,SKU_FOODS_3_594_TX_3,cv3,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,erratic,0.2178818725872853
+2,1,1,1,0,0,True,SKU_FOODS_3_468_CA_3,cv3,"ARIMA(2,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.1320669360628287
+1,0,0,1,0,0,True,SKU_FOODS_2_255_CA_1,cv3,"ARIMA(1,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.7468756596819749
+1,1,2,1,0,1,True,SKU_FOODS_2_029_CA_3,cv3,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,erratic,0.3422383194955598
+2,1,2,1,0,1,True,SKU_FOODS_3_185_CA_3,cv3,"ARIMA(2,1,2)(1,0,1)[52]",sku_store,erratic,0.0830147296401264
+1,1,1,0,0,0,False,SKU_FOODS_3_809_CA_2,cv3,"ARIMA(1,1,1)",sku_store,erratic,0.2010433420182665
+1,1,1,0,0,0,False,SKU_FOODS_3_086_TX_3,cv3,"ARIMA(1,1,1) with drift",sku_store,erratic,0.0
+1,1,1,0,0,0,False,SKU_FOODS_3_614_WI_2,cv3,"ARIMA(1,1,1)",sku_store,erratic,0.1039317895126006
+1,0,2,1,0,0,True,SKU_FOODS_3_319_WI_2,cv3,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.4615332846967944
+2,1,1,0,0,1,True,SKU_FOODS_3_332_WI_2,cv3,"ARIMA(2,1,1)(0,0,1)[52]",sku_store,erratic,0.1455847526039598
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_2_198_CA_4,cv3,"ARIMA(1,0,1) with non-zero mean",sku_store,intermittent,0.2027028926043762
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_2_097_WI_1,cv3,"ARIMA(1,1,1)",sku_store,intermittent,0.0
+1,0,2,1,0,0,True,SKU_HOUSEHOLD_2_207_TX_3,cv3,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1962724346285839
+0,1,1,1,0,1,True,SKU_HOUSEHOLD_2_138_CA_1,cv3,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,intermittent,0.2316848798171935
+0,1,1,1,0,0,True,SKU_HOBBIES_1_192_TX_2,cv3,"ARIMA(0,1,1)(1,0,0)[52] with drift",sku_store,intermittent,0.04730971184413
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_2_087_CA_3,cv3,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.0
+0,1,2,1,0,1,True,SKU_HOUSEHOLD_2_141_TX_2,cv3,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,intermittent,0.1359713555712431
+0,1,1,0,0,0,False,SKU_HOBBIES_1_020_TX_3,cv3,"ARIMA(0,1,1)",sku_store,intermittent,0.0517510380802642
+2,1,2,0,0,1,True,SKU_HOBBIES_1_018_CA_3,cv3,"ARIMA(2,1,2)(0,0,1)[52]",sku_store,intermittent,0.3400476445536045
+3,1,2,1,0,1,True,SKU_HOBBIES_2_137_WI_1,cv3,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,intermittent,0.1269599497126818
+1,0,0,1,0,0,True,SKU_FOODS_3_543_CA_4,cv3,"ARIMA(1,0,0)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.2095533275654842
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_1_400_TX_3,cv3,"ARIMA(0,1,1)",sku_store,intermittent,0.120967116365246
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_345_CA_4,cv3,"ARIMA(0,1,1) with drift",sku_store,intermittent,0.2766296017200095
+3,1,3,1,0,0,True,SKU_FOODS_1_197_WI_3,cv3,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,intermittent,0.2068310525300516
+3,1,1,1,0,0,True,SKU_HOUSEHOLD_2_052_CA_4,cv3,"ARIMA(3,1,1)(1,0,0)[52]",sku_store,intermittent,0.1482595039574155
+2,1,0,1,0,0,True,SKU_HOBBIES_1_095_WI_2,cv3,"ARIMA(2,1,0)(1,0,0)[52]",sku_store,intermittent,0.4362624034246813
+1,0,1,0,0,0,False,SKU_FOODS_3_123_TX_2,cv3,"ARIMA(1,0,1) with non-zero mean",sku_store,intermittent,0.0736921279129807
+2,1,2,1,0,0,True,SKU_FOODS_2_062_TX_1,cv3,"ARIMA(2,1,2)(1,0,0)[52]",sku_store,intermittent,0.1567433301160948
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_243_CA_3,cv3,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,intermittent,0.1366376444243829
+0,1,1,1,0,1,True,SKU_HOUSEHOLD_2_019_CA_1,cv3,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,intermittent,0.2125148483065195
+1,1,1,1,0,0,True,SKU_FOODS_3_611_WI_1,cv3,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,intermittent,0.2219743655297196
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_191_TX_1,cv3,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.491877489303959
+3,1,0,1,0,1,True,SKU_FOODS_2_126_TX_3,cv3,"ARIMA(3,1,0)(1,0,1)[52]",sku_store,intermittent,0.4117095999934945
+4,1,2,1,0,1,True,SKU_HOBBIES_1_023_TX_2,cv3,"ARIMA(4,1,2)(1,0,1)[52]",sku_store,intermittent,0.3499147297571039
+4,1,1,1,0,0,True,SKU_HOUSEHOLD_1_033_WI_3,cv3,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,intermittent,0.5327169345187932
+3,0,1,1,1,0,True,SKU_HOUSEHOLD_2_416_CA_3,cv3,"ARIMA(3,0,1)(1,1,0)[52]",sku_store,intermittent,0.6442299085453949
+2,0,4,1,0,0,True,SKU_FOODS_2_056_TX_2,cv3,"ARIMA(2,0,4)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1298358141589217
+2,1,3,1,0,1,True,SKU_FOODS_3_666_WI_3,cv3,"ARIMA(2,1,3)(1,0,1)[52]",sku_store,intermittent,0.1914693888401488
+3,1,1,1,0,0,True,SKU_FOODS_2_032_TX_3,cv3,"ARIMA(3,1,1)(1,0,0)[52]",sku_store,intermittent,0.2145305404867352
+2,0,0,1,0,1,True,SKU_FOODS_3_757_CA_1,cv3,"ARIMA(2,0,0)(1,0,1)[52] with non-zero mean",sku_store,intermittent,0.3806618943663502
+1,0,1,1,0,0,True,SKU_HOBBIES_1_220_CA_3,cv3,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1570966425948378
+1,1,2,1,0,0,True,SKU_HOBBIES_2_078_WI_3,cv3,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1726102122343017
+0,0,1,1,0,1,True,SKU_HOBBIES_2_112_TX_2,cv3,"ARIMA(0,0,1)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.0
+2,1,1,1,0,0,True,SKU_HOUSEHOLD_2_013_WI_3,cv3,"ARIMA(2,1,1)(1,0,0)[52] with drift",sku_store,lumpy,0.0508045058320826
+1,1,5,1,0,0,True,SKU_HOBBIES_2_019_CA_2,cv3,"ARIMA(1,1,5)(1,0,0)[52]",sku_store,lumpy,0.2553592010101302
+1,1,1,0,0,1,True,SKU_HOBBIES_2_113_WI_1,cv3,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,lumpy,0.2406220939846941
+0,0,0,0,0,0,False,SKU_HOBBIES_2_009_WI_1,cv3,"ARIMA(0,0,0) with non-zero mean",sku_store,lumpy,0.0237657933916003
+2,0,2,1,0,0,True,SKU_HOBBIES_2_102_WI_1,cv3,"ARIMA(2,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1407435204498658
+1,0,5,1,0,0,True,SKU_FOODS_3_567_TX_1,cv3,"ARIMA(1,0,5)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.0360094682757439
+0,0,1,0,0,0,False,SKU_HOUSEHOLD_2_504_WI_1,cv3,"ARIMA(0,0,1) with non-zero mean",sku_store,lumpy,0.1640471678610787
+1,0,1,0,0,0,False,SKU_FOODS_1_198_TX_1,cv3,"ARIMA(1,0,1) with non-zero mean",sku_store,lumpy,0.1610054611441173
+3,1,2,1,0,0,True,SKU_FOODS_2_358_TX_3,cv3,"ARIMA(3,1,2)(1,0,0)[52] with drift",sku_store,lumpy,0.3188918494673094
+5,1,4,1,0,0,True,SKU_HOBBIES_2_118_CA_2,cv3,"ARIMA(5,1,4)(1,0,0)[52]",sku_store,lumpy,0.0712311551902616
+0,1,1,1,0,1,True,SKU_FOODS_3_286_CA_2,cv3,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,lumpy,0.0
+1,1,2,1,0,1,True,SKU_HOUSEHOLD_2_479_TX_3,cv3,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,lumpy,0.2830457199905386
+1,0,1,0,0,1,True,SKU_HOBBIES_2_148_TX_3,cv3,"ARIMA(1,0,1)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4875220950328959
+0,1,1,1,0,0,True,SKU_FOODS_1_205_WI_3,cv3,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,lumpy,0.2268370824378193
+2,0,4,1,0,1,True,SKU_FOODS_2_163_WI_3,cv3,"ARIMA(2,0,4)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.4446575909709679
+1,0,2,1,0,1,True,SKU_FOODS_1_143_TX_1,cv3,"ARIMA(1,0,2)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.0428188296910502
+3,1,1,1,0,0,True,SKU_FOODS_2_284_TX_1,cv3,"ARIMA(3,1,1)(1,0,0)[52]",sku_store,lumpy,0.0
+1,0,1,1,0,0,True,SKU_FOODS_1_005_WI_2,cv3,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.4447699100749968
+0,0,2,1,0,0,True,SKU_FOODS_2_336_CA_3,cv3,"ARIMA(0,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.2825819180625336
+1,1,1,1,0,0,True,SKU_FOODS_1_142_WI_1,cv3,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,lumpy,0.2982116397909289
+1,0,1,0,0,1,True,SKU_FOODS_3_461_WI_1,cv3,"ARIMA(1,0,1)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4773641875917376
+3,1,3,1,0,0,True,SKU_FOODS_3_763_CA_1,cv3,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,lumpy,0.030429820944491
+1,1,2,1,0,0,True,SKU_FOODS_1_032_CA_2,cv3,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1433989651772154
+2,1,5,0,0,0,False,SKU_FOODS_3_566_TX_1,cv3,"ARIMA(2,1,5)",sku_store,lumpy,0.0651900932044329
+2,0,1,1,0,1,True,SKU_FOODS_2_029_WI_2,cv3,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.4128814424136623
+1,1,3,1,0,1,True,SKU_FOODS_2_229_CA_3,cv3,"ARIMA(1,1,3)(1,0,1)[52]",sku_store,lumpy,0.3679651286474682
+1,1,3,1,0,0,True,SKU_FOODS_3_569_TX_1,cv3,"ARIMA(1,1,3)(1,0,0)[52]",sku_store,lumpy,0.2346206707870767
+3,1,1,1,1,0,True,TOTAL,cv4,"ARIMA(3,1,1)(1,1,0)[52]",total,smooth,0.7457238405026624
+2,1,3,0,1,1,True,CAT_FOODS,cv4,"ARIMA(2,1,3)(0,1,1)[52]",category,smooth,0.6917216079658105
+2,1,3,0,0,1,True,CAT_HOBBIES,cv4,"ARIMA(2,1,3)(0,0,1)[52]",category,smooth,0.2349809739108953
+0,1,1,0,1,1,True,CAT_HOUSEHOLD,cv4,"ARIMA(0,1,1)(0,1,1)[52]",category,smooth,0.6343727733489117
+3,1,1,1,1,1,True,DEPT_FOODS_1,cv4,"ARIMA(3,1,1)(1,1,1)[52]",department,smooth,0.5731568892977186
+3,1,2,0,1,1,True,DEPT_FOODS_2,cv4,"ARIMA(3,1,2)(0,1,1)[52]",department,smooth,0.826482744714485
+1,1,1,0,1,1,True,DEPT_FOODS_3,cv4,"ARIMA(1,1,1)(0,1,1)[52]",department,smooth,0.5658971289343804
+0,1,1,0,0,0,False,DEPT_HOBBIES_1,cv4,"ARIMA(0,1,1)",department,smooth,0.1868963929207445
+0,1,3,1,1,1,True,DEPT_HOBBIES_2,cv4,"ARIMA(0,1,3)(1,1,1)[52]",department,smooth,0.7963620936236836
+2,1,3,1,1,0,True,DEPT_HOUSEHOLD_1,cv4,"ARIMA(2,1,3)(1,1,0)[52]",department,smooth,0.5659074125490369
+0,1,2,0,1,1,True,DEPT_HOUSEHOLD_2,cv4,"ARIMA(0,1,2)(0,1,1)[52]",department,smooth,0.8485744849878458
+0,1,5,0,0,1,True,STORE_CA_1,cv4,"ARIMA(0,1,5)(0,0,1)[52]",store,smooth,0.7621361174321719
+1,1,2,1,0,0,True,STORE_CA_2,cv4,"ARIMA(1,1,2)(1,0,0)[52]",store,smooth,0.1206846347627201
+3,1,0,0,1,1,True,STORE_CA_3,cv4,"ARIMA(3,1,0)(0,1,1)[52]",store,smooth,0.8337355403160065
+3,1,0,1,0,0,True,STORE_CA_4,cv4,"ARIMA(3,1,0)(1,0,0)[52]",store,smooth,0.5488691368391618
+1,1,2,0,1,1,True,STORE_TX_1,cv4,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.7183664618458153
+1,1,1,0,1,1,True,STORE_TX_2,cv4,"ARIMA(1,1,1)(0,1,1)[52]",store,smooth,0.6390588393639356
+1,1,2,0,1,1,True,STORE_TX_3,cv4,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.8220671355370699
+1,1,1,0,0,1,True,STORE_WI_1,cv4,"ARIMA(1,1,1)(0,0,1)[52]",store,smooth,0.2352850496325461
+2,1,3,1,1,1,True,STORE_WI_2,cv4,"ARIMA(2,1,3)(1,1,1)[52]",store,smooth,0.5754344997905281
+2,1,2,1,1,1,True,STORE_WI_3,cv4,"ARIMA(2,1,2)(1,1,1)[52]",store,smooth,0.4866923459839704
+0,1,2,0,0,1,True,SD_CA_1_FOODS_1,cv4,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.5838930617296845
+2,1,2,1,1,1,True,SD_CA_1_FOODS_2,cv4,"ARIMA(2,1,2)(1,1,1)[52]",store_dept,smooth,0.7364032696223604
+3,1,2,1,0,1,True,SD_CA_1_FOODS_3,cv4,"ARIMA(3,1,2)(1,0,1)[52]",store_dept,smooth,0.4724151467878473
+0,1,1,1,0,0,True,SD_CA_1_HOBBIES_1,cv4,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.1348830418606841
+1,1,1,1,0,0,True,SD_CA_1_HOBBIES_2,cv4,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.6415350908911718
+1,1,2,1,1,0,True,SD_CA_1_HOUSEHOLD_1,cv4,"ARIMA(1,1,2)(1,1,0)[52]",store_dept,smooth,0.6150928172282512
+1,1,1,0,1,1,True,SD_CA_1_HOUSEHOLD_2,cv4,"ARIMA(1,1,1)(0,1,1)[52]",store_dept,smooth,0.8386861796965452
+1,1,1,1,0,0,True,SD_CA_2_FOODS_1,cv4,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.4110094855906149
+0,2,1,0,0,1,True,SD_CA_2_FOODS_2,cv4,"ARIMA(0,2,1)(0,0,1)[52]",store_dept,smooth,0.0338384088228448
+0,1,1,1,0,1,True,SD_CA_2_FOODS_3,cv4,"ARIMA(0,1,1)(1,0,1)[52]",store_dept,smooth,0.3099941285584305
+1,0,1,1,0,0,True,SD_CA_2_HOBBIES_1,cv4,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",store_dept,smooth,0.1865374526480152
+1,1,1,0,1,1,True,SD_CA_2_HOBBIES_2,cv4,"ARIMA(1,1,1)(0,1,1)[52]",store_dept,smooth,0.7848308242780416
+0,1,1,0,0,1,True,SD_CA_2_HOUSEHOLD_1,cv4,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2507091857050236
+0,1,2,1,0,1,True,SD_CA_2_HOUSEHOLD_2,cv4,"ARIMA(0,1,2)(1,0,1)[52]",store_dept,smooth,0.2951405009309222
+0,1,2,0,0,1,True,SD_CA_3_FOODS_1,cv4,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.4172685030413953
+3,1,0,1,1,0,True,SD_CA_3_FOODS_2,cv4,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.7418815264477833
+0,1,2,0,0,1,True,SD_CA_3_FOODS_3,cv4,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6010781153830844
+0,1,1,0,0,0,False,SD_CA_3_HOBBIES_1,cv4,"ARIMA(0,1,1)",store_dept,smooth,0.2139150294960272
+2,1,1,0,0,1,True,SD_CA_3_HOBBIES_2,cv4,"ARIMA(2,1,1)(0,0,1)[52] with drift",store_dept,smooth,0.6516128410110977
+0,1,1,1,1,0,True,SD_CA_3_HOUSEHOLD_1,cv4,"ARIMA(0,1,1)(1,1,0)[52]",store_dept,smooth,0.7434013396543463
+1,1,2,1,0,0,True,SD_CA_3_HOUSEHOLD_2,cv4,"ARIMA(1,1,2)(1,0,0)[52]",store_dept,smooth,0.7148278824120615
+1,1,1,1,0,0,True,SD_CA_4_FOODS_1,cv4,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.5569992966795839
+0,1,1,1,0,0,True,SD_CA_4_FOODS_2,cv4,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.6317129476750833
+2,1,3,1,0,1,True,SD_CA_4_FOODS_3,cv4,"ARIMA(2,1,3)(1,0,1)[52]",store_dept,smooth,0.5266293757468128
+0,1,1,0,0,1,True,SD_CA_4_HOBBIES_1,cv4,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.210512658387666
+0,1,3,0,1,1,True,SD_CA_4_HOBBIES_2,cv4,"ARIMA(0,1,3)(0,1,1)[52]",store_dept,smooth,0.7498592400694645
+0,1,1,1,1,1,True,SD_CA_4_HOUSEHOLD_1,cv4,"ARIMA(0,1,1)(1,1,1)[52]",store_dept,smooth,0.6630459457428135
+0,1,1,0,0,1,True,SD_CA_4_HOUSEHOLD_2,cv4,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5334541874290218
+0,1,2,0,0,1,True,SD_TX_1_FOODS_1,cv4,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.4216979801121011
+5,1,1,1,1,1,True,SD_TX_1_FOODS_2,cv4,"ARIMA(5,1,1)(1,1,1)[52]",store_dept,smooth,0.7969765217173661
+3,1,0,1,0,0,True,SD_TX_1_FOODS_3,cv4,"ARIMA(3,1,0)(1,0,0)[52]",store_dept,smooth,0.572223455539624
+0,1,1,0,0,0,False,SD_TX_1_HOBBIES_1,cv4,"ARIMA(0,1,1)",store_dept,smooth,0.4358821413832611
+2,1,1,0,0,1,True,SD_TX_1_HOBBIES_2,cv4,"ARIMA(2,1,1)(0,0,1)[52]",store_dept,smooth,0.6355974259139399
+1,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_1,cv4,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.4604031791801614
+0,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_2,cv4,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5501555810926928
+0,1,2,1,0,0,True,SD_TX_2_FOODS_1,cv4,"ARIMA(0,1,2)(1,0,0)[52]",store_dept,smooth,0.3557974061502851
+3,1,0,1,1,0,True,SD_TX_2_FOODS_2,cv4,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.7560502253436914
+5,1,2,1,0,1,True,SD_TX_2_FOODS_3,cv4,"ARIMA(5,1,2)(1,0,1)[52]",store_dept,smooth,0.4740985321754031
+0,1,1,0,0,0,False,SD_TX_2_HOBBIES_1,cv4,"ARIMA(0,1,1)",store_dept,smooth,0.2366926613839999
+0,1,2,1,1,0,True,SD_TX_2_HOBBIES_2,cv4,"ARIMA(0,1,2)(1,1,0)[52]",store_dept,smooth,0.7241176032922654
+2,1,1,0,0,1,True,SD_TX_2_HOUSEHOLD_1,cv4,"ARIMA(2,1,1)(0,0,1)[52]",store_dept,smooth,0.2371757856727998
+2,1,1,1,1,1,True,SD_TX_2_HOUSEHOLD_2,cv4,"ARIMA(2,1,1)(1,1,1)[52]",store_dept,smooth,0.7686587585101277
+0,1,2,1,1,1,True,SD_TX_3_FOODS_1,cv4,"ARIMA(0,1,2)(1,1,1)[52]",store_dept,smooth,0.6104351762931688
+3,1,0,1,1,0,True,SD_TX_3_FOODS_2,cv4,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.8258512828516101
+1,1,2,0,1,1,True,SD_TX_3_FOODS_3,cv4,"ARIMA(1,1,2)(0,1,1)[52]",store_dept,smooth,0.6456253829719367
+1,1,1,0,0,0,False,SD_TX_3_HOBBIES_1,cv4,"ARIMA(1,1,1) with drift",store_dept,smooth,0.4103958395536419
+0,1,1,0,1,1,True,SD_TX_3_HOBBIES_2,cv4,"ARIMA(0,1,1)(0,1,1)[52]",store_dept,smooth,0.6837363506516803
+0,1,4,0,0,1,True,SD_TX_3_HOUSEHOLD_1,cv4,"ARIMA(0,1,4)(0,0,1)[52]",store_dept,smooth,0.4723341889405175
+0,1,1,0,0,1,True,SD_TX_3_HOUSEHOLD_2,cv4,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.54584146823605
+1,1,1,1,0,0,True,SD_WI_1_FOODS_1,cv4,"ARIMA(1,1,1)(1,0,0)[52] with drift",store_dept,smooth,0.4797729339613138
+5,1,1,0,0,1,True,SD_WI_1_FOODS_2,cv4,"ARIMA(5,1,1)(0,0,1)[52]",store_dept,smooth,0.2791411297191126
+3,1,4,0,0,1,True,SD_WI_1_FOODS_3,cv4,"ARIMA(3,1,4)(0,0,1)[52] with drift",store_dept,smooth,0.1434913570461443
+2,1,3,1,0,0,True,SD_WI_1_HOBBIES_1,cv4,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2224897799039942
+1,1,2,0,0,1,True,SD_WI_1_HOBBIES_2,cv4,"ARIMA(1,1,2)(0,0,1)[52]",store_dept,smooth,0.5675948415204585
+1,1,2,0,0,1,True,SD_WI_1_HOUSEHOLD_1,cv4,"ARIMA(1,1,2)(0,0,1)[52] with drift",store_dept,smooth,0.3993482838552818
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_2,cv4,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.3917122528204337
+3,1,0,0,0,1,True,SD_WI_2_FOODS_1,cv4,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.5204020679940976
+3,1,2,1,1,0,True,SD_WI_2_FOODS_2,cv4,"ARIMA(3,1,2)(1,1,0)[52]",store_dept,smooth,0.5956280360595564
+4,1,2,1,1,0,True,SD_WI_2_FOODS_3,cv4,"ARIMA(4,1,2)(1,1,0)[52]",store_dept,smooth,0.6701718447136187
+0,1,1,0,0,1,True,SD_WI_2_HOBBIES_1,cv4,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2665567638093762
+1,1,1,0,0,1,True,SD_WI_2_HOBBIES_2,cv4,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.7129833680872035
+0,1,1,0,0,1,True,SD_WI_2_HOUSEHOLD_1,cv4,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5606662116569663
+2,1,3,0,0,1,True,SD_WI_2_HOUSEHOLD_2,cv4,"ARIMA(2,1,3)(0,0,1)[52]",store_dept,smooth,0.5080219131790424
+3,1,0,0,0,1,True,SD_WI_3_FOODS_1,cv4,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.258747346301146
+2,1,3,1,1,0,True,SD_WI_3_FOODS_2,cv4,"ARIMA(2,1,3)(1,1,0)[52]",store_dept,smooth,0.8258146438996834
+5,1,0,1,0,0,True,SD_WI_3_FOODS_3,cv4,"ARIMA(5,1,0)(1,0,0)[52]",store_dept,smooth,0.3827128544728986
+2,1,3,1,0,0,True,SD_WI_3_HOBBIES_1,cv4,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2250020350364856
+2,1,1,1,0,0,True,SD_WI_3_HOBBIES_2,cv4,"ARIMA(2,1,1)(1,0,0)[52]",store_dept,smooth,0.5275963779504971
+0,1,1,1,0,0,True,SD_WI_3_HOUSEHOLD_1,cv4,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.4212074203199437
+0,1,1,1,0,0,True,SD_WI_3_HOUSEHOLD_2,cv4,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.6694175160984497
+0,0,0,0,0,1,True,SKU_FOODS_2_122_CA_1,cv4,"ARIMA(0,0,0)(0,0,1)[52] with non-zero mean",sku_store,smooth,0.4963481602316641
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_1_525_WI_1,cv4,"ARIMA(1,1,1) with drift",sku_store,smooth,0.3461673267161937
+4,1,1,1,0,0,True,SKU_FOODS_2_202_CA_1,cv4,"ARIMA(4,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.2526834197271117
+0,1,2,1,0,0,True,SKU_HOUSEHOLD_1_200_TX_3,cv4,"ARIMA(0,1,2)(1,0,0)[52]",sku_store,smooth,0.1639245509679978
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_381_TX_1,cv4,"ARIMA(0,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.4277438995993704
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_241_TX_1,cv4,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.2539582198113893
+4,1,4,1,0,1,True,SKU_FOODS_3_128_TX_3,cv4,"ARIMA(4,1,4)(1,0,1)[52]",sku_store,smooth,0.3038249145626494
+0,1,2,1,0,0,True,SKU_FOODS_3_045_CA_1,cv4,"ARIMA(0,1,2)(1,0,0)[52]",sku_store,smooth,0.3876119433542889
+5,1,0,1,0,1,True,SKU_HOBBIES_1_133_CA_3,cv4,"ARIMA(5,1,0)(1,0,1)[52]",sku_store,smooth,0.3487745166305719
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_452_WI_2,cv4,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,smooth,0.1539690433979751
+5,0,1,0,0,0,False,SKU_HOUSEHOLD_1_443_WI_1,cv4,"ARIMA(5,0,1) with non-zero mean",sku_store,smooth,0.2387959531124588
+1,1,2,0,0,0,False,SKU_FOODS_1_081_CA_4,cv4,"ARIMA(1,1,2)",sku_store,smooth,0.2331167155810971
+1,1,2,1,0,0,True,SKU_HOBBIES_1_416_CA_4,cv4,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2262608821949687
+1,1,1,1,0,1,True,SKU_FOODS_3_434_TX_2,cv4,"ARIMA(1,1,1)(1,0,1)[52]",sku_store,smooth,0.1049711862040042
+1,1,1,0,0,0,False,SKU_FOODS_3_513_WI_1,cv4,"ARIMA(1,1,1) with drift",sku_store,smooth,0.3302929561091968
+1,1,2,1,0,0,True,SKU_HOUSEHOLD_2_075_CA_2,cv4,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2336929421176314
+2,0,0,1,0,1,True,SKU_FOODS_3_451_CA_4,cv4,"ARIMA(2,0,0)(1,0,1)[52] with non-zero mean",sku_store,smooth,0.4788025225780494
+0,1,3,0,0,0,False,SKU_HOUSEHOLD_2_427_TX_1,cv4,"ARIMA(0,1,3)",sku_store,smooth,0.3976918474540944
+0,1,2,1,0,1,True,SKU_FOODS_3_675_TX_1,cv4,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,smooth,0.0
+5,1,0,1,0,0,True,SKU_HOUSEHOLD_1_030_WI_3,cv4,"ARIMA(5,1,0)(1,0,0)[52]",sku_store,smooth,0.4752231397613166
+1,1,1,0,0,1,True,SKU_FOODS_1_110_TX_3,cv4,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,smooth,0.174838205226229
+3,1,2,1,0,1,True,SKU_HOBBIES_1_209_WI_1,cv4,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,smooth,0.454066172466973
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_2_176_CA_3,cv4,"ARIMA(1,0,1) with non-zero mean",sku_store,smooth,0.3701628740502274
+2,1,2,1,0,0,True,SKU_FOODS_3_295_CA_4,cv4,"ARIMA(2,1,2)(1,0,0)[52]",sku_store,smooth,0.2115019773341044
+0,1,2,1,0,1,True,SKU_FOODS_3_302_CA_3,cv4,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,smooth,0.1928441868777138
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_366_CA_2,cv4,"ARIMA(0,1,1)",sku_store,smooth,0.2395880625491847
+2,1,3,1,0,1,True,SKU_FOODS_3_227_TX_2,cv4,"ARIMA(2,1,3)(1,0,1)[52]",sku_store,smooth,0.1424092263434075
+0,1,1,0,0,0,False,SKU_FOODS_3_339_WI_2,cv4,"ARIMA(0,1,1)",sku_store,smooth,0.2245259484691487
+4,1,1,1,0,0,True,SKU_FOODS_3_195_WI_3,cv4,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,smooth,0.0025373783543508
+1,0,0,0,0,0,False,SKU_FOODS_3_076_CA_1,cv4,"ARIMA(1,0,0) with non-zero mean",sku_store,smooth,0.1732471469476708
+2,1,1,0,0,0,False,SKU_FOODS_2_342_WI_3,cv4,"ARIMA(2,1,1) with drift",sku_store,erratic,0.2618693067817291
+1,1,1,1,0,0,True,SKU_FOODS_3_571_TX_1,cv4,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.0900401137307322
+0,1,1,1,0,1,True,SKU_FOODS_1_203_WI_1,cv4,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,erratic,0.1668325267008653
+0,1,1,0,0,0,False,SKU_FOODS_1_024_TX_1,cv4,"ARIMA(0,1,1)",sku_store,erratic,0.1730082660855957
+2,0,0,1,0,0,True,SKU_FOODS_3_725_TX_3,cv4,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.2199811830125232
+0,1,3,1,0,0,True,SKU_HOUSEHOLD_2_329_WI_1,cv4,"ARIMA(0,1,3)(1,0,0)[52]",sku_store,erratic,0.0482350320477205
+1,1,2,1,0,0,True,SKU_FOODS_2_358_TX_1,cv4,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,erratic,0.179498509511492
+1,1,2,1,0,1,True,SKU_HOUSEHOLD_1_481_WI_3,cv4,"ARIMA(1,1,2)(1,0,1)[52] with drift",sku_store,erratic,0.265239310021257
+1,1,1,1,0,0,True,SKU_HOUSEHOLD_1_504_CA_3,cv4,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.221783950993174
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_054_WI_3,cv4,"ARIMA(0,1,1)",sku_store,erratic,0.176145084979042
+0,1,1,0,0,0,False,SKU_FOODS_3_271_TX_3,cv4,"ARIMA(0,1,1)",sku_store,erratic,0.0
+0,1,1,0,0,0,False,SKU_FOODS_3_271_WI_2,cv4,"ARIMA(0,1,1)",sku_store,erratic,0.0713914584384046
+1,0,2,0,0,1,True,SKU_FOODS_1_069_CA_3,cv4,"ARIMA(1,0,2)(0,0,1)[52] with non-zero mean",sku_store,erratic,0.487638701702146
+1,0,1,0,1,1,True,SKU_FOODS_1_180_TX_3,cv4,"ARIMA(1,0,1)(0,1,1)[52] with drift",sku_store,erratic,0.718190399262036
+0,1,1,1,0,0,True,SKU_FOODS_2_284_WI_3,cv4,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.1718797119486104
+1,0,2,1,0,0,True,SKU_HOBBIES_1_248_TX_3,cv4,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.3704579300992806
+0,0,1,0,0,0,False,SKU_FOODS_2_255_TX_1,cv4,"ARIMA(0,0,1) with non-zero mean",sku_store,erratic,0.8255530076942275
+1,1,1,0,0,0,False,SKU_FOODS_3_432_CA_2,cv4,"ARIMA(1,1,1)",sku_store,erratic,0.1130175562778871
+2,1,4,1,0,1,True,SKU_FOODS_2_103_TX_2,cv4,"ARIMA(2,1,4)(1,0,1)[52]",sku_store,erratic,0.2304762739600374
+2,0,0,1,0,1,True,SKU_HOBBIES_1_255_CA_4,cv4,"ARIMA(2,0,0)(1,0,1)[52] with non-zero mean",sku_store,erratic,0.3862651463110503
+2,1,1,1,0,0,True,SKU_FOODS_3_594_TX_3,cv4,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,erratic,0.2178818725872853
+4,1,1,1,0,0,True,SKU_FOODS_3_468_CA_3,cv4,"ARIMA(4,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.1320669360628287
+1,0,0,1,0,0,True,SKU_FOODS_2_255_CA_1,cv4,"ARIMA(1,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.7468756596819749
+1,1,2,1,0,1,True,SKU_FOODS_2_029_CA_3,cv4,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,erratic,0.3422383194955598
+0,1,1,1,0,0,True,SKU_FOODS_3_185_CA_3,cv4,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.0830147296401264
+1,0,0,0,0,0,False,SKU_FOODS_3_809_CA_2,cv4,"ARIMA(1,0,0) with non-zero mean",sku_store,erratic,0.2010433420182665
+1,1,1,0,0,0,False,SKU_FOODS_3_086_TX_3,cv4,"ARIMA(1,1,1) with drift",sku_store,erratic,0.0
+1,1,1,0,0,0,False,SKU_FOODS_3_614_WI_2,cv4,"ARIMA(1,1,1)",sku_store,erratic,0.1039317895126006
+1,0,2,1,0,0,True,SKU_FOODS_3_319_WI_2,cv4,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.4615332846967944
+2,1,1,0,0,1,True,SKU_FOODS_3_332_WI_2,cv4,"ARIMA(2,1,1)(0,0,1)[52]",sku_store,erratic,0.1455847526039598
+3,0,2,0,0,0,False,SKU_HOUSEHOLD_2_198_CA_4,cv4,"ARIMA(3,0,2) with non-zero mean",sku_store,intermittent,0.2027028926043762
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_2_097_WI_1,cv4,"ARIMA(1,1,1)",sku_store,intermittent,0.0
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_207_TX_3,cv4,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,intermittent,0.1962724346285839
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_138_CA_1,cv4,"ARIMA(0,1,1)(1,0,0)[52] with drift",sku_store,intermittent,0.2316848798171935
+2,1,3,1,0,0,True,SKU_HOBBIES_1_192_TX_2,cv4,"ARIMA(2,1,3)(1,0,0)[52]",sku_store,intermittent,0.04730971184413
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_2_087_CA_3,cv4,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.0
+0,1,2,1,0,1,True,SKU_HOUSEHOLD_2_141_TX_2,cv4,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,intermittent,0.1359713555712431
+0,1,1,0,0,0,False,SKU_HOBBIES_1_020_TX_3,cv4,"ARIMA(0,1,1)",sku_store,intermittent,0.0517510380802642
+2,1,2,0,0,1,True,SKU_HOBBIES_1_018_CA_3,cv4,"ARIMA(2,1,2)(0,0,1)[52]",sku_store,intermittent,0.3400476445536045
+0,1,1,1,0,1,True,SKU_HOBBIES_2_137_WI_1,cv4,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,intermittent,0.1269599497126818
+1,1,3,1,0,0,True,SKU_FOODS_3_543_CA_4,cv4,"ARIMA(1,1,3)(1,0,0)[52]",sku_store,intermittent,0.2095533275654842
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_1_400_TX_3,cv4,"ARIMA(1,0,1) with non-zero mean",sku_store,intermittent,0.120967116365246
+3,1,1,0,0,0,False,SKU_HOUSEHOLD_2_345_CA_4,cv4,"ARIMA(3,1,1) with drift",sku_store,intermittent,0.2766296017200095
+3,1,3,1,0,0,True,SKU_FOODS_1_197_WI_3,cv4,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,intermittent,0.2068310525300516
+2,1,1,1,0,0,True,SKU_HOUSEHOLD_2_052_CA_4,cv4,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.1482595039574155
+3,1,0,1,0,0,True,SKU_HOBBIES_1_095_WI_2,cv4,"ARIMA(3,1,0)(1,0,0)[52]",sku_store,intermittent,0.4362624034246813
+1,0,1,0,0,0,False,SKU_FOODS_3_123_TX_2,cv4,"ARIMA(1,0,1) with non-zero mean",sku_store,intermittent,0.0736921279129807
+2,1,2,1,0,0,True,SKU_FOODS_2_062_TX_1,cv4,"ARIMA(2,1,2)(1,0,0)[52]",sku_store,intermittent,0.1567433301160948
+4,1,1,1,0,0,True,SKU_HOUSEHOLD_2_243_CA_3,cv4,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,intermittent,0.1366376444243829
+0,1,1,1,0,1,True,SKU_HOUSEHOLD_2_019_CA_1,cv4,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,intermittent,0.2125148483065195
+1,1,1,1,0,0,True,SKU_FOODS_3_611_WI_1,cv4,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,intermittent,0.2219743655297196
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_191_TX_1,cv4,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.491877489303959
+2,1,1,1,0,0,True,SKU_FOODS_2_126_TX_3,cv4,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.4117095999934945
+3,1,2,1,0,1,True,SKU_HOBBIES_1_023_TX_2,cv4,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,intermittent,0.3499147297571039
+4,1,1,1,0,0,True,SKU_HOUSEHOLD_1_033_WI_3,cv4,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,intermittent,0.5327169345187932
+3,0,2,1,1,1,True,SKU_HOUSEHOLD_2_416_CA_3,cv4,"ARIMA(3,0,2)(1,1,1)[52]",sku_store,intermittent,0.6442299085453949
+2,0,4,1,0,0,True,SKU_FOODS_2_056_TX_2,cv4,"ARIMA(2,0,4)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1298358141589217
+2,1,1,1,0,1,True,SKU_FOODS_3_666_WI_3,cv4,"ARIMA(2,1,1)(1,0,1)[52]",sku_store,intermittent,0.1914693888401488
+3,1,1,1,0,0,True,SKU_FOODS_2_032_TX_3,cv4,"ARIMA(3,1,1)(1,0,0)[52]",sku_store,intermittent,0.2145305404867352
+2,0,0,1,0,1,True,SKU_FOODS_3_757_CA_1,cv4,"ARIMA(2,0,0)(1,0,1)[52] with non-zero mean",sku_store,intermittent,0.3806618943663502
+1,0,2,1,0,0,True,SKU_HOBBIES_1_220_CA_3,cv4,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1570966425948378
+1,1,2,1,0,0,True,SKU_HOBBIES_2_078_WI_3,cv4,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1726102122343017
+0,1,1,0,0,0,False,SKU_HOBBIES_2_112_TX_2,cv4,"ARIMA(0,1,1)",sku_store,lumpy,0.0
+4,1,1,1,0,0,True,SKU_HOUSEHOLD_2_013_WI_3,cv4,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,lumpy,0.0508045058320826
+1,1,2,1,0,0,True,SKU_HOBBIES_2_019_CA_2,cv4,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.2553592010101302
+1,1,1,0,0,1,True,SKU_HOBBIES_2_113_WI_1,cv4,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,lumpy,0.2406220939846941
+0,0,0,0,0,0,False,SKU_HOBBIES_2_009_WI_1,cv4,"ARIMA(0,0,0) with non-zero mean",sku_store,lumpy,0.0237657933916003
+2,0,1,1,0,0,True,SKU_HOBBIES_2_102_WI_1,cv4,"ARIMA(2,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1407435204498658
+1,0,1,1,0,0,True,SKU_FOODS_3_567_TX_1,cv4,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.0360094682757439
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_504_WI_1,cv4,"ARIMA(0,1,1) with drift",sku_store,lumpy,0.1640471678610787
+1,0,1,0,0,0,False,SKU_FOODS_1_198_TX_1,cv4,"ARIMA(1,0,1) with non-zero mean",sku_store,lumpy,0.1610054611441173
+0,1,4,1,0,1,True,SKU_FOODS_2_358_TX_3,cv4,"ARIMA(0,1,4)(1,0,1)[52]",sku_store,lumpy,0.3188918494673094
+5,1,5,1,0,0,True,SKU_HOBBIES_2_118_CA_2,cv4,"ARIMA(5,1,5)(1,0,0)[52]",sku_store,lumpy,0.0712311551902616
+0,1,1,1,0,1,True,SKU_FOODS_3_286_CA_2,cv4,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,lumpy,0.0
+1,1,2,1,0,1,True,SKU_HOUSEHOLD_2_479_TX_3,cv4,"ARIMA(1,1,2)(1,0,1)[52]",sku_store,lumpy,0.2830457199905386
+1,0,1,0,0,1,True,SKU_HOBBIES_2_148_TX_3,cv4,"ARIMA(1,0,1)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4875220950328959
+0,1,1,1,0,0,True,SKU_FOODS_1_205_WI_3,cv4,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,lumpy,0.2268370824378193
+2,0,2,1,0,1,True,SKU_FOODS_2_163_WI_3,cv4,"ARIMA(2,0,2)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.4446575909709679
+0,1,1,1,0,1,True,SKU_FOODS_1_143_TX_1,cv4,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,lumpy,0.0428188296910502
+3,1,1,1,0,0,True,SKU_FOODS_2_284_TX_1,cv4,"ARIMA(3,1,1)(1,0,0)[52]",sku_store,lumpy,0.0
+1,0,1,1,0,0,True,SKU_FOODS_1_005_WI_2,cv4,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.4447699100749968
+2,0,0,1,0,0,True,SKU_FOODS_2_336_CA_3,cv4,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.2825819180625336
+1,1,2,1,0,0,True,SKU_FOODS_1_142_WI_1,cv4,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.2982116397909289
+1,0,1,0,0,1,True,SKU_FOODS_3_461_WI_1,cv4,"ARIMA(1,0,1)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4773641875917376
+3,1,3,1,0,0,True,SKU_FOODS_3_763_CA_1,cv4,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,lumpy,0.030429820944491
+1,1,2,1,0,0,True,SKU_FOODS_1_032_CA_2,cv4,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1433989651772154
+2,1,1,0,0,0,False,SKU_FOODS_3_566_TX_1,cv4,"ARIMA(2,1,1)",sku_store,lumpy,0.0651900932044329
+2,0,1,1,0,1,True,SKU_FOODS_2_029_WI_2,cv4,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.4128814424136623
+1,1,3,1,0,1,True,SKU_FOODS_2_229_CA_3,cv4,"ARIMA(1,1,3)(1,0,1)[52]",sku_store,lumpy,0.3679651286474682
+1,1,3,1,0,0,True,SKU_FOODS_3_569_TX_1,cv4,"ARIMA(1,1,3)(1,0,0)[52]",sku_store,lumpy,0.2346206707870767
+3,1,1,1,1,0,True,TOTAL,holdout,"ARIMA(3,1,1)(1,1,0)[52]",total,smooth,0.7457238405026624
+2,1,3,0,1,1,True,CAT_FOODS,holdout,"ARIMA(2,1,3)(0,1,1)[52]",category,smooth,0.6917216079658105
+1,1,1,0,0,1,True,CAT_HOBBIES,holdout,"ARIMA(1,1,1)(0,0,1)[52]",category,smooth,0.2349809739108953
+2,1,1,1,1,0,True,CAT_HOUSEHOLD,holdout,"ARIMA(2,1,1)(1,1,0)[52]",category,smooth,0.6343727733489117
+3,1,1,0,0,1,True,DEPT_FOODS_1,holdout,"ARIMA(3,1,1)(0,0,1)[52] with drift",department,smooth,0.5731568892977186
+4,1,2,0,1,1,True,DEPT_FOODS_2,holdout,"ARIMA(4,1,2)(0,1,1)[52]",department,smooth,0.826482744714485
+1,1,1,0,1,1,True,DEPT_FOODS_3,holdout,"ARIMA(1,1,1)(0,1,1)[52]",department,smooth,0.5658971289343804
+0,1,1,0,0,1,True,DEPT_HOBBIES_1,holdout,"ARIMA(0,1,1)(0,0,1)[52]",department,smooth,0.1868963929207445
+0,1,3,1,1,1,True,DEPT_HOBBIES_2,holdout,"ARIMA(0,1,3)(1,1,1)[52]",department,smooth,0.7963620936236836
+2,1,1,1,1,0,True,DEPT_HOUSEHOLD_1,holdout,"ARIMA(2,1,1)(1,1,0)[52]",department,smooth,0.5659074125490369
+0,1,2,0,1,1,True,DEPT_HOUSEHOLD_2,holdout,"ARIMA(0,1,2)(0,1,1)[52]",department,smooth,0.8485744849878458
+4,1,0,0,1,1,True,STORE_CA_1,holdout,"ARIMA(4,1,0)(0,1,1)[52]",store,smooth,0.7621361174321719
+1,1,0,1,0,0,True,STORE_CA_2,holdout,"ARIMA(1,1,0)(1,0,0)[52]",store,smooth,0.1206846347627201
+3,1,0,0,1,1,True,STORE_CA_3,holdout,"ARIMA(3,1,0)(0,1,1)[52]",store,smooth,0.8337355403160065
+0,1,1,1,1,0,True,STORE_CA_4,holdout,"ARIMA(0,1,1)(1,1,0)[52]",store,smooth,0.5488691368391618
+1,1,2,0,1,1,True,STORE_TX_1,holdout,"ARIMA(1,1,2)(0,1,1)[52]",store,smooth,0.7183664618458153
+1,1,1,1,1,0,True,STORE_TX_2,holdout,"ARIMA(1,1,1)(1,1,0)[52]",store,smooth,0.6390588393639356
+1,1,1,1,1,0,True,STORE_TX_3,holdout,"ARIMA(1,1,1)(1,1,0)[52]",store,smooth,0.8220671355370699
+1,1,1,0,0,1,True,STORE_WI_1,holdout,"ARIMA(1,1,1)(0,0,1)[52] with drift",store,smooth,0.2352850496325461
+2,1,3,1,1,0,True,STORE_WI_2,holdout,"ARIMA(2,1,3)(1,1,0)[52]",store,smooth,0.5754344997905281
+2,1,3,1,1,0,True,STORE_WI_3,holdout,"ARIMA(2,1,3)(1,1,0)[52]",store,smooth,0.4866923459839704
+0,1,2,0,0,1,True,SD_CA_1_FOODS_1,holdout,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.5838930617296845
+2,1,2,1,1,1,True,SD_CA_1_FOODS_2,holdout,"ARIMA(2,1,2)(1,1,1)[52]",store_dept,smooth,0.7364032696223604
+5,1,2,1,0,1,True,SD_CA_1_FOODS_3,holdout,"ARIMA(5,1,2)(1,0,1)[52]",store_dept,smooth,0.4724151467878473
+0,1,1,1,0,0,True,SD_CA_1_HOBBIES_1,holdout,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.1348830418606841
+1,1,1,1,0,0,True,SD_CA_1_HOBBIES_2,holdout,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.6415350908911718
+1,1,2,1,1,0,True,SD_CA_1_HOUSEHOLD_1,holdout,"ARIMA(1,1,2)(1,1,0)[52]",store_dept,smooth,0.6150928172282512
+1,0,1,0,1,1,True,SD_CA_1_HOUSEHOLD_2,holdout,"ARIMA(1,0,1)(0,1,1)[52] with drift",store_dept,smooth,0.8386861796965452
+0,1,2,1,0,1,True,SD_CA_2_FOODS_1,holdout,"ARIMA(0,1,2)(1,0,1)[52]",store_dept,smooth,0.4110094855906149
+0,1,0,0,0,1,True,SD_CA_2_FOODS_2,holdout,"ARIMA(0,1,0)(0,0,1)[52]",store_dept,smooth,0.0338384088228448
+1,1,2,1,0,1,True,SD_CA_2_FOODS_3,holdout,"ARIMA(1,1,2)(1,0,1)[52]",store_dept,smooth,0.3099941285584305
+0,1,1,1,0,0,True,SD_CA_2_HOBBIES_1,holdout,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.1865374526480152
+1,1,1,0,1,1,True,SD_CA_2_HOBBIES_2,holdout,"ARIMA(1,1,1)(0,1,1)[52]",store_dept,smooth,0.7848308242780416
+0,1,1,0,0,1,True,SD_CA_2_HOUSEHOLD_1,holdout,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2507091857050236
+0,1,2,1,0,1,True,SD_CA_2_HOUSEHOLD_2,holdout,"ARIMA(0,1,2)(1,0,1)[52]",store_dept,smooth,0.2951405009309222
+0,1,2,0,0,1,True,SD_CA_3_FOODS_1,holdout,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.4172685030413953
+3,1,0,1,1,1,True,SD_CA_3_FOODS_2,holdout,"ARIMA(3,1,0)(1,1,1)[52]",store_dept,smooth,0.7418815264477833
+2,1,2,1,0,1,True,SD_CA_3_FOODS_3,holdout,"ARIMA(2,1,2)(1,0,1)[52]",store_dept,smooth,0.6010781153830844
+0,1,1,0,0,0,False,SD_CA_3_HOBBIES_1,holdout,"ARIMA(0,1,1)",store_dept,smooth,0.2139150294960272
+1,1,1,0,0,1,True,SD_CA_3_HOBBIES_2,holdout,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.6516128410110977
+0,1,1,1,1,0,True,SD_CA_3_HOUSEHOLD_1,holdout,"ARIMA(0,1,1)(1,1,0)[52]",store_dept,smooth,0.7434013396543463
+4,0,0,0,1,1,True,SD_CA_3_HOUSEHOLD_2,holdout,"ARIMA(4,0,0)(0,1,1)[52]",store_dept,smooth,0.7148278824120615
+1,1,1,1,0,0,True,SD_CA_4_FOODS_1,holdout,"ARIMA(1,1,1)(1,0,0)[52]",store_dept,smooth,0.5569992966795839
+0,1,1,1,0,0,True,SD_CA_4_FOODS_2,holdout,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.6317129476750833
+0,1,2,1,0,0,True,SD_CA_4_FOODS_3,holdout,"ARIMA(0,1,2)(1,0,0)[52]",store_dept,smooth,0.5266293757468128
+0,1,1,0,0,1,True,SD_CA_4_HOBBIES_1,holdout,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.210512658387666
+1,0,1,0,1,1,True,SD_CA_4_HOBBIES_2,holdout,"ARIMA(1,0,1)(0,1,1)[52] with drift",store_dept,smooth,0.7498592400694645
+0,1,1,1,1,1,True,SD_CA_4_HOUSEHOLD_1,holdout,"ARIMA(0,1,1)(1,1,1)[52]",store_dept,smooth,0.6630459457428135
+0,1,1,0,0,1,True,SD_CA_4_HOUSEHOLD_2,holdout,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5334541874290218
+0,1,2,0,0,1,True,SD_TX_1_FOODS_1,holdout,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.4216979801121011
+5,1,0,1,1,1,True,SD_TX_1_FOODS_2,holdout,"ARIMA(5,1,0)(1,1,1)[52]",store_dept,smooth,0.7969765217173661
+3,1,0,1,0,0,True,SD_TX_1_FOODS_3,holdout,"ARIMA(3,1,0)(1,0,0)[52]",store_dept,smooth,0.572223455539624
+0,1,1,0,0,0,False,SD_TX_1_HOBBIES_1,holdout,"ARIMA(0,1,1)",store_dept,smooth,0.4358821413832611
+2,1,1,0,0,1,True,SD_TX_1_HOBBIES_2,holdout,"ARIMA(2,1,1)(0,0,1)[52]",store_dept,smooth,0.6355974259139399
+1,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_1,holdout,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.4604031791801614
+0,1,1,0,0,1,True,SD_TX_1_HOUSEHOLD_2,holdout,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.5501555810926928
+0,1,2,1,0,0,True,SD_TX_2_FOODS_1,holdout,"ARIMA(0,1,2)(1,0,0)[52]",store_dept,smooth,0.3557974061502851
+3,1,0,1,1,0,True,SD_TX_2_FOODS_2,holdout,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.7560502253436914
+3,1,2,0,0,1,True,SD_TX_2_FOODS_3,holdout,"ARIMA(3,1,2)(0,0,1)[52]",store_dept,smooth,0.4740985321754031
+0,1,1,0,0,0,False,SD_TX_2_HOBBIES_1,holdout,"ARIMA(0,1,1)",store_dept,smooth,0.2366926613839999
+0,1,2,1,1,0,True,SD_TX_2_HOBBIES_2,holdout,"ARIMA(0,1,2)(1,1,0)[52]",store_dept,smooth,0.7241176032922654
+2,1,1,0,0,1,True,SD_TX_2_HOUSEHOLD_1,holdout,"ARIMA(2,1,1)(0,0,1)[52]",store_dept,smooth,0.2371757856727998
+2,1,1,1,1,1,True,SD_TX_2_HOUSEHOLD_2,holdout,"ARIMA(2,1,1)(1,1,1)[52]",store_dept,smooth,0.7686587585101277
+0,1,2,0,0,1,True,SD_TX_3_FOODS_1,holdout,"ARIMA(0,1,2)(0,0,1)[52]",store_dept,smooth,0.6104351762931688
+3,1,0,1,1,0,True,SD_TX_3_FOODS_2,holdout,"ARIMA(3,1,0)(1,1,0)[52]",store_dept,smooth,0.8258512828516101
+1,1,2,0,1,1,True,SD_TX_3_FOODS_3,holdout,"ARIMA(1,1,2)(0,1,1)[52]",store_dept,smooth,0.6456253829719367
+1,1,1,0,0,0,False,SD_TX_3_HOBBIES_1,holdout,"ARIMA(1,1,1) with drift",store_dept,smooth,0.4103958395536419
+1,0,1,0,1,1,True,SD_TX_3_HOBBIES_2,holdout,"ARIMA(1,0,1)(0,1,1)[52]",store_dept,smooth,0.6837363506516803
+0,1,4,0,0,1,True,SD_TX_3_HOUSEHOLD_1,holdout,"ARIMA(0,1,4)(0,0,1)[52]",store_dept,smooth,0.4723341889405175
+2,1,2,1,1,1,True,SD_TX_3_HOUSEHOLD_2,holdout,"ARIMA(2,1,2)(1,1,1)[52]",store_dept,smooth,0.54584146823605
+1,1,1,1,0,1,True,SD_WI_1_FOODS_1,holdout,"ARIMA(1,1,1)(1,0,1)[52]",store_dept,smooth,0.4797729339613138
+3,1,2,0,0,1,True,SD_WI_1_FOODS_2,holdout,"ARIMA(3,1,2)(0,0,1)[52]",store_dept,smooth,0.2791411297191126
+3,1,4,0,0,1,True,SD_WI_1_FOODS_3,holdout,"ARIMA(3,1,4)(0,0,1)[52] with drift",store_dept,smooth,0.1434913570461443
+0,1,4,1,0,0,True,SD_WI_1_HOBBIES_1,holdout,"ARIMA(0,1,4)(1,0,0)[52]",store_dept,smooth,0.2224897799039942
+1,1,2,0,0,1,True,SD_WI_1_HOBBIES_2,holdout,"ARIMA(1,1,2)(0,0,1)[52]",store_dept,smooth,0.5675948415204585
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_1,holdout,"ARIMA(1,1,1)(0,0,1)[52] with drift",store_dept,smooth,0.3993482838552818
+1,1,1,0,0,1,True,SD_WI_1_HOUSEHOLD_2,holdout,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.3917122528204337
+3,1,0,0,0,1,True,SD_WI_2_FOODS_1,holdout,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.5204020679940976
+5,1,2,1,1,0,True,SD_WI_2_FOODS_2,holdout,"ARIMA(5,1,2)(1,1,0)[52]",store_dept,smooth,0.5956280360595564
+2,1,3,1,1,0,True,SD_WI_2_FOODS_3,holdout,"ARIMA(2,1,3)(1,1,0)[52]",store_dept,smooth,0.6701718447136187
+0,1,1,0,0,1,True,SD_WI_2_HOBBIES_1,holdout,"ARIMA(0,1,1)(0,0,1)[52]",store_dept,smooth,0.2665567638093762
+1,1,1,0,0,1,True,SD_WI_2_HOBBIES_2,holdout,"ARIMA(1,1,1)(0,0,1)[52]",store_dept,smooth,0.7129833680872035
+3,1,2,1,1,0,True,SD_WI_2_HOUSEHOLD_1,holdout,"ARIMA(3,1,2)(1,1,0)[52]",store_dept,smooth,0.5606662116569663
+2,1,3,0,0,1,True,SD_WI_2_HOUSEHOLD_2,holdout,"ARIMA(2,1,3)(0,0,1)[52]",store_dept,smooth,0.5080219131790424
+3,1,0,0,0,1,True,SD_WI_3_FOODS_1,holdout,"ARIMA(3,1,0)(0,0,1)[52]",store_dept,smooth,0.258747346301146
+2,1,3,1,1,0,True,SD_WI_3_FOODS_2,holdout,"ARIMA(2,1,3)(1,1,0)[52]",store_dept,smooth,0.8258146438996834
+5,1,0,1,0,0,True,SD_WI_3_FOODS_3,holdout,"ARIMA(5,1,0)(1,0,0)[52]",store_dept,smooth,0.3827128544728986
+2,1,3,1,0,0,True,SD_WI_3_HOBBIES_1,holdout,"ARIMA(2,1,3)(1,0,0)[52]",store_dept,smooth,0.2250020350364856
+2,1,1,1,0,1,True,SD_WI_3_HOBBIES_2,holdout,"ARIMA(2,1,1)(1,0,1)[52]",store_dept,smooth,0.5275963779504971
+0,1,1,1,0,0,True,SD_WI_3_HOUSEHOLD_1,holdout,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.4212074203199437
+0,1,1,1,0,0,True,SD_WI_3_HOUSEHOLD_2,holdout,"ARIMA(0,1,1)(1,0,0)[52]",store_dept,smooth,0.6694175160984497
+0,0,0,0,0,1,True,SKU_FOODS_2_122_CA_1,holdout,"ARIMA(0,0,0)(0,0,1)[52] with non-zero mean",sku_store,smooth,0.4963481602316641
+1,1,3,1,0,0,True,SKU_HOUSEHOLD_1_525_WI_1,holdout,"ARIMA(1,1,3)(1,0,0)[52]",sku_store,smooth,0.3461673267161937
+0,1,1,0,0,1,True,SKU_FOODS_2_202_CA_1,holdout,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,smooth,0.2526834197271117
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_200_TX_3,holdout,"ARIMA(0,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.1639245509679978
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_381_TX_1,holdout,"ARIMA(0,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.4277438995993704
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_1_241_TX_1,holdout,"ARIMA(1,1,1)",sku_store,smooth,0.2539582198113893
+5,1,1,1,0,0,True,SKU_FOODS_3_128_TX_3,holdout,"ARIMA(5,1,1)(1,0,0)[52] with drift",sku_store,smooth,0.3038249145626494
+0,1,1,1,0,0,True,SKU_FOODS_3_045_CA_1,holdout,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,smooth,0.3876119433542889
+5,1,0,1,0,1,True,SKU_HOBBIES_1_133_CA_3,holdout,"ARIMA(5,1,0)(1,0,1)[52]",sku_store,smooth,0.3487745166305719
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_1_452_WI_2,holdout,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,smooth,0.1539690433979751
+4,0,0,0,0,0,False,SKU_HOUSEHOLD_1_443_WI_1,holdout,"ARIMA(4,0,0) with non-zero mean",sku_store,smooth,0.2387959531124588
+1,1,2,0,0,0,False,SKU_FOODS_1_081_CA_4,holdout,"ARIMA(1,1,2)",sku_store,smooth,0.2331167155810971
+1,1,2,1,0,0,True,SKU_HOBBIES_1_416_CA_4,holdout,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2262608821949687
+1,0,1,1,0,0,True,SKU_FOODS_3_434_TX_2,holdout,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.1049711862040042
+1,1,2,0,0,0,False,SKU_FOODS_3_513_WI_1,holdout,"ARIMA(1,1,2)",sku_store,smooth,0.3302929561091968
+1,1,2,1,0,0,True,SKU_HOUSEHOLD_2_075_CA_2,holdout,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,smooth,0.2336929421176314
+1,0,1,1,0,0,True,SKU_FOODS_3_451_CA_4,holdout,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,smooth,0.4788025225780494
+0,1,3,0,0,0,False,SKU_HOUSEHOLD_2_427_TX_1,holdout,"ARIMA(0,1,3)",sku_store,smooth,0.3976918474540944
+0,1,2,1,0,1,True,SKU_FOODS_3_675_TX_1,holdout,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,smooth,0.0
+3,1,0,1,0,1,True,SKU_HOUSEHOLD_1_030_WI_3,holdout,"ARIMA(3,1,0)(1,0,1)[52]",sku_store,smooth,0.4752231397613166
+1,1,1,0,0,1,True,SKU_FOODS_1_110_TX_3,holdout,"ARIMA(1,1,1)(0,0,1)[52]",sku_store,smooth,0.174838205226229
+3,1,2,1,0,1,True,SKU_HOBBIES_1_209_WI_1,holdout,"ARIMA(3,1,2)(1,0,1)[52]",sku_store,smooth,0.454066172466973
+1,1,2,0,0,0,False,SKU_HOUSEHOLD_2_176_CA_3,holdout,"ARIMA(1,1,2)",sku_store,smooth,0.3701628740502274
+2,1,2,1,0,0,True,SKU_FOODS_3_295_CA_4,holdout,"ARIMA(2,1,2)(1,0,0)[52]",sku_store,smooth,0.2115019773341044
+0,1,2,1,0,1,True,SKU_FOODS_3_302_CA_3,holdout,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,smooth,0.1928441868777138
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_366_CA_2,holdout,"ARIMA(0,1,1)",sku_store,smooth,0.2395880625491847
+2,1,3,1,0,1,True,SKU_FOODS_3_227_TX_2,holdout,"ARIMA(2,1,3)(1,0,1)[52]",sku_store,smooth,0.1424092263434075
+0,1,1,0,0,0,False,SKU_FOODS_3_339_WI_2,holdout,"ARIMA(0,1,1)",sku_store,smooth,0.2245259484691487
+2,1,1,1,0,0,True,SKU_FOODS_3_195_WI_3,holdout,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,smooth,0.0025373783543508
+1,0,0,0,0,0,False,SKU_FOODS_3_076_CA_1,holdout,"ARIMA(1,0,0) with non-zero mean",sku_store,smooth,0.1732471469476708
+2,1,1,0,0,0,False,SKU_FOODS_2_342_WI_3,holdout,"ARIMA(2,1,1) with drift",sku_store,erratic,0.2618693067817291
+3,1,1,1,0,0,True,SKU_FOODS_3_571_TX_1,holdout,"ARIMA(3,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.0900401137307322
+0,1,1,1,0,1,True,SKU_FOODS_1_203_WI_1,holdout,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,erratic,0.1668325267008653
+1,0,1,0,0,0,False,SKU_FOODS_1_024_TX_1,holdout,"ARIMA(1,0,1) with non-zero mean",sku_store,erratic,0.1730082660855957
+2,0,0,1,0,0,True,SKU_FOODS_3_725_TX_3,holdout,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.2199811830125232
+0,1,3,1,0,0,True,SKU_HOUSEHOLD_2_329_WI_1,holdout,"ARIMA(0,1,3)(1,0,0)[52]",sku_store,erratic,0.0482350320477205
+1,1,2,1,0,0,True,SKU_FOODS_2_358_TX_1,holdout,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,erratic,0.179498509511492
+1,1,2,1,0,0,True,SKU_HOUSEHOLD_1_481_WI_3,holdout,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,erratic,0.265239310021257
+1,1,1,1,0,0,True,SKU_HOUSEHOLD_1_504_CA_3,holdout,"ARIMA(1,1,1)(1,0,0)[52] with drift",sku_store,erratic,0.221783950993174
+0,1,1,0,0,1,True,SKU_HOUSEHOLD_2_054_WI_3,holdout,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,erratic,0.176145084979042
+0,1,1,0,0,0,False,SKU_FOODS_3_271_TX_3,holdout,"ARIMA(0,1,1)",sku_store,erratic,0.0
+0,1,1,0,0,0,False,SKU_FOODS_3_271_WI_2,holdout,"ARIMA(0,1,1)",sku_store,erratic,0.0713914584384046
+1,0,2,0,0,1,True,SKU_FOODS_1_069_CA_3,holdout,"ARIMA(1,0,2)(0,0,1)[52] with non-zero mean",sku_store,erratic,0.487638701702146
+1,0,1,0,1,1,True,SKU_FOODS_1_180_TX_3,holdout,"ARIMA(1,0,1)(0,1,1)[52] with drift",sku_store,erratic,0.718190399262036
+0,1,1,1,0,0,True,SKU_FOODS_2_284_WI_3,holdout,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,erratic,0.1718797119486104
+1,0,2,1,0,0,True,SKU_HOBBIES_1_248_TX_3,holdout,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.3704579300992806
+0,0,2,1,0,1,True,SKU_FOODS_2_255_TX_1,holdout,"ARIMA(0,0,2)(1,0,1)[52] with non-zero mean",sku_store,erratic,0.8255530076942275
+1,1,1,0,0,0,False,SKU_FOODS_3_432_CA_2,holdout,"ARIMA(1,1,1)",sku_store,erratic,0.1130175562778871
+2,1,3,1,0,0,True,SKU_FOODS_2_103_TX_2,holdout,"ARIMA(2,1,3)(1,0,0)[52]",sku_store,erratic,0.2304762739600374
+2,0,1,1,0,1,True,SKU_HOBBIES_1_255_CA_4,holdout,"ARIMA(2,0,1)(1,0,1)[52] with non-zero mean",sku_store,erratic,0.3862651463110503
+2,1,1,1,0,0,True,SKU_FOODS_3_594_TX_3,holdout,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,erratic,0.2178818725872853
+4,1,2,1,0,0,True,SKU_FOODS_3_468_CA_3,holdout,"ARIMA(4,1,2)(1,0,0)[52]",sku_store,erratic,0.1320669360628287
+1,0,0,1,0,0,True,SKU_FOODS_2_255_CA_1,holdout,"ARIMA(1,0,0)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.7468756596819749
+1,1,3,1,0,1,True,SKU_FOODS_2_029_CA_3,holdout,"ARIMA(1,1,3)(1,0,1)[52]",sku_store,erratic,0.3422383194955598
+2,1,3,1,0,0,True,SKU_FOODS_3_185_CA_3,holdout,"ARIMA(2,1,3)(1,0,0)[52]",sku_store,erratic,0.0830147296401264
+1,0,0,0,0,0,False,SKU_FOODS_3_809_CA_2,holdout,"ARIMA(1,0,0) with non-zero mean",sku_store,erratic,0.2010433420182665
+1,1,1,0,0,0,False,SKU_FOODS_3_086_TX_3,holdout,"ARIMA(1,1,1) with drift",sku_store,erratic,0.0
+0,1,1,0,0,0,False,SKU_FOODS_3_614_WI_2,holdout,"ARIMA(0,1,1)",sku_store,erratic,0.1039317895126006
+1,0,2,1,0,0,True,SKU_FOODS_3_319_WI_2,holdout,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,erratic,0.4615332846967944
+2,1,1,0,0,1,True,SKU_FOODS_3_332_WI_2,holdout,"ARIMA(2,1,1)(0,0,1)[52]",sku_store,erratic,0.1455847526039598
+3,0,1,0,0,0,False,SKU_HOUSEHOLD_2_198_CA_4,holdout,"ARIMA(3,0,1) with non-zero mean",sku_store,intermittent,0.2027028926043762
+1,1,1,0,0,0,False,SKU_HOUSEHOLD_2_097_WI_1,holdout,"ARIMA(1,1,1)",sku_store,intermittent,0.0
+0,1,1,1,0,0,True,SKU_HOUSEHOLD_2_207_TX_3,holdout,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,intermittent,0.1962724346285839
+2,1,1,0,0,0,False,SKU_HOUSEHOLD_2_138_CA_1,holdout,"ARIMA(2,1,1)",sku_store,intermittent,0.2316848798171935
+3,1,4,1,0,0,True,SKU_HOBBIES_1_192_TX_2,holdout,"ARIMA(3,1,4)(1,0,0)[52]",sku_store,intermittent,0.04730971184413
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_2_087_CA_3,holdout,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.0
+0,1,2,1,0,1,True,SKU_HOUSEHOLD_2_141_TX_2,holdout,"ARIMA(0,1,2)(1,0,1)[52]",sku_store,intermittent,0.1359713555712431
+0,1,1,0,0,0,False,SKU_HOBBIES_1_020_TX_3,holdout,"ARIMA(0,1,1)",sku_store,intermittent,0.0517510380802642
+1,1,1,0,0,0,False,SKU_HOBBIES_1_018_CA_3,holdout,"ARIMA(1,1,1)",sku_store,intermittent,0.3400476445536045
+2,1,2,1,0,0,True,SKU_HOBBIES_2_137_WI_1,holdout,"ARIMA(2,1,2)(1,0,0)[52]",sku_store,intermittent,0.1269599497126818
+2,1,3,1,0,0,True,SKU_FOODS_3_543_CA_4,holdout,"ARIMA(2,1,3)(1,0,0)[52]",sku_store,intermittent,0.2095533275654842
+1,0,1,0,0,0,False,SKU_HOUSEHOLD_1_400_TX_3,holdout,"ARIMA(1,0,1) with non-zero mean",sku_store,intermittent,0.120967116365246
+3,1,1,0,0,0,False,SKU_HOUSEHOLD_2_345_CA_4,holdout,"ARIMA(3,1,1)",sku_store,intermittent,0.2766296017200095
+3,1,3,1,0,0,True,SKU_FOODS_1_197_WI_3,holdout,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,intermittent,0.2068310525300516
+2,1,1,1,0,0,True,SKU_HOUSEHOLD_2_052_CA_4,holdout,"ARIMA(2,1,1)(1,0,0)[52]",sku_store,intermittent,0.1482595039574155
+3,1,0,1,0,0,True,SKU_HOBBIES_1_095_WI_2,holdout,"ARIMA(3,1,0)(1,0,0)[52]",sku_store,intermittent,0.4362624034246813
+4,0,1,0,0,0,False,SKU_FOODS_3_123_TX_2,holdout,"ARIMA(4,0,1) with non-zero mean",sku_store,intermittent,0.0736921279129807
+2,1,2,1,0,0,True,SKU_FOODS_2_062_TX_1,holdout,"ARIMA(2,1,2)(1,0,0)[52]",sku_store,intermittent,0.1567433301160948
+4,1,1,1,0,0,True,SKU_HOUSEHOLD_2_243_CA_3,holdout,"ARIMA(4,1,1)(1,0,0)[52]",sku_store,intermittent,0.1366376444243829
+0,1,1,1,0,1,True,SKU_HOUSEHOLD_2_019_CA_1,holdout,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,intermittent,0.2125148483065195
+1,1,1,1,0,0,True,SKU_FOODS_3_611_WI_1,holdout,"ARIMA(1,1,1)(1,0,0)[52]",sku_store,intermittent,0.2219743655297196
+1,0,1,1,0,0,True,SKU_HOUSEHOLD_1_191_TX_1,holdout,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.491877489303959
+0,1,1,1,0,0,True,SKU_FOODS_2_126_TX_3,holdout,"ARIMA(0,1,1)(1,0,0)[52]",sku_store,intermittent,0.4117095999934945
+4,1,2,1,0,1,True,SKU_HOBBIES_1_023_TX_2,holdout,"ARIMA(4,1,2)(1,0,1)[52]",sku_store,intermittent,0.3499147297571039
+4,1,3,1,0,0,True,SKU_HOUSEHOLD_1_033_WI_3,holdout,"ARIMA(4,1,3)(1,0,0)[52]",sku_store,intermittent,0.5327169345187932
+3,0,2,1,1,1,True,SKU_HOUSEHOLD_2_416_CA_3,holdout,"ARIMA(3,0,2)(1,1,1)[52]",sku_store,intermittent,0.6442299085453949
+2,0,4,1,0,0,True,SKU_FOODS_2_056_TX_2,holdout,"ARIMA(2,0,4)(1,0,0)[52] with non-zero mean",sku_store,intermittent,0.1298358141589217
+2,1,1,1,0,1,True,SKU_FOODS_3_666_WI_3,holdout,"ARIMA(2,1,1)(1,0,1)[52]",sku_store,intermittent,0.1914693888401488
+2,1,0,1,0,0,True,SKU_FOODS_2_032_TX_3,holdout,"ARIMA(2,1,0)(1,0,0)[52]",sku_store,intermittent,0.2145305404867352
+2,0,0,1,0,1,True,SKU_FOODS_3_757_CA_1,holdout,"ARIMA(2,0,0)(1,0,1)[52] with non-zero mean",sku_store,intermittent,0.3806618943663502
+1,0,2,1,0,0,True,SKU_HOBBIES_1_220_CA_3,holdout,"ARIMA(1,0,2)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1570966425948378
+1,1,2,1,0,0,True,SKU_HOBBIES_2_078_WI_3,holdout,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1726102122343017
+0,1,2,0,0,0,False,SKU_HOBBIES_2_112_TX_2,holdout,"ARIMA(0,1,2)",sku_store,lumpy,0.0
+3,1,1,1,0,0,True,SKU_HOUSEHOLD_2_013_WI_3,holdout,"ARIMA(3,1,1)(1,0,0)[52] with drift",sku_store,lumpy,0.0508045058320826
+1,1,2,1,0,0,True,SKU_HOBBIES_2_019_CA_2,holdout,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.2553592010101302
+0,1,2,0,0,1,True,SKU_HOBBIES_2_113_WI_1,holdout,"ARIMA(0,1,2)(0,0,1)[52]",sku_store,lumpy,0.2406220939846941
+0,0,1,0,0,0,False,SKU_HOBBIES_2_009_WI_1,holdout,"ARIMA(0,0,1) with non-zero mean",sku_store,lumpy,0.0237657933916003
+2,0,0,1,0,0,True,SKU_HOBBIES_2_102_WI_1,holdout,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.1407435204498658
+1,0,1,1,0,0,True,SKU_FOODS_3_567_TX_1,holdout,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.0360094682757439
+0,1,1,0,0,0,False,SKU_HOUSEHOLD_2_504_WI_1,holdout,"ARIMA(0,1,1) with drift",sku_store,lumpy,0.1640471678610787
+0,1,1,0,0,1,True,SKU_FOODS_1_198_TX_1,holdout,"ARIMA(0,1,1)(0,0,1)[52]",sku_store,lumpy,0.1610054611441173
+3,1,2,1,0,0,True,SKU_FOODS_2_358_TX_3,holdout,"ARIMA(3,1,2)(1,0,0)[52]",sku_store,lumpy,0.3188918494673094
+2,1,3,1,0,1,True,SKU_HOBBIES_2_118_CA_2,holdout,"ARIMA(2,1,3)(1,0,1)[52]",sku_store,lumpy,0.0712311551902616
+5,1,0,1,0,0,True,SKU_FOODS_3_286_CA_2,holdout,"ARIMA(5,1,0)(1,0,0)[52]",sku_store,lumpy,0.0
+1,1,2,1,0,0,True,SKU_HOUSEHOLD_2_479_TX_3,holdout,"ARIMA(1,1,2)(1,0,0)[52] with drift",sku_store,lumpy,0.2830457199905386
+2,0,0,0,0,1,True,SKU_HOBBIES_2_148_TX_3,holdout,"ARIMA(2,0,0)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4875220950328959
+0,1,1,0,0,0,False,SKU_FOODS_1_205_WI_3,holdout,"ARIMA(0,1,1)",sku_store,lumpy,0.2268370824378193
+3,0,1,1,0,1,True,SKU_FOODS_2_163_WI_3,holdout,"ARIMA(3,0,1)(1,0,1)[52] with non-zero mean",sku_store,lumpy,0.4446575909709679
+0,1,1,1,0,1,True,SKU_FOODS_1_143_TX_1,holdout,"ARIMA(0,1,1)(1,0,1)[52]",sku_store,lumpy,0.0428188296910502
+3,1,1,1,0,0,True,SKU_FOODS_2_284_TX_1,holdout,"ARIMA(3,1,1)(1,0,0)[52]",sku_store,lumpy,0.0
+1,0,1,1,0,0,True,SKU_FOODS_1_005_WI_2,holdout,"ARIMA(1,0,1)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.4447699100749968
+2,0,0,1,0,0,True,SKU_FOODS_2_336_CA_3,holdout,"ARIMA(2,0,0)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.2825819180625336
+3,1,3,1,0,0,True,SKU_FOODS_1_142_WI_1,holdout,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,lumpy,0.2982116397909289
+1,0,1,0,0,1,True,SKU_FOODS_3_461_WI_1,holdout,"ARIMA(1,0,1)(0,0,1)[52] with non-zero mean",sku_store,lumpy,0.4773641875917376
+3,1,3,1,0,0,True,SKU_FOODS_3_763_CA_1,holdout,"ARIMA(3,1,3)(1,0,0)[52]",sku_store,lumpy,0.030429820944491
+1,1,2,1,0,0,True,SKU_FOODS_1_032_CA_2,holdout,"ARIMA(1,1,2)(1,0,0)[52]",sku_store,lumpy,0.1433989651772154
+2,1,1,0,0,0,False,SKU_FOODS_3_566_TX_1,holdout,"ARIMA(2,1,1)",sku_store,lumpy,0.0651900932044329
+1,0,5,1,0,0,True,SKU_FOODS_2_029_WI_2,holdout,"ARIMA(1,0,5)(1,0,0)[52] with non-zero mean",sku_store,lumpy,0.4128814424136623
+1,1,3,1,0,1,True,SKU_FOODS_2_229_CA_3,holdout,"ARIMA(1,1,3)(1,0,1)[52]",sku_store,lumpy,0.3679651286474682
+1,1,3,1,0,0,True,SKU_FOODS_3_569_TX_1,holdout,"ARIMA(1,1,3)(1,0,0)[52]",sku_store,lumpy,0.2346206707870767

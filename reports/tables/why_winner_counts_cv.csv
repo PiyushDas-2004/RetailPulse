@@ -1,0 +1,10 @@
+row_0,DHR-ARIMA,ETS,Ensemble,LightGBM,MovingAverage,Naive,Prophet,SARIMA,SES,SeasonalNaive
+SKU-erratic,4,1,1,11,1,2,5,2,2,1
+SKU-intermittent,5,1,1,4,3,8,3,3,1,1
+SKU-lumpy,2,2,0,6,4,7,4,2,1,2
+SKU-smooth,2,1,2,7,5,2,4,2,4,1
+category,1,0,0,0,0,0,0,1,1,0
+department,3,0,0,0,1,0,0,3,0,0
+store,5,0,1,1,0,0,2,1,0,0
+store_dept,14,2,13,10,3,1,12,12,1,2
+total,1,0,0,0,0,0,0,0,0,0

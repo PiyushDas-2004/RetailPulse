@@ -1,0 +1,11 @@
+model,family
+Naive,Baseline
+SeasonalNaive,Baseline
+MovingAverage,Baseline
+SES,Baseline
+ETS,Statistical
+SARIMA,Statistical
+DHR-ARIMA,Statistical
+Prophet,Statistical
+LightGBM,Machine learning
+Ensemble,Combination

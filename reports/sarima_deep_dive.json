@@ -10,7 +10,7 @@
   1,
   1
  ],
- "grid_seconds": 51.9,
+ "grid_seconds": 49.7,
  "grid_size": 48,
  "aicc_best": "(3, 1, 2)(0, 1, 1)[52]",
  "transform_cv_mean_MASE": {
@@ -72,12 +72,12 @@
  "autoarima_approx_True": {
   "model": "ARIMA(3,1,1)(1,1,1)[52]",
   "aicc": 3354.0871410359878,
-  "seconds": 2.3
+  "seconds": 2.1
  },
  "autoarima_approx_False": {
   "model": "ARIMA(3,1,0)(0,1,0)[52]",
   "aicc": 3340.12098291617,
-  "seconds": 18.7
+  "seconds": 17.5
  },
  "diagnostics": {
   "model": "ARIMA(3,1,2)(0,1,1)[52]",

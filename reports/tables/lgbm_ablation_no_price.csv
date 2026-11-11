@@ -1,0 +1,5 @@
+period,group,no_price,with_price
+cv,Aggregate,0.6915,0.6855
+cv,SKU,0.7408,0.7327
+holdout,Aggregate,0.5718,0.5636
+holdout,SKU,0.7647,0.7644

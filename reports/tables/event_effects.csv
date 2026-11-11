@@ -1,0 +1,6 @@
+event,n_weeks,mean_lift_vs_adjacent_weeks_pct
+christmas,5,-13.153934481676464
+thanksgiving,5,-2.031614514427047
+easter,6,-2.003169739964167
+superbowl,6,3.6774406663967105
+other_events,110,0.6579197386037037

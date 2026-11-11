@@ -1,0 +1,561 @@
+{
+ "total_yearly_mean": {
+  "2011": 184182.0,
+  "2012": 231149.0,
+  "2013": 252017.0,
+  "2014": 251163.0,
+  "2015": 264757.0,
+  "2016": 292195.0
+ },
+ "outliers_total": [
+  {
+   "week_start": "2012-03-31",
+   "total_units": 239869.0,
+   "stl_remainder": 15372.0,
+   "robust_z": 4.26,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-04-28",
+   "total_units": 224547.0,
+   "stl_remainder": 15308.0,
+   "robust_z": 4.24,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-05-05",
+   "total_units": 235822.0,
+   "stl_remainder": 20767.0,
+   "robust_z": 5.79,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-05-12",
+   "total_units": 226293.0,
+   "stl_remainder": 17498.0,
+   "robust_z": 4.86,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-05-19",
+   "total_units": 221133.0,
+   "stl_remainder": 21627.0,
+   "robust_z": 6.04,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-05-26",
+   "total_units": 228607.0,
+   "stl_remainder": 26305.0,
+   "robust_z": 7.37,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-06-02",
+   "total_units": 259176.0,
+   "stl_remainder": 28535.0,
+   "robust_z": 8.0,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-06-09",
+   "total_units": 271473.0,
+   "stl_remainder": 42236.0,
+   "robust_z": 11.89,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-06-16",
+   "total_units": 248253.0,
+   "stl_remainder": 31944.0,
+   "robust_z": 8.97,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-06-23",
+   "total_units": 236584.0,
+   "stl_remainder": 27562.0,
+   "robust_z": 7.72,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-06-30",
+   "total_units": 263753.0,
+   "stl_remainder": 27845.0,
+   "robust_z": 7.8,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-07-07",
+   "total_units": 255191.0,
+   "stl_remainder": 20675.0,
+   "robust_z": 5.77,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-07-14",
+   "total_units": 244657.0,
+   "stl_remainder": 17741.0,
+   "robust_z": 4.93,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-07-21",
+   "total_units": 228571.0,
+   "stl_remainder": 14743.0,
+   "robust_z": 4.08,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-08-04",
+   "total_units": 257477.0,
+   "stl_remainder": 17322.0,
+   "robust_z": 4.81,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-08-11",
+   "total_units": 265580.0,
+   "stl_remainder": 29160.0,
+   "robust_z": 8.18,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-09-01",
+   "total_units": 263057.0,
+   "stl_remainder": 28655.0,
+   "robust_z": 8.03,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-09-08",
+   "total_units": 252728.0,
+   "stl_remainder": 16746.0,
+   "robust_z": 4.65,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-09-15",
+   "total_units": 240637.0,
+   "stl_remainder": 17275.0,
+   "robust_z": 4.8,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-10-20",
+   "total_units": 206372.0,
+   "stl_remainder": -14464.0,
+   "robust_z": -4.22,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2012-11-24",
+   "total_units": 191515.0,
+   "stl_remainder": -16598.0,
+   "robust_z": -4.82,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-01-26",
+   "total_units": 221815.0,
+   "stl_remainder": -16298.0,
+   "robust_z": -4.74,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-06-01",
+   "total_units": 273043.0,
+   "stl_remainder": 13932.0,
+   "robust_z": 3.85,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-06-22",
+   "total_units": 249838.0,
+   "stl_remainder": 14246.0,
+   "robust_z": 3.94,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-06-29",
+   "total_units": 287319.0,
+   "stl_remainder": 22147.0,
+   "robust_z": 6.18,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-08-10",
+   "total_units": 275729.0,
+   "stl_remainder": 13025.0,
+   "robust_z": 3.59,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-08-24",
+   "total_units": 266363.0,
+   "stl_remainder": 18533.0,
+   "robust_z": 5.16,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-08-31",
+   "total_units": 285021.0,
+   "stl_remainder": 26366.0,
+   "robust_z": 7.38,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-09-07",
+   "total_units": 287701.0,
+   "stl_remainder": 27342.0,
+   "robust_z": 7.66,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2013-09-14",
+   "total_units": 267867.0,
+   "stl_remainder": 19326.0,
+   "robust_z": 5.38,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2014-01-25",
+   "total_units": 223275.0,
+   "stl_remainder": -19071.0,
+   "robust_z": -5.53,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2014-02-15",
+   "total_units": 247504.0,
+   "stl_remainder": -13789.0,
+   "robust_z": -4.03,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2014-04-12",
+   "total_units": 270711.0,
+   "stl_remainder": 20923.0,
+   "robust_z": 5.84,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2014-09-20",
+   "total_units": 239993.0,
+   "stl_remainder": -15525.0,
+   "robust_z": -4.52,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2014-10-04",
+   "total_units": 268354.0,
+   "stl_remainder": -15802.0,
+   "robust_z": -4.6,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2014-10-25",
+   "total_units": 231141.0,
+   "stl_remainder": -14745.0,
+   "robust_z": -4.3,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2015-01-03",
+   "total_units": 240684.0,
+   "stl_remainder": -11989.0,
+   "robust_z": -3.51,
+   "events_in_week": ""
+  },
+  {
+   "week_start": "2015-02-14",
+   "total_units": 243897.0,
+   "stl_remainder": -29273.0,
+   "robust_z": -8.43,
+   "events_in_week": ""
+  }
+ ],
+ "dow_index": {
+  "Saturday": 1.207,
+  "Sunday": 1.199,
+  "Monday": 0.955,
+  "Tuesday": 0.886,
+  "Wednesday": 0.875,
+  "Thursday": 0.881,
+  "Friday": 0.998
+ },
+ "month_index": {
+  "1": 0.978,
+  "2": 1.002,
+  "3": 0.993,
+  "4": 0.996,
+  "5": 0.986,
+  "6": 1.012,
+  "7": 1.016,
+  "8": 1.04,
+  "9": 1.026,
+  "10": 1.004,
+  "11": 0.963,
+  "12": 0.986
+ },
+ "woy_effect_pct_min_max": [
+  -16.98903586332145,
+  51,
+  10.193614370833837,
+  40
+ ],
+ "event_effects": [
+  {
+   "event": "christmas",
+   "n_weeks": 5,
+   "mean_lift_vs_adjacent_weeks_pct": -13.15
+  },
+  {
+   "event": "thanksgiving",
+   "n_weeks": 5,
+   "mean_lift_vs_adjacent_weeks_pct": -2.03
+  },
+  {
+   "event": "easter",
+   "n_weeks": 6,
+   "mean_lift_vs_adjacent_weeks_pct": -2.0
+  },
+  {
+   "event": "superbowl",
+   "n_weeks": 6,
+   "mean_lift_vs_adjacent_weeks_pct": 3.68
+  },
+  {
+   "event": "other_events",
+   "n_weeks": 110,
+   "mean_lift_vs_adjacent_weeks_pct": 0.66
+  }
+ ],
+ "snap_effect": [
+  {
+   "state": "CA",
+   "foods_daily_nonSNAP": 9773.51,
+   "foods_daily_SNAP": 10733.38,
+   "lift_pct": 9.82
+  },
+  {
+   "state": "TX",
+   "foods_daily_nonSNAP": 6478.53,
+   "foods_daily_SNAP": 7462.33,
+   "lift_pct": 15.19
+  },
+  {
+   "state": "WI",
+   "foods_daily_nonSNAP": 6220.04,
+   "foods_daily_SNAP": 8051.98,
+   "lift_pct": 29.45
+  }
+ ],
+ "price_effect": {
+  "n_price_changes": 434,
+  "share_sku_weeks_with_price_change": 0.013768598711969797,
+  "median_abs_price_change_pct": 10.609581365572518,
+  "corr_dlogprice_dlogunits": -0.033295928187558374,
+  "ols_slope_dlogunits_on_dlogprice": -0.1432904880683402
+ },
+ "acf_total": {
+  "level": {
+   "1": 0.853373222693183,
+   "2": 0.7237062431333717,
+   "4": 0.8727373235164454,
+   "13": 0.7103197156940497,
+   "26": 0.5102618210926061,
+   "51": 0.18860621314066742,
+   "52": 0.2970401278621572,
+   "53": 0.2136717181273521
+  },
+  "first difference (d=1)": {
+   "1": -0.0655381092985212,
+   "2": -0.589629200061888,
+   "4": 0.6509910571254872,
+   "13": 0.6551368945634072,
+   "26": 0.6743807337296183,
+   "51": -0.13041745018644813,
+   "52": 0.711984901575557,
+   "53": 0.08676027563979395
+  },
+  "seasonal difference (D=1, s=52)": {
+   "1": 0.8968297946308186,
+   "2": 0.8450507877838803,
+   "4": 0.8254992891760317,
+   "13": 0.6772486663321008,
+   "26": 0.4107860695005488,
+   "51": 0.014492442239263378,
+   "52": 0.006583694103621712,
+   "53": 0.020768797531385757
+  },
+  "d=1 and D=1": {
+   "1": -0.19989238633072007,
+   "2": -0.2006567833637075,
+   "4": 0.040522178987001695,
+   "13": 0.15711342564983113,
+   "26": 0.06464678094123055,
+   "51": 0.029372578545447635,
+   "52": -0.102124798651862,
+   "53": 0.04392901728210502
+  }
+ },
+ "pacf_total": {
+  "level": {
+   "1": 0.853373222693183,
+   "2": -0.016704856933427787,
+   "3": 0.522688437909988,
+   "52": 0.07318476679601695
+  },
+  "first difference (d=1)": {
+   "1": -0.06553810929852115,
+   "2": -0.5964864987502124,
+   "3": -0.6240672499837955,
+   "52": 0.2580694564774061
+  },
+  "seasonal difference (D=1, s=52)": {
+   "1": 0.8968297946308185,
+   "2": 0.2082160122288045,
+   "3": 0.23611318814872387,
+   "52": -0.0677258791902063
+  },
+  "d=1 and D=1": {
+   "1": -0.19989238633072,
+   "2": -0.2506280874748952,
+   "3": -0.1678199531967302,
+   "52": -0.11172248191901207
+  }
+ },
+ "stationarity_summary": {
+  "conflict: ADF rejects unit root, KPSS rejects stationarity (trend/difference-stationary?)": {
+   "D=1": 2,
+   "d=1": 0,
+   "d=1,D=1": 0,
+   "level": 2
+  },
+  "conflict: neither rejects (low power)": {
+   "D=1": 6,
+   "d=1": 0,
+   "d=1,D=1": 0,
+   "level": 0
+  },
+  "non-stationary (both agree)": {
+   "D=1": 12,
+   "d=1": 0,
+   "d=1,D=1": 0,
+   "level": 19
+  },
+  "stationary (both agree)": {
+   "D=1": 1,
+   "d=1": 21,
+   "d=1,D=1": 21,
+   "level": 0
+  }
+ },
+ "boxcox_total": {
+  "yearly_mean": {
+   "2011": 184182.0,
+   "2012": 231149.0,
+   "2013": 252017.0,
+   "2014": 251163.0,
+   "2015": 264757.0,
+   "2016": 282703.0
+  },
+  "yearly_std": {
+   "2011": 15722.0,
+   "2012": 19463.0,
+   "2013": 18394.0,
+   "2014": 15742.0,
+   "2015": 17574.0,
+   "2016": 16710.0
+  },
+  "mle_lambda": 2.7419556652295123,
+  "median_loglog_slope_std_on_mean_store_dept": 0.7524703043389225
+ },
+ "sbc_by_level": {
+  "category": {
+   "erratic": 0,
+   "intermittent": 0,
+   "lumpy": 0,
+   "smooth": 3
+  },
+  "department": {
+   "erratic": 0,
+   "intermittent": 0,
+   "lumpy": 0,
+   "smooth": 7
+  },
+  "sku_store": {
+   "erratic": 30,
+   "intermittent": 30,
+   "lumpy": 30,
+   "smooth": 30
+  },
+  "store": {
+   "erratic": 0,
+   "intermittent": 0,
+   "lumpy": 0,
+   "smooth": 10
+  },
+  "store_dept": {
+   "erratic": 0,
+   "intermittent": 0,
+   "lumpy": 0,
+   "smooth": 70
+  },
+  "total": {
+   "erratic": 0,
+   "intermittent": 0,
+   "lumpy": 0,
+   "smooth": 1
+  }
+ },
+ "strength_by_level": {
+  "category": {
+   "trend_strength": 0.796,
+   "seasonal_strength": 0.634,
+   "share_zeros": 0.0,
+   "cv": 0.155
+  },
+  "department": {
+   "trend_strength": 0.838,
+   "seasonal_strength": 0.573,
+   "share_zeros": 0.0,
+   "cv": 0.188
+  },
+  "sku_store": {
+   "trend_strength": 0.141,
+   "seasonal_strength": 0.214,
+   "share_zeros": 0.24,
+   "cv": 1.014
+  },
+  "store": {
+   "trend_strength": 0.893,
+   "seasonal_strength": 0.607,
+   "share_zeros": 0.0,
+   "cv": 0.151
+  },
+  "store_dept": {
+   "trend_strength": 0.744,
+   "seasonal_strength": 0.531,
+   "share_zeros": 0.0,
+   "cv": 0.226
+  },
+  "total": {
+   "trend_strength": 0.919,
+   "seasonal_strength": 0.746,
+   "share_zeros": 0.0,
+   "cv": 0.14
+  }
+ },
+ "suspected_stockouts": {
+  "n_sku_with_suspected_stockout_run": 59,
+  "n_sku": 120,
+  "by_class": {
+   "erratic": 23,
+   "intermittent": 10,
+   "lumpy": 10,
+   "smooth": 16
+  }
+ }
+}
